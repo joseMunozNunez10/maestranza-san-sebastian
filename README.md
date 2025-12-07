@@ -32,15 +32,20 @@ MsanSebastian/          # Sitio web principal
 
 ## 📦 Despliegue
 
-Este proyecto utiliza GitHub Actions para despliegue automático a GitHub Pages.
+Este proyecto utiliza GitHub Actions para validar el código automáticamente.
 
-### Configuración de GitHub Pages
+### Despliegue a Hostgator (vía FTP)
 
-1. Ve a Settings → Pages en tu repositorio
-2. Selecciona la rama `gh-pages` como fuente
-3. Guarda los cambios
+1. Conecta a tu hosting de Hostgator vía FTP (FileZilla, WinSCP, etc.)
+2. Sube todo el contenido de la carpeta `MsanSebastian/` a tu directorio público (`public_html/`)
+3. Asegúrate de que `index.html` esté en la raíz del directorio público
 
-El sitio estará disponible en: `https://<tu-usuario>.github.io/<nombre-repo>/`
+### Credenciales FTP
+- **Host**: Tu dominio o servidor FTP de Hostgator
+- **Usuario**: Tu usuario FTP
+- **Puerto**: 21 (FTP) o 22 (SFTP)
+
+El sitio estará disponible en tu dominio de Hostgator.
 
 ## 👥 Contacto
 

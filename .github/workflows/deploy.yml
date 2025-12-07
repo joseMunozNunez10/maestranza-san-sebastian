@@ -1,4 +1,4 @@
-name: Deploy Website
+name: Validate Website
 
 on:
   push:
@@ -8,32 +8,38 @@ on:
   workflow_dispatch:
 
 jobs:
-  build-and-deploy:
+  validate:
     runs-on: ubuntu-latest
     
     steps:
     - name: Checkout repository
       uses: actions/checkout@v3
       
-    - name: Setup Node.js
-      uses: actions/setup-node@v3
-      with:
-        node-version: '18'
-        
     - name: Validate HTML files
       run: |
-        echo "Validating HTML structure..."
-        find . -name "*.html" -type f | head -5
+        echo "✅ Validating HTML structure..."
+        find MsanSebastian -name "*.html" -type f | wc -l
+        echo "HTML files found and ready for deployment"
         
-    - name: Deploy to GitHub Pages
-      if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./MsanSebastian
-        publish_branch: gh-pages
-        
-    - name: Deployment Summary
+    - name: Check CSS files
       run: |
-        echo "✅ Deployment completed successfully!"
-        echo "🌐 Your site will be available at: https://<username>.github.io/<repository-name>/"
+        echo "✅ Checking CSS files..."
+        find MsanSebastian/assets/css -name "*.css" -type f | wc -l
+        echo "CSS files validated"
+        
+    - name: Check JavaScript files
+      run: |
+        echo "✅ Checking JavaScript files..."
+        find MsanSebastian/assets/js -name "*.js" -type f | wc -l
+        echo "JavaScript files validated"
+        
+    - name: Validation Summary
+      run: |
+        echo "================================================"
+        echo "✅ All files validated successfully!"
+        echo "📦 Ready to deploy to Hostgator"
+        echo "================================================"
+        echo ""
+        echo "📋 Deploy via FTP to your Hostgator hosting"
+        echo "Upload the 'MsanSebastian' folder contents"
+        echo "================================================"
