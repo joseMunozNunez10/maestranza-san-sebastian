@@ -6,11 +6,11 @@
             <div class="content-box">
                 <div class="content-wrapper">
                     <div class="title">
-                        <h1>Services</h1>
+                        <h1>Servicios</h1>
                     </div>
                     <ul class="bread-crumb">
-                        <li><a href="index.php">Home</a></li>
-                        <li>Services</li>
+                        <li><a href="index.php">Inicio</a></li>
+                        <li>Servicios</li>
                     </ul>
                 </div>                    
             </div>
@@ -25,10 +25,10 @@
                     <div class="inner-box">
                         <div class="image"><span class="border-shape"></span><img src="assets/images/resource/image-4.jpg" alt=""></div>
                         <div class="content">
-                            <h3><a href="steel-welding.php"> Steel Welding</a></h3>
-                            <div class="text">Lorem ipsum is simply free <br> text dolor sit am adipi we help you is in <br> the right jobs sicing elit.</div>
+                            <h3><a href="steel-welding.php">Obras Mayores</a></h3>
+                            <div class="text">Estructuras metálicas de gran <br> envergadura, fabricación industrial <br> y montaje de proyectos complejos.</div>
                             <div class="link">
-                                <a href="steel-welding.php" class="theme-btn btn-style-one"><span>Read More</span></a>
+                                <a href="steel-welding.php" class="theme-btn btn-style-one"><span>Ver Más</span></a>
                             </div>
                         </div>
                     </div>
@@ -37,10 +37,10 @@
                     <div class="inner-box">
                         <div class="image"><span class="border-shape"></span><img src="assets/images/resource/image-5.jpg" alt=""></div>
                         <div class="content">
-                            <h3><a href="metal-work.php"> Metal Works</a></h3>
-                            <div class="text">Lorem ipsum is simply free <br> text dolor sit am adipi we help you is in <br> the right jobs sicing elit.</div>
+                            <h3><a href="metal-work.php">Obras Menores</a></h3>
+                            <div class="text">Trabajos en acero, aluminio y <br> fierro. Rejas, portones, escaleras <br> y estructuras personalizadas.</div>
                             <div class="link">
-                                <a href="metal-work.php" class="theme-btn btn-style-one"><span>Read More</span></a>
+                                <a href="metal-work.php" class="theme-btn btn-style-one"><span>Ver Más</span></a>
                             </div>
                         </div>
                     </div>
@@ -49,10 +49,10 @@
                     <div class="inner-box">
                         <div class="image"><span class="border-shape"></span><img src="assets/images/resource/image-6.jpg" alt=""></div>
                         <div class="content">
-                            <h3><a href="pipe-welding.php">Pipe Welding</a></h3>
-                            <div class="text">Lorem ipsum is simply free <br> text dolor sit am adipi we help you is in <br> the right jobs sicing elit.</div>
+                            <h3><a href="pipe-welding.php">Carrocería</a></h3>
+                            <div class="text">Reparación y fabricación de <br> carrocerías para todo tipo de <br> vehículos comerciales e industriales.</div>
                             <div class="link">
-                                <a href="pipe-welding.php" class="theme-btn btn-style-one"><span>Read More</span></a>
+                                <a href="pipe-welding.php" class="theme-btn btn-style-one"><span>Ver Más</span></a>
                             </div>
                         </div>
                     </div>
@@ -61,10 +61,10 @@
                     <div class="inner-box">
                         <div class="image"><span class="border-shape"></span><img src="assets/images/resource/image-12.jpg" alt=""></div>
                         <div class="content">
-                            <h3><a href="manufacturing.php">Manufacturing</a></h3>
-                            <div class="text">Lorem ipsum is simply free <br> text dolor sit am adipi we help you is in <br> the right jobs sicing elit.</div>
+                            <h3><a href="manufacturing.php">Fabricación a Medida</a></h3>
+                            <div class="text">Diseño y fabricación de piezas <br> metálicas personalizadas según <br> especificaciones del cliente.</div>
                             <div class="link">
-                                <a href="manufacturing.php" class="theme-btn btn-style-one"><span>Read More</span></a>
+                                <a href="manufacturing.php" class="theme-btn btn-style-one"><span>Ver Más</span></a>
                             </div>
                         </div>
                     </div>
@@ -73,10 +73,10 @@
                     <div class="inner-box">
                         <div class="image"><span class="border-shape"></span><img src="assets/images/resource/image-13.jpg" alt=""></div>
                         <div class="content">
-                            <h3><a href="fabrication.php">Fabrication</a></h3>
-                            <div class="text">Lorem ipsum is simply free <br> text dolor sit am adipi we help you is in <br> the right jobs sicing elit.</div>
+                            <h3><a href="fabrication.php">Montaje e Instalación</a></h3>
+                            <div class="text">Montaje profesional de estructuras <br> metálicas e instalación en obra <br> con personal calificado.</div>
                             <div class="link">
-                                <a href="fabrication.php" class="theme-btn btn-style-one"><span>Read More</span></a>
+                                <a href="fabrication.php" class="theme-btn btn-style-one"><span>Ver Más</span></a>
                             </div>
                         </div>
                     </div>
@@ -85,10 +85,10 @@
                     <div class="inner-box">
                         <div class="image"><span class="border-shape"></span><img src="assets/images/resource/image-14.jpg" alt=""></div>
                         <div class="content">
-                            <h3><a href="aluminum-system.php">Aluminum system</a></h3>
-                            <div class="text">Lorem ipsum is simply free <br> text dolor sit am adipi we help you is in <br> the right jobs sicing elit.</div>
+                            <h3><a href="aluminum-system.php">Sistemas de Aluminio</a></h3>
+                            <div class="text">Ventanas, puertas y fachadas <br> en aluminio. Soluciones modernas <br> y eficientes para su proyecto.</div>
                             <div class="link">
-                                <a href="aluminum-system.php" class="theme-btn btn-style-one"><span>Read More</span></a>
+                                <a href="aluminum-system.php" class="theme-btn btn-style-one"><span>Ver Más</span></a>
                             </div>
                         </div>
                     </div>
