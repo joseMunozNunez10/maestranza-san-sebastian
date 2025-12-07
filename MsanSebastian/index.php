@@ -5,50 +5,26 @@
         <div class="swiper-container banner-slider">
             <div class="swiper-wrapper">
                 <!-- Slide Item -->
-                <div class="swiper-slide" style="background-image: url(assets/images/main-slider/image-1.jpg);">
+                <div class="swiper-slide" style="background-image: url(assets/images/main-slider/image-7.jpg);">
                     <div class="content-outer">
                         <div class="content-box">
                             <div class="inner text-center">
-                                <h1>Best Welding <br> & Metal Works</h1>
+                                <h1>Maestranza<br> San Sebastian</h1>
                                 <div class="link-box">
-                                    <a href="#" class="theme-btn btn-style-one"><span>Discover More</span></a>
+                                    <a href="servicios.php" class="theme-btn btn-style-one"><span>nuestros servicios</span></a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <!-- Slide Item -->
-                <div class="swiper-slide" style="background-image: url(assets/images/main-slider/image-2.jpg);">
-                    <div class="content-outer">
-                        <div class="content-box">
-                            <div class="inner text-center">
-                                <h1>Best Welding <br> & Metal Works</h1>
-                                <div class="link-box">
-                                    <a href="#" class="theme-btn btn-style-one"><span>Discover More</span></a>
-                                </div>
-                            </div>                              
-                        </div>
-                    </div>
-                </div>
-                <!-- Slide Item -->
-                <div class="swiper-slide" style="background-image: url(assets/images/main-slider/image-3.jpg);">
-                    <div class="content-outer">
-                        <div class="content-box">
-                            <div class="inner text-center">
-                                <h1>Best Welding <br> & Metal Works</h1>
-                                <div class="link-box">
-                                    <a href="#" class="theme-btn btn-style-one"><span>Discover More</span></a>
-                                </div>
-                            </div>                      
-                        </div>
-                    </div>
-                </div>
+                </div>               
             </div>
         </div>
+        <!--
         <div class="banner-slider-nav">
             <div class="banner-slider-control banner-slider-button-prev"><span><i class="flaticon-left-arrow"></i></span></div>
             <div class="banner-slider-control banner-slider-button-next"><span><i class="flaticon-left-arrow"></i></span> </div>
         </div>
+        -->
     </section>
     <!-- End Bnner Section -->
 
@@ -66,7 +42,7 @@
                 <div class="col-lg-6">
                     <div class="content-side">
                         <div class="sec-title">
-                            <div class="sub-title">Welcome to Welbim</div>
+                            <div class="sub-title">Maestranza San Sebastian</div>
                             <h2>We're Committed <br> To quality</h2>
                         </div>
                         <div class="text wow fadeInUp" data-wow-duration="1500ms">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. quis nostrud exercitation.</div>
