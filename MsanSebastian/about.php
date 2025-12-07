@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -57,7 +57,7 @@
                 <div class="inner-container">
                     <!--Logo-->
                     <div class="logo-box">
-                        <div class="logo"><a href="index.html"><img src="assets/images/logo ss.png" alt=""></a></div>
+                        <div class="logo"><a href="index.php"><img src="assets/images/logo ss.png" alt=""></a></div>
                     </div>
                     <div class="right-column">
                         <!--Nav Box-->
@@ -69,28 +69,28 @@
                             <nav class="main-menu navbar-expand-md navbar-light">
                                 <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                     <ul class="navigation">
-                                        <li class="dropdown"><a href="index.html">inicio</a>
+                                        <li class="dropdown"><a href="index.php">inicio</a>
                                             <ul>
-                                                <li><a href="index.html">Inicio</a></li>                                                
+                                                <li><a href="index.php">Inicio</a></li>                                                
                                             </ul>
                                         </li>
-                                        <li><a href="about.html">Sobre Nosotros</a></li>
-                                        <li class="dropdown"><a href="services.html">Servicios</a>
+                                        <li><a href="about.php">Sobre Nosotros</a></li>
+                                        <li class="dropdown"><a href="services.php">Servicios</a>
                                             <ul>
-                                                <li><a href="services.html">Obras Mayores</a></li>
-                                                <li><a href="steel-welding.html">Obras Menore</a></li>                                                
-                                                <li><a href="pipe-welding.html">Carrocería</a></li>                                                
+                                                <li><a href="services.php">Obras Mayores</a></li>
+                                                <li><a href="steel-welding.php">Obras Menore</a></li>                                                
+                                                <li><a href="pipe-welding.php">Carrocería</a></li>                                                
                                             </ul>
                                         </li>
                                         <!-- no recuerdo si lo quiero poner
-                                        <li class="dropdown"><a href="projects.html">Projectos</a>
+                                        <li class="dropdown"><a href="projects.php">Projectos</a>
                                             <ul>
-                                                <li><a href="projects.html">Projectos </a></li>
-                                                <li><a href="project-details.html">Detalles del Proyecto</a></li>
+                                                <li><a href="projects.php">Projectos </a></li>
+                                                <li><a href="project-details.php">Detalles del Proyecto</a></li>
                                             </ul>
                                         </li>-->
                                        
-                                        <li><a href="contact.html">Contacto</a></li>
+                                        <li><a href="contact.php">Contacto</a></li>
                                     </ul>
                                 </div>
                             </nav>
@@ -108,7 +108,7 @@
                     <div class="inner-container">
                         <!--Logo-->
                         <div class="logo-box">
-                            <div class="logo"><a href="index.html"><img src="assets/images/logo ss.png" alt=""></a></div>
+                            <div class="logo"><a href="index.php"><img src="assets/images/logo ss.png" alt=""></a></div>
                         </div>
                         <div class="right-column">
                             <!--Nav Box-->
@@ -132,7 +132,7 @@
             <div class="close-btn"><span class="icon flaticon-remove"></span></div>
             
             <nav class="menu-box">
-                <div class="nav-logo"><a href="index.html"><img src="assets/images/logo ss.png" alt="" title=""></a></div>
+                <div class="nav-logo"><a href="index.php"><img src="assets/images/logo ss.png" alt="" title=""></a></div>
                 <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
 				<!--Social Links-->
 				<div class="social-links">
@@ -158,7 +158,7 @@
         <div class="popup-inner">
             <div class="overlay-layer"></div>
             <div class="search-form">
-                <form method="post" action="index.html">
+                <form method="post" action="index.php">
                     <div class="form-group">
                         <fieldset>
                             <input type="search" class="form-control" name="search-input" value="" placeholder="Search Here" required >
@@ -179,7 +179,7 @@
                         <h1>About</h1>
                     </div>
                     <ul class="bread-crumb">
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.php">Home</a></li>
                         <li>About</li>
                     </ul>
                 </div>                    
@@ -450,7 +450,7 @@
                 <div class="row">
                     <div class="col-lg-3 col-md-6">
                         <div class="widget about-widget">
-                            <div class="logo"><a href="index.html"><img src="assets/images/logo.png" alt=""></a></div>
+                            <div class="logo"><a href="index.php"><img src="assets/images/logo.png" alt=""></a></div>
                             <div class="text">Lorem ipsum dolor sit amet, consect etur adi pisicing elit sed do eiusmod tempor incididunt ut labore et.</div>
                             <div class="link-box">
                                 <a href="#" class="theme-btn btn-style-one"><span>Contact Us</span></a>
@@ -476,17 +476,17 @@
                             <h4 class="widget_title">Latest News</h4>
                             <div class="news-widget-wrapper">
                                 <div class="post">
-                                    <div class="image"><a href="blog-details.html"><img src="assets/images/resource/news-4.jpg" alt=""></a></div>
+                                    <div class="image"><a href="blog-details.php"><img src="assets/images/resource/news-4.jpg" alt=""></a></div>
                                     <div class="content">
                                         <div class="date">15 Aug, 2020</div>
-                                        <h4><a href="blog-details.html"> We’re creating a Metal <br>Product</a></h4>
+                                        <h4><a href="blog-details.php"> We’re creating a Metal <br>Product</a></h4>
                                     </div>
                                 </div>
                                 <div class="post">
-                                    <div class="image"><a href="blog-details.html"><img src="assets/images/resource/news-5.jpg" alt=""></a></div>
+                                    <div class="image"><a href="blog-details.php"><img src="assets/images/resource/news-5.jpg" alt=""></a></div>
                                     <div class="content">
                                         <div class="date">15 Aug, 2020</div>
-                                        <h4><a href="blog-details.html"> We’re creating a Metal <br>Product</a></h4>
+                                        <h4><a href="blog-details.php"> We’re creating a Metal <br>Product</a></h4>
                                     </div>
                                 </div>
                             </div>

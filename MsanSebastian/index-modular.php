@@ -1,174 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<title>Maestranza San Sebastian</title>
-<!-- Stylesheets -->
-<link href="assets/css/bootstrap.css" rel="stylesheet">
-<link href="assets/css/style.css" rel="stylesheet">
-<!-- Responsive File -->
-<link href="assets/css/responsive.css" rel="stylesheet">
-<!-- Color File -->
-<link href="assets/css/color.css" rel="stylesheet">
-
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-
-<link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
-<link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
-
-<!-- Responsive -->
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
-<!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
-</head>
-
-<body>
-
-<div class="page-wrapper">   
-
-    <!-- Main Header -->
-    <header class="main-header header-style-one">
-
-        <!-- Header Top -->
-        <div class="header-top">
-            <div class="auto-container">
-                <div class="inner-container">
-                    <div class="left-column">
-                        <ul class="contact-info">
-                            <li><a href="mailto:hsalgado@maestranzasansebastian.cl"><i class="flaticon-email-1"></i>hsalgado@maestranzasansebastian.cl</a></li>
-                            <li><a href="tel:+56990219851"><i class="flaticon-telephone"></i>+569 9021 9851</a></li>
-                            <li><i class="flaticon-pin"></i>Santiago, Chile</i>
-                        </ul>
-                    </div>
-                    <div class="right-column">
-                        <ul class="social-icon">
-                            <li><a href="https://www.facebook.com/profile.php?id=100039711175826"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="https://www.instagram.com/maestranzasansebastian/?hl=de"><i class="fab fa-instagram"></i></a></li>                            
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Header Upper -->
-        <div class="header-upper">
-            <div class="auto-container">
-                <div class="inner-container">
-                    <!--Logo-->
-                    <div class="logo-box">
-                        <div class="logo"><a href="index.html"><img src="assets/images/logo ss.png" alt=""></a></div>
-                    </div>
-                    <div class="right-column">
-                        <!--Nav Box-->
-                        <div class="nav-outer">
-                            <!--Mobile Navigation Toggler-->
-                            <div class="mobile-nav-toggler"><img src="assets/images/icons/icon-bar-2.png" alt=""></div>
-
-                            <!-- Main Menu -->
-                            <nav class="main-menu navbar-expand-md navbar-light">
-                                <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
-                                    <ul class="navigation">
-                                        <li class="dropdown"><a href="index.html">inicio</a>
-                                            <ul>
-                                                <li><a href="index.html">Inicio</a></li>                                                
-                                            </ul>
-                                        </li>
-                                        <li><a href="about.html">Sobre Nosotros</a></li>
-                                        <li class="dropdown"><a href="services.html">Servicios</a>
-                                            <ul>
-                                                <li><a href="services.html">Obras Mayores</a></li>
-                                                <li><a href="steel-welding.html">Obras Menore</a></li>                                                
-                                                <li><a href="pipe-welding.html">Carrocería</a></li>                                                
-                                            </ul>
-                                        </li>
-                                        <!-- no recuerdo si lo quiero poner
-                                        <li class="dropdown"><a href="projects.html">Projectos</a>
-                                            <ul>
-                                                <li><a href="projects.html">Projectos </a></li>
-                                                <li><a href="project-details.html">Detalles del Proyecto</a></li>
-                                            </ul>
-                                        </li>-->
-                                       
-                                        <li><a href="contact.html">Contacto</a></li>
-                                    </ul>
-                                </div>
-                            </nav>
-                        </div>
-                    </div>                        
-                </div>
-            </div>
-        </div>
-        <!--End Header Upper-->
-
-        <!-- Sticky Header  -->
-        <div class="sticky-header">
-            <div class="header-upper">
-                <div class="auto-container">
-                    <div class="inner-container">
-                        <!--Logo-->
-                        <div class="logo-box">
-                            <div class="logo"><a href="index.html"><img src="assets/images/logo ss.png" alt=""></a></div>
-                        </div>
-                        <div class="right-column">
-                            <!--Nav Box-->
-                            <div class="nav-outer">
-                                <!--Mobile Navigation Toggler-->
-                                <div class="mobile-nav-toggler"><img src="assets/images/icons/icon-bar-2.png" alt=""></div>
-    
-                                <!-- Main Menu -->
-                                <nav class="main-menu navbar-expand-md navbar-light">
-                                </nav>
-                            </div>
-                        </div>                        
-                    </div>
-                </div>
-            </div>
-        </div><!-- End Sticky Menu -->
-
-        <!-- Mobile Menu  -->
-        <div class="mobile-menu">
-            <div class="menu-backdrop"></div>
-            <div class="close-btn"><span class="icon flaticon-remove"></span></div>
-            
-            <nav class="menu-box">
-                <div class="nav-logo"><a href="index.html"><img src="assets/images/logo ss.png" alt="" title=""></a></div>
-                <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
-				<!--Social Links-->
-				<div class="social-links">
-					<ul class="clearfix">						
-						<li><a href="https://www.facebook.com/profile.php?id=100039711175826"><span class="fab fa-facebook-square">facebook</span></a></li>						
-						<li><a href="https://www.instagram.com/maestranzasansebastian/?hl=de"><span class="fab fa-instagram"></span></a>instagram</li>
-					
-					</ul>
-                </div>
-            </nav>
-        </div><!-- End Mobile Menu -->
-
-        <div class="nav-overlay">
-            <div class="cursor"></div>
-            <div class="cursor-follower"></div>
-        </div>
-    </header>
-    <!-- End Main Header -->
-
-    <!--Search Popup-->
-    <div id="search-popup" class="search-popup">
-        <div class="close-search theme-btn"><span class="flaticon-remove"></span></div>
-        <div class="popup-inner">
-            <div class="overlay-layer"></div>
-            <div class="search-form">
-                <form method="post" action="index.html">
-                    <div class="form-group">
-                        <fieldset>
-                            <input type="search" class="form-control" name="search-input" value="" placeholder="Search Here" required >
-                            <input type="submit" value="Search Now!" class="theme-btn">
-                        </fieldset>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
+<?php include 'includes/header.php'; ?>
 
     <!-- Bnner Section -->
     <section class="banner-section">
@@ -237,7 +67,7 @@
                     <div class="content-side">
                         <div class="sec-title">
                             <div class="sub-title">Welcome to Welbim</div>
-                            <h2>We’re Committed <br> To quality</h2>
+                            <h2>We're Committed <br> To quality</h2>
                         </div>
                         <div class="text wow fadeInUp" data-wow-duration="1500ms">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. quis nostrud exercitation.</div>
                         <div class="row">
@@ -292,10 +122,10 @@
                     <div class="inner-box wow fadeInUp" data-wow-duration="1500ms">
                         <div class="image"><img src="assets/images/resource/image-4.jpg" alt=""></div>
                         <div class="content">
-                            <h3><a href="steel-welding.html"> Steel Welding</a></h3>
+                            <h3><a href="steel-welding.php"> Steel Welding</a></h3>
                             <div class="text">Lorem ipsum is simply free <br> text dolor sit am adipi we help you is in <br> the right jobs sicing elit.</div>
                             <div class="link">
-                                <a href="steel-welding.html" class="theme-btn btn-style-one"><span>Read More</span></a>
+                                <a href="steel-welding.php" class="theme-btn btn-style-one"><span>Read More</span></a>
                             </div>
                         </div>
                     </div>
@@ -304,10 +134,10 @@
                     <div class="inner-box wow fadeInDown" data-wow-duration="1500ms">
                         <div class="image"><img src="assets/images/resource/image-5.jpg" alt=""></div>
                         <div class="content">
-                            <h3><a href="metal-work.html"> Metal Works</a></h3>
+                            <h3><a href="metal-work.php"> Metal Works</a></h3>
                             <div class="text">Lorem ipsum is simply free <br> text dolor sit am adipi we help you is in <br> the right jobs sicing elit.</div>
                             <div class="link">
-                                <a href="metal-work.html" class="theme-btn btn-style-one"><span>Read More</span></a>
+                                <a href="metal-work.php" class="theme-btn btn-style-one"><span>Read More</span></a>
                             </div>
                         </div>
                     </div>
@@ -316,10 +146,10 @@
                     <div class="inner-box wow fadeInUp" data-wow-duration="1500ms">
                         <div class="image"><img src="assets/images/resource/image-6.jpg" alt=""></div>
                         <div class="content">
-                            <h3><a href="pipe-welding.html">Pipe Welding</a></h3>
+                            <h3><a href="pipe-welding.php">Pipe Welding</a></h3>
                             <div class="text">Lorem ipsum is simply free <br> text dolor sit am adipi we help you is in <br> the right jobs sicing elit.</div>
                             <div class="link">
-                                <a href="pipe-welding.html" class="theme-btn btn-style-one"><span>Read More</span></a>
+                                <a href="pipe-welding.php" class="theme-btn btn-style-one"><span>Read More</span></a>
                             </div>
                         </div>
                     </div>
@@ -425,7 +255,7 @@
                 <div class="col-lg-4">
                     <div class="icon-box wow fadeInUp" data-wow-duration="1500ms">
                         <div class="icon"><span class="flaticon-welding"></span></div>
-                        <h4>We’re Good in All <br>Metal Works</h4>
+                        <h4>We're Good in All <br>Metal Works</h4>
                     </div>
                     <div class="icon-box wow fadeInUp" data-wow-duration="1500ms">
                         <div class="icon"><span class="flaticon-welder-1"></span></div>
@@ -433,7 +263,7 @@
                     </div>
                     <div class="icon-box wow fadeInUp" data-wow-duration="1500ms">
                         <div class="icon"><span class="flaticon-welding-machine-1"></span></div>
-                        <h4>We’re Using Quality <br> Welding Tools</h4>
+                        <h4>We're Using Quality <br> Welding Tools</h4>
                     </div>
                 </div>
             </div>
@@ -561,7 +391,7 @@
                         <div class="image"><img src="assets/images/resource/news-1.jpg" alt=""></div>
                         <div class="content">
                             <div class="post-meta">by Admin  .  20 Aug, 2020</div>
-                            <h4><a href="blog-details.html">It Joins two <br> pieces of metal</a></h4>
+                            <h4><a href="blog-details.php">It Joins two <br> pieces of metal</a></h4>
                         </div>
                     </div>
                 </div>
@@ -570,14 +400,14 @@
                         <div class="image"><img src="assets/images/resource/news-2.jpg" alt=""></div>
                         <div class="content">
                             <div class="post-meta">by Admin  .  20 Aug, 2020</div>
-                            <h4><a href="blog-details.html">when the welding <br> Output is on</a></h4>
+                            <h4><a href="blog-details.php">when the welding <br> Output is on</a></h4>
                         </div>
                     </div>
                     <div class="inner-box wow fadeInUp" data-wow-duration="1500ms">
                         <div class="image"><img src="assets/images/resource/news-3.jpg" alt=""></div>
                         <div class="content">
                             <div class="post-meta">by Admin  .  20 Aug, 2020</div>
-                            <h4><a href="blog-details.html">We’re creating a <br> metal product</a></h4>
+                            <h4><a href="blog-details.php">We're creating a <br> metal product</a></h4>
                         </div>
                     </div>
                 </div>
@@ -626,135 +456,5 @@
             </div>            
         </div>        
     </section>
-    
 
-    <!--Main Footer-->
-    <footer class="main-footer" style="background-image: url(assets/images/background/bg-5.jpg);">
-        <div class="upper-box">
-            <div class="auto-container">
-                <div class="row">
-                    <div class="col-lg-3 col-md-6">
-                        <div class="widget about-widget">
-                            <div class="logo"><a href="index.html"><img src="assets/images/logo.png" alt=""></a></div>
-                            <div class="text">Lorem ipsum dolor sit amet, consect etur adi pisicing elit sed do eiusmod tempor incididunt ut labore et.</div>
-                            <div class="link-box">
-                                <a href="#" class="theme-btn btn-style-one"><span>Contact Us</span></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="widget links-widget">
-                            <h4 class="widget_title">Links</h4>
-                            <div class="widget-content">
-                                <ul class="list">
-                                    <li><a href="#"> About </a></li>
-                                    <li><a href="#">Our Services</a></li>
-                                    <li><a href="#">Latest Projects</a></li>
-                                    <li><a href="#">News & Articles</a></li>
-                                    <li><a href="#">Contact Us</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="widget news-widget">
-                            <h4 class="widget_title">Latest News</h4>
-                            <div class="news-widget-wrapper">
-                                <div class="post">
-                                    <div class="image"><a href="blog-details.html"><img src="assets/images/resource/news-4.jpg" alt=""></a></div>
-                                    <div class="content">
-                                        <div class="date">15 Aug, 2020</div>
-                                        <h4><a href="blog-details.html"> We’re creating a Metal <br>Product</a></h4>
-                                    </div>
-                                </div>
-                                <div class="post">
-                                    <div class="image"><a href="blog-details.html"><img src="assets/images/resource/news-5.jpg" alt=""></a></div>
-                                    <div class="content">
-                                        <div class="date">15 Aug, 2020</div>
-                                        <h4><a href="blog-details.html"> We’re creating a Metal <br>Product</a></h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="widget contact-widget">
-                            <h4 class="widget_title">Contact</h4>
-                            <div class="wrapper-box">
-                                <div class="icon-box">
-                                    <div class="icon"><span class="flaticon-pin"></span></div>
-                                    <div class="text">88 broklyn golden street, New
-                                        York. USA</div>
-                                </div>
-                                <div class="icon-box">
-                                    <div class="icon"><span class="flaticon-email-1"></span></div>
-                                    <div class="text"><a href="mailto:needhelp@company.com">needhelp@company.com</a></div>
-                                </div>                                
-                                <div class="icon-box">
-                                    <div class="icon"><span class="flaticon-telephone"></span></div>
-                                    <div class="text"><a href="tel:926668880000">92 666 888 0000</a></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> 
-        </div>               
-    </footer>
-    <!--End Main Footer-->
-
-    <div class="footer-bottom">
-        <div class="auto-container">
-            <div class="content">
-                <ul class="social-icon">
-                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-                </ul>
-                <div class="copyright-text">© Copyright 2022 by Company.com</div>
-            </div>            
-        </div>
-    </div>
-	
-</div>
-<!--End pagewrapper-->
-
-<!--Scroll to top-->
-<div class="scroll-to-top scroll-to-target" data-target="html"><span class="flaticon-right-arrow-4"></span></div>
-
-<script src="assets/js/jquery.js"></script>
-<script src="assets/js/popper.min.js"></script>
-<script src="assets/js/bootstrap.min.js"></script>
-<script src="assets/js/bootstrap-select.min.js"></script>
-<script src="assets/js/jquery.fancybox.js"></script>
-<script src="assets/js/isotope.js"></script>
-<script src="assets/js/owl.js"></script>
-<script src="assets/js/appear.js"></script>
-<script src="assets/js/wow.js"></script>
-<script src="assets/js/lazyload.js"></script>
-<script src="assets/js/scrollbar.js"></script>
-<script src="assets/js/TweenMax.min.js"></script>
-<script src="assets/js/swiper.min.js"></script>
-<script src="assets/js/jquery.polyglot.language.switcher.js"></script>
-<script src="assets/js/jquery.ajaxchimp.min.js"></script>
-<script src="assets/js/parallax-scroll.js"></script>
-
-<script src="assets/js/script.js"></script>
-
-
-</body>
-</html>
-
-
-
-
-
-
-
-
-
-
-
-
-
+<?php include 'includes/footer.php'; ?>

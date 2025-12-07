@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -57,7 +57,7 @@
                 <div class="inner-container">
                     <!--Logo-->
                     <div class="logo-box">
-                        <div class="logo"><a href="index.html"><img src="assets/images/logo ss.png" alt=""></a></div>
+                        <div class="logo"><a href="index.php"><img src="assets/images/logo ss.png" alt=""></a></div>
                     </div>
                     <div class="right-column">
                         <!--Nav Box-->
@@ -69,28 +69,28 @@
                             <nav class="main-menu navbar-expand-md navbar-light">
                                 <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                     <ul class="navigation">
-                                        <li class="dropdown"><a href="index.html">inicio</a>
+                                        <li class="dropdown"><a href="index.php">inicio</a>
                                             <ul>
-                                                <li><a href="index.html">Inicio</a></li>                                                
+                                                <li><a href="index.php">Inicio</a></li>                                                
                                             </ul>
                                         </li>
-                                        <li><a href="about.html">Sobre Nosotros</a></li>
-                                        <li class="dropdown"><a href="services.html">Servicios</a>
+                                        <li><a href="about.php">Sobre Nosotros</a></li>
+                                        <li class="dropdown"><a href="services.php">Servicios</a>
                                             <ul>
-                                                <li><a href="services.html">Obras Mayores</a></li>
-                                                <li><a href="steel-welding.html">Obras Menore</a></li>                                                
-                                                <li><a href="pipe-welding.html">Carrocería</a></li>                                                
+                                                <li><a href="services.php">Obras Mayores</a></li>
+                                                <li><a href="steel-welding.php">Obras Menore</a></li>                                                
+                                                <li><a href="pipe-welding.php">Carrocería</a></li>                                                
                                             </ul>
                                         </li>
                                         <!-- no recuerdo si lo quiero poner
-                                        <li class="dropdown"><a href="projects.html">Projectos</a>
+                                        <li class="dropdown"><a href="projects.php">Projectos</a>
                                             <ul>
-                                                <li><a href="projects.html">Projectos </a></li>
-                                                <li><a href="project-details.html">Detalles del Proyecto</a></li>
+                                                <li><a href="projects.php">Projectos </a></li>
+                                                <li><a href="project-details.php">Detalles del Proyecto</a></li>
                                             </ul>
                                         </li>-->
                                        
-                                        <li><a href="contact.html">Contacto</a></li>
+                                        <li><a href="contact.php">Contacto</a></li>
                                     </ul>
                                 </div>
                             </nav>
@@ -108,7 +108,7 @@
                     <div class="inner-container">
                         <!--Logo-->
                         <div class="logo-box">
-                            <div class="logo"><a href="index.html"><img src="assets/images/logo ss.png" alt=""></a></div>
+                            <div class="logo"><a href="index.php"><img src="assets/images/logo ss.png" alt=""></a></div>
                         </div>
                         <div class="right-column">
                             <!--Nav Box-->
@@ -132,7 +132,7 @@
             <div class="close-btn"><span class="icon flaticon-remove"></span></div>
             
             <nav class="menu-box">
-                <div class="nav-logo"><a href="index.html"><img src="assets/images/logo ss.png" alt="" title=""></a></div>
+                <div class="nav-logo"><a href="index.php"><img src="assets/images/logo ss.png" alt="" title=""></a></div>
                 <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
 				<!--Social Links-->
 				<div class="social-links">
@@ -158,7 +158,7 @@
         <div class="popup-inner">
             <div class="overlay-layer"></div>
             <div class="search-form">
-                <form method="post" action="index.html">
+                <form method="post" action="index.php">
                     <div class="form-group">
                         <fieldset>
                             <input type="search" class="form-control" name="search-input" value="" placeholder="Search Here" required >
@@ -176,115 +176,99 @@
             <div class="content-box">
                 <div class="content-wrapper">
                     <div class="title">
-                        <h1>Fabrication</h1>
+                        <h1>Contact</h1>
                     </div>
                     <ul class="bread-crumb">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="services.html">Service</a></li>
-                        <li>Fabrication</li>
+                        <li><a href="index.php">Home</a></li>
+                        <li>Contact</li>
                     </ul>
                 </div>                    
             </div>
         </div>
     </section>
 
-    <!-- Service details -->
-    <section class="service-details">
+    <!-- Contact section -->
+    <section class="contact-section">
         <div class="auto-container">
             <div class="row">
                 <div class="col-lg-8">
-                    <div class="content-side">
-                        <div class="image"><img src="assets/images/resource/image-15.jpg" alt=""></div>
-                        <h2>Metal Work</h2>
-                        <div class="text">
-                            <p>Lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui dolorem ipsum quia quaed inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Aelltes port lacus quis enim var sed efficitur turpis gilla sed sit amet finibus eros. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the ndustry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                            <p>It has survived not only five centuries. Lorem Ipsum is simply dummy text of the new design printng and type setting Ipsum take a look at our round. When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.</p>
-                        </div>
-                        <div class="row mb-30">
-                            <div class="col-md-6">
-                                <div class="image"><img src="assets/images/resource/image-16.jpg" alt=""></div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="image"><img src="assets/images/resource/image-17.jpg" alt=""></div>
-                            </div>
-                        </div>
-                        <div class="service-benifit">
-                            
-                            <div class="row align-items-center">
-                                <div class="col-lg-8">
-                                    <h3>Benfits of service</h3>
-                                    <div class="text">When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.</div>
-                                </div>
-                                <div class="col-lg-4">
-                                    <div class="icon-box">
-                                        <div class="icon"><span class="flaticon-welder"></span></div>
-                                        <h4>Welding joins <br> together </h4>
-                                    </div>
-                                    <div class="icon-box">
-                                        <div class="icon"><span class="flaticon-welding-machine"></span></div>
-                                        <h4>Have all metal <br> works tools</h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <ul class="accordion-box">
-                            <!--Accordion Block-->
-                            <li class="accordion block">
-                                <div class="acc-btn"><div class="icon-outer"><span class="fas fa-plus"></span></div>Providing full range of high metal services solution</div>
-                                <div class="acc-content">
-                                    <div class="content">
-                                        <div class="text">There are many variations of passages of available but majority have alteration in some by inject humour or random words. 
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-            
-                            <!--Accordion Block-->
-                            <li class="accordion block">
-                                <div class="acc-btn active"><div class="icon-outer"><span class="fas fa-plus"></span></div>Get a solution for all industries in united kingdom</div>
-                                <div class="acc-content current">
-                                    <div class="content">
-                                        <div class="text">There are many variations of passages of available but majority have alteration in some by inject humour or random words. 
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-            
-                            <!--Accordion Block-->
-                            <li class="accordion block">
-                                <div class="acc-btn"><div class="icon-outer"><span class="fas fa-plus"></span></div> Metal works crafts manship built to scale</div>
-                                <div class="acc-content">
-                                    <div class="content">
-                                        <div class="text">There are many variations of passages of available but majority have alteration in some by inject humour or random words. 
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>                       
-                            <!-- End Block -->
-                        </ul>
+                    <div class="contact-map mb-30">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55945.16225505631!2d-73.90847969206546!3d40.66490264739892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1601263396347!5m2!1sen!2sbd" width="600" height="750" frameborder="0" style="border:0; border-radius: 50%; max-width: 750px; width: 100%" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                     </div>
                 </div>
-                <aside class="col-lg-4 sidebar service-sidebar">
-                    <div class="widget category-widget-two">
-                        <ul class="widget cat-list">
-                            <li><a href="steel-welding.html">Steel Welding</a></li>
-                            <li><a href="metal-work.html">Metal Works</a></li>
-                            <li><a href="pipe-welding.html">Pipe Welding</a></li>
-                            <li><a href="manufacturing.html">Manufacturing</a></li>
-                            <li class="active"><a href="fabrication.html">Fabrication</a></li>
-                            <li><a href="aluminum-system.html">Aluminum system</a></li>
-                        </ul>
-                    </div>
-                    
-                    <div class="widget consult-widget">
-                        <div class="icon"><span class="fab fa-twitter"></span></div>
-                        <div class="text">Contact with <br> us for any <br> project</div>
-                        <div class="phone"><a href="tel:928886660000">92 888 666 0000</a></div>
-                    </div>
-                </aside>
-            </div>                        
+                <div class="col-lg-4">
+                    <div class="contact-details mb-30">
+                        <div class="sec-title mb-40">
+                            <div class="sub-title">Contact for help</div>
+                            <h2>get in touch <br>  with us</h2>
+                        </div>
+                        <div class="text mb-40">Lorem Ipsum is simply dummy text of the printing and typesetting have you done google research. </div> 
+                        <div class="contact-info">
+                            <div class="icon-box">
+                                <div class="icon"><span class="flaticon-mail"></span></div>
+                                <div class="content">
+                                    <h5>Call Anytime</h5>
+                                    <div class="text"><a href="tel:926668880000">92 666 888 0000</a></div>
+                                </div>
+                            </div>
+                            <div class="icon-box">
+                                <div class="icon"><span class="flaticon-mail"></span></div>
+                                <div class="content">
+                                    <h5>Write email</h5>
+                                    <div class="text"><a href="mailto:needhelp@company.com">needhelp@company.com</a></div>
+                                </div>
+                            </div>                                
+                            <div class="icon-box">
+                                <div class="icon"><span class="flaticon-calling"></span></div>
+                                <div class="content">
+                                    <h5>Visit Office</h5>
+                                    <div class="text">88 broklyn golden street, New York. USA</div>
+                                </div>
+                            </div>
+                        </div>                       
+                    </div>                    
+                </div>
+            </div>
         </div>
     </section>
+
+    <!-- Contact Form section -->
+    <section class="contact-form-section">
+        <div class="auto-container">
+            <div class="sec-title text-center">
+                <div class="sub-title">Contact with us</div>
+                <h2>drop a message</h2>
+            </div>
+            <!--Contact Form-->
+            <div class="contact-form">
+                <form method="post" action="inc/sendemail.php" id="contact-form">
+                    <div class="row row-20">
+                        <div class="form-group col-md-6">
+                            <input type="text" name="form_name" value="" placeholder="Full Name" required>
+                        </div>                     
+                        <div class="form-group col-md-6">
+                            <input type="text" name="email" value="" placeholder="Email Address" required>
+                        </div>                        
+                        <div class="form-group col-md-6">
+                            <input type="text" name="form_phone" value="" placeholder="PHone Num" required>
+                        </div>                      
+                        <div class="form-group col-md-6">
+                            <input type="text" name="form_subject" value="" placeholder="Subject" required>
+                        </div>                      
+                        <div class="form-group col-md-12">
+                            <textarea name="form_message" placeholder="Write Massage"></textarea>
+                        </div>                        
+                        <div class="form-group text-center col-md-12">
+                            <input id="form_botcheck" name="form_botcheck" class="form-control" type="hidden" value="">
+                            <button class="theme-btn btn-style-one" type="submit" data-loading-text="Please wait..."><span>Send Message</span></button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <!--End Contact Form-->
+        </div>
+    </section>
+
     
     <!--Main Footer-->
     <footer class="main-footer" style="background-image: url(assets/images/background/bg-5.jpg);">
@@ -293,7 +277,7 @@
                 <div class="row">
                     <div class="col-lg-3 col-md-6">
                         <div class="widget about-widget">
-                            <div class="logo"><a href="index.html"><img src="assets/images/logo.png" alt=""></a></div>
+                            <div class="logo"><a href="index.php"><img src="assets/images/logo.png" alt=""></a></div>
                             <div class="text">Lorem ipsum dolor sit amet, consect etur adi pisicing elit sed do eiusmod tempor incididunt ut labore et.</div>
                             <div class="link-box">
                                 <a href="#" class="theme-btn btn-style-one"><span>Contact Us</span></a>
@@ -319,17 +303,17 @@
                             <h4 class="widget_title">Latest News</h4>
                             <div class="news-widget-wrapper">
                                 <div class="post">
-                                    <div class="image"><a href="blog-details.html"><img src="assets/images/resource/news-4.jpg" alt=""></a></div>
+                                    <div class="image"><a href="blog-details.php"><img src="assets/images/resource/news-4.jpg" alt=""></a></div>
                                     <div class="content">
                                         <div class="date">15 Aug, 2020</div>
-                                        <h4><a href="blog-details.html"> We’re creating a Metal <br>Product</a></h4>
+                                        <h4><a href="blog-details.php"> We’re creating a Metal <br>Product</a></h4>
                                     </div>
                                 </div>
                                 <div class="post">
-                                    <div class="image"><a href="blog-details.html"><img src="assets/images/resource/news-5.jpg" alt=""></a></div>
+                                    <div class="image"><a href="blog-details.php"><img src="assets/images/resource/news-5.jpg" alt=""></a></div>
                                     <div class="content">
                                         <div class="date">15 Aug, 2020</div>
-                                        <h4><a href="blog-details.html"> We’re creating a Metal <br>Product</a></h4>
+                                        <h4><a href="blog-details.php"> We’re creating a Metal <br>Product</a></h4>
                                     </div>
                                 </div>
                             </div>

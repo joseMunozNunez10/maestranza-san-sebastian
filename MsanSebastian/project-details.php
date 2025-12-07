@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -57,7 +57,7 @@
                 <div class="inner-container">
                     <!--Logo-->
                     <div class="logo-box">
-                        <div class="logo"><a href="index.html"><img src="assets/images/logo ss.png" alt=""></a></div>
+                        <div class="logo"><a href="index.php"><img src="assets/images/logo ss.png" alt=""></a></div>
                     </div>
                     <div class="right-column">
                         <!--Nav Box-->
@@ -69,28 +69,28 @@
                             <nav class="main-menu navbar-expand-md navbar-light">
                                 <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                     <ul class="navigation">
-                                        <li class="dropdown"><a href="index.html">inicio</a>
+                                        <li class="dropdown"><a href="index.php">inicio</a>
                                             <ul>
-                                                <li><a href="index.html">Inicio</a></li>                                                
+                                                <li><a href="index.php">Inicio</a></li>                                                
                                             </ul>
                                         </li>
-                                        <li><a href="about.html">Sobre Nosotros</a></li>
-                                        <li class="dropdown"><a href="services.html">Servicios</a>
+                                        <li><a href="about.php">Sobre Nosotros</a></li>
+                                        <li class="dropdown"><a href="services.php">Servicios</a>
                                             <ul>
-                                                <li><a href="services.html">Obras Mayores</a></li>
-                                                <li><a href="steel-welding.html">Obras Menore</a></li>                                                
-                                                <li><a href="pipe-welding.html">Carrocería</a></li>                                                
+                                                <li><a href="services.php">Obras Mayores</a></li>
+                                                <li><a href="steel-welding.php">Obras Menore</a></li>                                                
+                                                <li><a href="pipe-welding.php">Carrocería</a></li>                                                
                                             </ul>
                                         </li>
                                         <!-- no recuerdo si lo quiero poner
-                                        <li class="dropdown"><a href="projects.html">Projectos</a>
+                                        <li class="dropdown"><a href="projects.php">Projectos</a>
                                             <ul>
-                                                <li><a href="projects.html">Projectos </a></li>
-                                                <li><a href="project-details.html">Detalles del Proyecto</a></li>
+                                                <li><a href="projects.php">Projectos </a></li>
+                                                <li><a href="project-details.php">Detalles del Proyecto</a></li>
                                             </ul>
                                         </li>-->
                                        
-                                        <li><a href="contact.html">Contacto</a></li>
+                                        <li><a href="contact.php">Contacto</a></li>
                                     </ul>
                                 </div>
                             </nav>
@@ -108,7 +108,7 @@
                     <div class="inner-container">
                         <!--Logo-->
                         <div class="logo-box">
-                            <div class="logo"><a href="index.html"><img src="assets/images/logo ss.png" alt=""></a></div>
+                            <div class="logo"><a href="index.php"><img src="assets/images/logo ss.png" alt=""></a></div>
                         </div>
                         <div class="right-column">
                             <!--Nav Box-->
@@ -132,7 +132,7 @@
             <div class="close-btn"><span class="icon flaticon-remove"></span></div>
             
             <nav class="menu-box">
-                <div class="nav-logo"><a href="index.html"><img src="assets/images/logo ss.png" alt="" title=""></a></div>
+                <div class="nav-logo"><a href="index.php"><img src="assets/images/logo ss.png" alt="" title=""></a></div>
                 <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
 				<!--Social Links-->
 				<div class="social-links">
@@ -158,7 +158,7 @@
         <div class="popup-inner">
             <div class="overlay-layer"></div>
             <div class="search-form">
-                <form method="post" action="index.html">
+                <form method="post" action="index.php">
                     <div class="form-group">
                         <fieldset>
                             <input type="search" class="form-control" name="search-input" value="" placeholder="Search Here" required >
@@ -176,112 +176,91 @@
             <div class="content-box">
                 <div class="content-wrapper">
                     <div class="title">
-                        <h1>Service Details</h1>
+                        <h1>Project Details</h1>
                     </div>
                     <ul class="bread-crumb">
-                        <li><a href="index.html">Home</a></li>
-                        <li>Service Details</li>
+                        <li><a href="index.php">Home</a></li>
+                        <li><a href="projects.php">Project</a></li>
+                        <li>Project Details</li>
                     </ul>
                 </div>                    
             </div>
         </div>
     </section>
 
-    <!-- Service details -->
-    <section class="service-details">
+    <!-- Project details -->
+    <section class="project-details">
         <div class="auto-container">
+            <div class="image mb-40"><img src="assets/images/resource/project-7.jpg" alt=""></div>
             <div class="row">
-                <div class="col-lg-8">
-                    <div class="content-side">
-                        <div class="image"><img src="assets/images/resource/image-15.jpg" alt=""></div>
-                        <h2>Metal Work</h2>
-                        <div class="text">
-                            <p>Lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui dolorem ipsum quia quaed inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Aelltes port lacus quis enim var sed efficitur turpis gilla sed sit amet finibus eros. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the ndustry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                            <p>It has survived not only five centuries. Lorem Ipsum is simply dummy text of the new design printng and type setting Ipsum take a look at our round. When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.</p>
-                        </div>
-                        <div class="row mb-30">
-                            <div class="col-md-6">
-                                <div class="image"><img src="assets/images/resource/image-16.jpg" alt=""></div>
+                <div class="col-lg-3">
+                    <div class="project-info">
+                        <div class="content">
+                            <div class="column">
+                                <h5>Client</h5>
+                                <p>Christine Eve</p>
                             </div>
-                            <div class="col-md-6">
-                                <div class="image"><img src="assets/images/resource/image-17.jpg" alt=""></div>
+                            <div class="column">
+                                <h5>Date</h5>
+                                <p>20 August, 2020</p>
                             </div>
-                        </div>
-                        <div class="service-benifit">
-                            
-                            <div class="row align-items-center">
-                                <div class="col-lg-8">
-                                    <h3>Benfits of service</h3>
-                                    <div class="text">When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.</div>
-                                </div>
-                                <div class="col-lg-4">
-                                    <div class="icon-box">
-                                        <div class="icon"><span class="flaticon-welder"></span></div>
-                                        <h4>Welding joins <br> together </h4>
-                                    </div>
-                                    <div class="icon-box">
-                                        <div class="icon"><span class="flaticon-welding-machine"></span></div>
-                                        <h4>Have all metal <br> works tools</h4>
-                                    </div>
-                                </div>
+                            <div class="column">
+                                <h5>Category</h5>
+                                <p>Metal Works</p>
+                            </div>
+                            <div class="column">
+                                <h5>Service</h5>
+                                <p>Metal Welding</p>
                             </div>
                         </div>
-                        <ul class="accordion-box">
-                            <!--Accordion Block-->
-                            <li class="accordion block">
-                                <div class="acc-btn"><div class="icon-outer"><span class="fas fa-plus"></span></div>Providing full range of high metal services solution</div>
-                                <div class="acc-content">
-                                    <div class="content">
-                                        <div class="text">There are many variations of passages of available but majority have alteration in some by inject humour or random words. 
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-            
-                            <!--Accordion Block-->
-                            <li class="accordion block">
-                                <div class="acc-btn active"><div class="icon-outer"><span class="fas fa-plus"></span></div>Get a solution for all industries in united kingdom</div>
-                                <div class="acc-content current">
-                                    <div class="content">
-                                        <div class="text">There are many variations of passages of available but majority have alteration in some by inject humour or random words. 
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-            
-                            <!--Accordion Block-->
-                            <li class="accordion block">
-                                <div class="acc-btn"><div class="icon-outer"><span class="fas fa-plus"></span></div> Metal works crafts manship built to scale</div>
-                                <div class="acc-content">
-                                    <div class="content">
-                                        <div class="text">There are many variations of passages of available but majority have alteration in some by inject humour or random words. 
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>                       
-                            <!-- End Block -->
-                        </ul>
                     </div>
                 </div>
-                <aside class="col-lg-4 sidebar service-sidebar">
-                    <div class="widget category-widget-two">
-                        <ul class="widget cat-list">
-                            <li><a href="steel-welding.html">Steel Welding</a></li>
-                            <li class="active"><a href="metal-work.html">Metal Works</a></li>
-                            <li><a href="pipe-welding.html">Pipe Welding</a></li>
-                            <li><a href="manufacturing.html">Manufacturing</a></li>
-                            <li><a href="fabrication.html">Fabrication</a></li>
-                            <li><a href="aluminum-system.html">Aluminum system</a></li>
-                        </ul>
+                <div class="col-lg-9">
+                    <h2>metal work</h2>
+                    <div class="text">Lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui dolorem ipsum quia quaed inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Aelltes port lacus quis enim var sed efficitur turpis gilla sed sit amet finibus eros. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the ndustry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries. Lorem Ipsum is simply dummy text of the new design printng and type setting Ipsum Take a look at our round up of the best shows coming soon to your telly box has been the is industrys. When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing.</div>
+                    <h3>Project Challenges</h3>
+                    <div class="text">Neque porro est qui dolorem ipsum quia quaed inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Aelltes port lacus quis enim var sed efficitur turpis gilla sed sit amet finibus eros. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+                    <ul class="list">
+                        <li>Lorem Ipsum generators on the Internet tend</li>
+                        <li>It uses a dictionary of over 200 Latin words</li>
+                        <li>The majority have alteration in some form</li>
+                        <li>There are many variations of passages of available</li>
+                        <li>Which don’t look even slightly believable</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="auto-container"><div class="border-bottom"></div></div>
+
+    <!-- Related Project -->
+    <section class="related-projects">
+        <div class="auto-container">
+            <div class="sec-title text-center">
+                <div class="sub-title">Our Closed Projects</div>
+                <h2>Recent projects</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 project-block">
+                    <div class="inner-box">
+                        <div class="image"><img src="assets/images/resource/project-1.jpg" alt=""></div>
+                        <h4><a href="project-details.php">Steel Welding</a></h4>
                     </div>
-                    
-                    <div class="widget consult-widget">
-                        <div class="icon"><span class="fab fa-twitter"></span></div>
-                        <div class="text">Contact with <br> us for any <br> project</div>
-                        <div class="phone"><a href="tel:928886660000">92 888 666 0000</a></div>
+                </div>
+                <div class="col-lg-4 col-md-6 project-block">
+                    <div class="inner-box">
+                        <div class="image"><img src="assets/images/resource/project-2.jpg" alt=""></div>
+                        <h4><a href="project-details.php">Metal Work</a></h4>
                     </div>
-                </aside>
-            </div>                        
+                </div>
+                <div class="col-lg-4 col-md-6 project-block">
+                    <div class="inner-box">
+                        <div class="image"><img src="assets/images/resource/project-3.jpg" alt=""></div>
+                        <h4><a href="project-details.php">Pipe Welding</a></h4>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     
@@ -292,7 +271,7 @@
                 <div class="row">
                     <div class="col-lg-3 col-md-6">
                         <div class="widget about-widget">
-                            <div class="logo"><a href="index.html"><img src="assets/images/logo.png" alt=""></a></div>
+                            <div class="logo"><a href="index.php"><img src="assets/images/logo.png" alt=""></a></div>
                             <div class="text">Lorem ipsum dolor sit amet, consect etur adi pisicing elit sed do eiusmod tempor incididunt ut labore et.</div>
                             <div class="link-box">
                                 <a href="#" class="theme-btn btn-style-one"><span>Contact Us</span></a>
@@ -318,17 +297,17 @@
                             <h4 class="widget_title">Latest News</h4>
                             <div class="news-widget-wrapper">
                                 <div class="post">
-                                    <div class="image"><a href="blog-details.html"><img src="assets/images/resource/news-4.jpg" alt=""></a></div>
+                                    <div class="image"><a href="blog-details.php"><img src="assets/images/resource/news-4.jpg" alt=""></a></div>
                                     <div class="content">
                                         <div class="date">15 Aug, 2020</div>
-                                        <h4><a href="blog-details.html"> We’re creating a Metal <br>Product</a></h4>
+                                        <h4><a href="blog-details.php"> We’re creating a Metal <br>Product</a></h4>
                                     </div>
                                 </div>
                                 <div class="post">
-                                    <div class="image"><a href="blog-details.html"><img src="assets/images/resource/news-5.jpg" alt=""></a></div>
+                                    <div class="image"><a href="blog-details.php"><img src="assets/images/resource/news-5.jpg" alt=""></a></div>
                                     <div class="content">
                                         <div class="date">15 Aug, 2020</div>
-                                        <h4><a href="blog-details.html"> We’re creating a Metal <br>Product</a></h4>
+                                        <h4><a href="blog-details.php"> We’re creating a Metal <br>Product</a></h4>
                                     </div>
                                 </div>
                             </div>

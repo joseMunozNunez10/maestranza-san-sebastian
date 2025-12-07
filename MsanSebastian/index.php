@@ -1,0 +1,760 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Maestranza San Sebastian</title>
+<!-- Stylesheets -->
+<link href="assets/css/bootstrap.css" rel="stylesheet">
+<link href="assets/css/style.css" rel="stylesheet">
+<!-- Responsive File -->
+<link href="assets/css/responsive.css" rel="stylesheet">
+<!-- Color File -->
+<link href="assets/css/color.css" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+<link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+<link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
+
+<!-- Responsive -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
+<!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+</head>
+
+<body>
+
+<div class="page-wrapper">   
+
+    <!-- Main Header -->
+    <header class="main-header header-style-one">
+
+        <!-- Header Top -->
+        <div class="header-top">
+            <div class="auto-container">
+                <div class="inner-container">
+                    <div class="left-column">
+                        <ul class="contact-info">
+                            <li><a href="mailto:hsalgado@maestranzasansebastian.cl"><i class="flaticon-email-1"></i>hsalgado@maestranzasansebastian.cl</a></li>
+                            <li><a href="tel:+56990219851"><i class="flaticon-telephone"></i>+569 9021 9851</a></li>
+                            <li><i class="flaticon-pin"></i>Santiago, Chile</i>
+                        </ul>
+                    </div>
+                    <div class="right-column">
+                        <ul class="social-icon">
+                            <li><a href="https://www.facebook.com/profile.php?id=100039711175826"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="https://www.instagram.com/maestranzasansebastian/?hl=de"><i class="fab fa-instagram"></i></a></li>                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Header Upper -->
+        <div class="header-upper">
+            <div class="auto-container">
+                <div class="inner-container">
+                    <!--Logo-->
+                    <div class="logo-box">
+                        <div class="logo"><a href="index.php"><img src="assets/images/logo ss.png" alt=""></a></div>
+                    </div>
+                    <div class="right-column">
+                        <!--Nav Box-->
+                        <div class="nav-outer">
+                            <!--Mobile Navigation Toggler-->
+                            <div class="mobile-nav-toggler"><img src="assets/images/icons/icon-bar-2.png" alt=""></div>
+
+                            <!-- Main Menu -->
+                            <nav class="main-menu navbar-expand-md navbar-light">
+                                <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
+                                    <ul class="navigation">
+                                        <li class="dropdown"><a href="index.php">inicio</a>
+                                            <ul>
+                                                <li><a href="index.php">Inicio</a></li>                                                
+                                            </ul>
+                                        </li>
+                                        <li><a href="about.php">Sobre Nosotros</a></li>
+                                        <li class="dropdown"><a href="services.php">Servicios</a>
+                                            <ul>
+                                                <li><a href="services.php">Obras Mayores</a></li>
+                                                <li><a href="steel-welding.php">Obras Menore</a></li>                                                
+                                                <li><a href="pipe-welding.php">Carrocería</a></li>                                                
+                                            </ul>
+                                        </li>
+                                        <!-- no recuerdo si lo quiero poner
+                                        <li class="dropdown"><a href="projects.php">Projectos</a>
+                                            <ul>
+                                                <li><a href="projects.php">Projectos </a></li>
+                                                <li><a href="project-details.php">Detalles del Proyecto</a></li>
+                                            </ul>
+                                        </li>-->
+                                       
+                                        <li><a href="contact.php">Contacto</a></li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>                        
+                </div>
+            </div>
+        </div>
+        <!--End Header Upper-->
+
+        <!-- Sticky Header  -->
+        <div class="sticky-header">
+            <div class="header-upper">
+                <div class="auto-container">
+                    <div class="inner-container">
+                        <!--Logo-->
+                        <div class="logo-box">
+                            <div class="logo"><a href="index.php"><img src="assets/images/logo ss.png" alt=""></a></div>
+                        </div>
+                        <div class="right-column">
+                            <!--Nav Box-->
+                            <div class="nav-outer">
+                                <!--Mobile Navigation Toggler-->
+                                <div class="mobile-nav-toggler"><img src="assets/images/icons/icon-bar-2.png" alt=""></div>
+    
+                                <!-- Main Menu -->
+                                <nav class="main-menu navbar-expand-md navbar-light">
+                                </nav>
+                            </div>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+        </div><!-- End Sticky Menu -->
+
+        <!-- Mobile Menu  -->
+        <div class="mobile-menu">
+            <div class="menu-backdrop"></div>
+            <div class="close-btn"><span class="icon flaticon-remove"></span></div>
+            
+            <nav class="menu-box">
+                <div class="nav-logo"><a href="index.php"><img src="assets/images/logo ss.png" alt="" title=""></a></div>
+                <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
+				<!--Social Links-->
+				<div class="social-links">
+					<ul class="clearfix">						
+						<li><a href="https://www.facebook.com/profile.php?id=100039711175826"><span class="fab fa-facebook-square">facebook</span></a></li>						
+						<li><a href="https://www.instagram.com/maestranzasansebastian/?hl=de"><span class="fab fa-instagram"></span></a>instagram</li>
+					
+					</ul>
+                </div>
+            </nav>
+        </div><!-- End Mobile Menu -->
+
+        <div class="nav-overlay">
+            <div class="cursor"></div>
+            <div class="cursor-follower"></div>
+        </div>
+    </header>
+    <!-- End Main Header -->
+
+    <!--Search Popup-->
+    <div id="search-popup" class="search-popup">
+        <div class="close-search theme-btn"><span class="flaticon-remove"></span></div>
+        <div class="popup-inner">
+            <div class="overlay-layer"></div>
+            <div class="search-form">
+                <form method="post" action="index.php">
+                    <div class="form-group">
+                        <fieldset>
+                            <input type="search" class="form-control" name="search-input" value="" placeholder="Search Here" required >
+                            <input type="submit" value="Search Now!" class="theme-btn">
+                        </fieldset>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bnner Section -->
+    <section class="banner-section">
+        <div class="swiper-container banner-slider">
+            <div class="swiper-wrapper">
+                <!-- Slide Item -->
+                <div class="swiper-slide" style="background-image: url(assets/images/main-slider/image-1.jpg);">
+                    <div class="content-outer">
+                        <div class="content-box">
+                            <div class="inner text-center">
+                                <h1>Best Welding <br> & Metal Works</h1>
+                                <div class="link-box">
+                                    <a href="#" class="theme-btn btn-style-one"><span>Discover More</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slide Item -->
+                <div class="swiper-slide" style="background-image: url(assets/images/main-slider/image-2.jpg);">
+                    <div class="content-outer">
+                        <div class="content-box">
+                            <div class="inner text-center">
+                                <h1>Best Welding <br> & Metal Works</h1>
+                                <div class="link-box">
+                                    <a href="#" class="theme-btn btn-style-one"><span>Discover More</span></a>
+                                </div>
+                            </div>                              
+                        </div>
+                    </div>
+                </div>
+                <!-- Slide Item -->
+                <div class="swiper-slide" style="background-image: url(assets/images/main-slider/image-3.jpg);">
+                    <div class="content-outer">
+                        <div class="content-box">
+                            <div class="inner text-center">
+                                <h1>Best Welding <br> & Metal Works</h1>
+                                <div class="link-box">
+                                    <a href="#" class="theme-btn btn-style-one"><span>Discover More</span></a>
+                                </div>
+                            </div>                      
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="banner-slider-nav">
+            <div class="banner-slider-control banner-slider-button-prev"><span><i class="flaticon-left-arrow"></i></span></div>
+            <div class="banner-slider-control banner-slider-button-next"><span><i class="flaticon-left-arrow"></i></span> </div>
+        </div>
+    </section>
+    <!-- End Bnner Section -->
+
+    <!-- Welcome Section -->
+    <section class="welcome-section">
+        <div class="background-image"><img src="assets/images/resource/image-3.jpg" alt=""></div>
+        <div class="auto-container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="image-wrapper">
+                        <div class="image-one wow fadeInUp" data-wow-duration="1500ms"><img src="assets/images/resource/image-1.jpg" alt=""></div>
+                        <div class="image-two" data-parallax='{"y": 100}'><img src="assets/images/resource/image-2.jpg" alt=""></div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="content-side">
+                        <div class="sec-title">
+                            <div class="sub-title">Welcome to Welbim</div>
+                            <h2>We’re Committed <br> To quality</h2>
+                        </div>
+                        <div class="text wow fadeInUp" data-wow-duration="1500ms">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. quis nostrud exercitation.</div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <ul class="list wow fadeInUp" data-wow-duration="1500ms">
+                                    <li>We provide 24/7 service</li>
+                                    <li>We strick to deadline</li>
+                                    <li>We offer upfront pricing</li>
+                                    <li>We use latest technology</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="icon-box wow fadeInUp" data-wow-duration="1500ms">
+                                    <div class="icon"><span class="flaticon-welder"></span></div>
+                                    <h4>Welding joins <br>together </h4>
+                                </div>
+                                <div class="icon-box wow fadeInUp" data-wow-duration="1500ms">
+                                    <div class="icon"><span class="flaticon-welding-machine"></span></div>
+                                    <h4>Have all metal <br> works tools </h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="note">WELDER PRO PROFESSIONAL WELDING <br>  COMPANY IN USA</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="auto-container">
+            <div class="wrapper-box">
+                <h3>Looking for a quality and <br>affordable project?</h3>
+                <div class="link wow fadeInUp" data-wow-duration="1500ms">
+                    <a href="#" class="theme-btn btn-style-one"><span>Contact With Us</span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services-section pb-0">
+        <div class="sec-bg" style="background-image: url(assets/images/background/bg-1.jpg);"></div>
+        <div class="auto-container">
+            <div class="sec-title text-center light">
+                <div class="sub-title">Our Services</div>
+                <h2>What we offer</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 service-block">
+                    <div class="inner-box wow fadeInUp" data-wow-duration="1500ms">
+                        <div class="image"><img src="assets/images/resource/image-4.jpg" alt=""></div>
+                        <div class="content">
+                            <h3><a href="steel-welding.php"> Steel Welding</a></h3>
+                            <div class="text">Lorem ipsum is simply free <br> text dolor sit am adipi we help you is in <br> the right jobs sicing elit.</div>
+                            <div class="link">
+                                <a href="steel-welding.php" class="theme-btn btn-style-one"><span>Read More</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 service-block">
+                    <div class="inner-box wow fadeInDown" data-wow-duration="1500ms">
+                        <div class="image"><img src="assets/images/resource/image-5.jpg" alt=""></div>
+                        <div class="content">
+                            <h3><a href="metal-work.php"> Metal Works</a></h3>
+                            <div class="text">Lorem ipsum is simply free <br> text dolor sit am adipi we help you is in <br> the right jobs sicing elit.</div>
+                            <div class="link">
+                                <a href="metal-work.php" class="theme-btn btn-style-one"><span>Read More</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 service-block">
+                    <div class="inner-box wow fadeInUp" data-wow-duration="1500ms">
+                        <div class="image"><img src="assets/images/resource/image-6.jpg" alt=""></div>
+                        <div class="content">
+                            <h3><a href="pipe-welding.php">Pipe Welding</a></h3>
+                            <div class="text">Lorem ipsum is simply free <br> text dolor sit am adipi we help you is in <br> the right jobs sicing elit.</div>
+                            <div class="link">
+                                <a href="pipe-welding.php" class="theme-btn btn-style-one"><span>Read More</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials section -->
+    <section class="testimonials-section" style="background-image: url(assets/images/background/bg-2.jpg);">
+        <div class="auto-container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="sec-title">
+                        <div class="sub-title">Our Testimonials</div>
+                        <h2>What they say</h2>
+                    </div>
+                    <div class="testimonial-block-area">
+                        <div class="swiper-container testimonial-thumbs">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="author-thumb"><img src="assets/images/resource/author-1.jpg" alt=""></div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="author-thumb"><img src="assets/images/resource/author-2.jpg" alt=""></div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="author-thumb"><img src="assets/images/resource/author-3.jpg" alt=""></div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="author-thumb"><img src="assets/images/resource/author-1.jpg" alt=""></div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="author-thumb"><img src="assets/images/resource/author-2.jpg" alt=""></div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="author-thumb"><img src="assets/images/resource/author-3.jpg" alt=""></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Swiper -->
+                        <div class="swiper-container testimonial-content">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <!-- Testimonial Block -->
+                                    <div class="testimonial-block">
+                                        <div class="inner-box">
+                                            <div class="text">I have just had two of the most productive work weeks I have had in years. Ben was perfectly matched to my temperament, and has been taking all the backlogged work off my plate and finishing it.</div>
+                                            <div class="author-title">Jessica Brown <span>/ Co-Founder</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <!-- Testimonial Block -->
+                                    <div class="testimonial-block">
+                                        <div class="inner-box">
+                                            <div class="text">I have just had two of the most productive work weeks I have had in years. Ben was perfectly matched to my temperament, and has been taking all the backlogged work off my plate and finishing it.</div>
+                                            <div class="author-title">Jessica Brown <span>/ Co-Founder</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <!-- Testimonial Block -->
+                                    <div class="testimonial-block">
+                                        <div class="inner-box">
+                                            <div class="text">I have just had two of the most productive work weeks I have had in years. Ben was perfectly matched to my temperament, and has been taking all the backlogged work off my plate and finishing it.</div>
+                                            <div class="author-title">Jessica Brown <span>/ Co-Founder</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <!-- Testimonial Block -->
+                                    <div class="testimonial-block">
+                                        <div class="inner-box">
+                                            <div class="text">I have just had two of the most productive work weeks I have had in years. Ben was perfectly matched to my temperament, and has been taking all the backlogged work off my plate and finishing it.</div>
+                                            <div class="author-title">Jessica Brown <span>/ Co-Founder</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <!-- Testimonial Block -->
+                                    <div class="testimonial-block">
+                                        <div class="inner-box">
+                                            <div class="text">I have just had two of the most productive work weeks I have had in years. Ben was perfectly matched to my temperament, and has been taking all the backlogged work off my plate and finishing it.</div>
+                                            <div class="author-title">Jessica Brown <span>/ Co-Founder</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <!-- Testimonial Block -->
+                                    <div class="testimonial-block">
+                                        <div class="inner-box">
+                                            <div class="text">I have just had two of the most productive work weeks I have had in years. Ben was perfectly matched to my temperament, and has been taking all the backlogged work off my plate and finishing it.</div>
+                                            <div class="author-title">Jessica Brown <span>/ Co-Founder</span></div>
+                                        </div>
+                                    </div>
+                                </div>    
+                            </div>                   
+
+                        </div>                        
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="icon-box wow fadeInUp" data-wow-duration="1500ms">
+                        <div class="icon"><span class="flaticon-welding"></span></div>
+                        <h4>We’re Good in All <br>Metal Works</h4>
+                    </div>
+                    <div class="icon-box wow fadeInUp" data-wow-duration="1500ms">
+                        <div class="icon"><span class="flaticon-welder-1"></span></div>
+                        <h4>Expert & Professional <br> Welder Workers</h4>
+                    </div>
+                    <div class="icon-box wow fadeInUp" data-wow-duration="1500ms">
+                        <div class="icon"><span class="flaticon-welding-machine-1"></span></div>
+                        <h4>We’re Using Quality <br> Welding Tools</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team-section">
+        <div class="auto-container">
+            <div class="sec-title text-center">
+                <div class="sub-title">Our Services</div>
+                <h2>What we offer</h2>
+            </div>
+            <div class="row">   
+                <div class="col-lg-4 col-md-6 team-block">
+                    <div class="inner-box wow fadeInUp" data-wow-duration="1500ms">
+                        <div class="image"><img src="assets/images/resource/team-1.jpg" alt=""></div>
+                        <div class="content">
+                            <h4>Robert Smith</h4>
+                            <div class="designation">Co Founder</div>
+                            <ul class="social-icon">
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 team-block">
+                    <div class="inner-box wow fadeInDown" data-wow-duration="1500ms">
+                        <div class="image"><img src="assets/images/resource/team-2.jpg" alt=""></div>
+                        <div class="content">
+                            <h4>Christine eve</h4>
+                            <div class="designation">Welder</div>
+                            <ul class="social-icon">
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 team-block">
+                    <div class="inner-box wow fadeInUp" data-wow-duration="1500ms">
+                        <div class="image"><img src="assets/images/resource/team-3.jpg" alt=""></div>
+                        <div class="content">
+                            <h4>Mike Hardson</h4>
+                            <div class="designation">Mechanic</div>
+                            <ul class="social-icon">
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Facts Section -->
+    <section class="facts-section" style="background-image: url(assets/images/background/bg-3.jpg);">
+        <div class="auto-container">
+            <div class="row">
+                <div class="col-xl-7 offset-xl-5">
+                    <div class="wrapper-box">
+                        <div class="sec-title light">
+                            <div class="sub-title">Our Fun Facts</div>
+                            <h2>Dream it, We can <br>Build it</h2>
+                        </div>
+                        <div class="text">There are many variations of passages of Lorem Ipsum but the majority is have suffered alteration in some form, or randomised words which don't look even slightly believable.</div>
+                        <div class="facts-area">
+                            <div class="row">
+                                <!--Column-->
+                                <div class="column counter-column col-md-4">
+                                    <div class="inner wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                        <div class="content">
+                                            <div class="count-outer count-box">
+                                                <span class="count-text" data-speed="3000" data-stop="800">0</span>
+                                            </div>
+                                            <div class="fact-text"> Projects <br> Completed</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--Column-->
+                                <div class="column counter-column col-md-4">
+                                    <div class="inner wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                        <div class="content">
+                                            <div class="count-outer count-box">
+                                                <span class="count-text" data-speed="3000" data-stop="681">0</span>
+                                            </div>
+                                            <div class="fact-text"> Satisfied <br> Clients</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--Column-->
+                                <div class="column counter-column col-md-4">
+                                    <div class="inner wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                        <div class="content">
+                                            <div class="count-outer count-box">
+                                                <span class="count-text" data-speed="3000" data-stop="909">0</span>
+                                            </div>
+                                            <div class="fact-text">Metal <br> Works</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News section -->
+    <section class="news-section">
+        <div class="auto-container">
+            <div class="sec-title text-center">
+                <div class="sub-title">From The Blog</div>
+                <h2>News & artilces</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 news-block">
+                    <div class="inner-box wow fadeInUp" data-wow-duration="1500ms">
+                        <div class="image"><img src="assets/images/resource/news-1.jpg" alt=""></div>
+                        <div class="content">
+                            <div class="post-meta">by Admin  .  20 Aug, 2020</div>
+                            <h4><a href="blog-details.php">It Joins two <br> pieces of metal</a></h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 news-block style-two">
+                    <div class="inner-box wow fadeInUp" data-wow-duration="1500ms">
+                        <div class="image"><img src="assets/images/resource/news-2.jpg" alt=""></div>
+                        <div class="content">
+                            <div class="post-meta">by Admin  .  20 Aug, 2020</div>
+                            <h4><a href="blog-details.php">when the welding <br> Output is on</a></h4>
+                        </div>
+                    </div>
+                    <div class="inner-box wow fadeInUp" data-wow-duration="1500ms">
+                        <div class="image"><img src="assets/images/resource/news-3.jpg" alt=""></div>
+                        <div class="content">
+                            <div class="post-meta">by Admin  .  20 Aug, 2020</div>
+                            <h4><a href="blog-details.php">We’re creating a <br> metal product</a></h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clients Logo Section -->
+    <section class="clients-logo-section">
+        <div class="auto-container">
+            <!--Sponsors Carousel-->
+            <div class="theme_carousel owl-theme owl-carousel" data-options='{"loop": true, "margin": 40, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true, "autoplayTimeout": 6000, "smartSpeed": 300, "responsive":{ "0" :{ "items": "1" }, "600" :{ "items" : "2" }, "768" :{ "items" : "3" } , "992":{ "items" : "4" }, "1200":{ "items" : "5" }}}'>
+                <div class="slide-item"><div class="image"><img src="assets/images/resource/clients-logo-1.png" alt=""></div></div>
+                <div class="slide-item"><div class="image"><img src="assets/images/resource/clients-logo-2.png" alt=""></div></div>
+                <div class="slide-item"><div class="image"><img src="assets/images/resource/clients-logo-3.png" alt=""></div></div>
+                <div class="slide-item"><div class="image"><img src="assets/images/resource/clients-logo-4.png" alt=""></div></div>
+                <div class="slide-item"><div class="image"><img src="assets/images/resource/clients-logo-5.png" alt=""></div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter-section" style="background-image: url(assets/images/background/bg-4.jpg);">
+        <div class="auto-container">
+            <div class="wrapper-box">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h3>Subscribe to newsletter</h3>
+                        <div class="icon-box wow fadeInUp" data-wow-duration="1500ms">
+                            <div class="icon"><span class="flaticon-mail-1"></span></div>
+                            <div class="text">Aliq is notm hendr erit a lorem ipsum insum simply free text image pellen tesion available.</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="newsletter-form">
+                            <form class="ajax-sub-form" method="post">
+                                <div class="form-group">
+                                    <input type="email" placeholder="Enter Your Email Address..." id="subscription-email">
+                                    <button type="submit" class="theme-btn btn-style-one"><span>Subscribe</span></button>
+                                    <label class="subscription-label" for="subscription-email"></label>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+        </div>        
+    </section>
+    
+
+    <!--Main Footer-->
+    <footer class="main-footer" style="background-image: url(assets/images/background/bg-5.jpg);">
+        <div class="upper-box">
+            <div class="auto-container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="widget about-widget">
+                            <div class="logo"><a href="index.php"><img src="assets/images/logo.png" alt=""></a></div>
+                            <div class="text">Lorem ipsum dolor sit amet, consect etur adi pisicing elit sed do eiusmod tempor incididunt ut labore et.</div>
+                            <div class="link-box">
+                                <a href="#" class="theme-btn btn-style-one"><span>Contact Us</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="widget links-widget">
+                            <h4 class="widget_title">Links</h4>
+                            <div class="widget-content">
+                                <ul class="list">
+                                    <li><a href="#"> About </a></li>
+                                    <li><a href="#">Our Services</a></li>
+                                    <li><a href="#">Latest Projects</a></li>
+                                    <li><a href="#">News & Articles</a></li>
+                                    <li><a href="#">Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="widget news-widget">
+                            <h4 class="widget_title">Latest News</h4>
+                            <div class="news-widget-wrapper">
+                                <div class="post">
+                                    <div class="image"><a href="blog-details.php"><img src="assets/images/resource/news-4.jpg" alt=""></a></div>
+                                    <div class="content">
+                                        <div class="date">15 Aug, 2020</div>
+                                        <h4><a href="blog-details.php"> We’re creating a Metal <br>Product</a></h4>
+                                    </div>
+                                </div>
+                                <div class="post">
+                                    <div class="image"><a href="blog-details.php"><img src="assets/images/resource/news-5.jpg" alt=""></a></div>
+                                    <div class="content">
+                                        <div class="date">15 Aug, 2020</div>
+                                        <h4><a href="blog-details.php"> We’re creating a Metal <br>Product</a></h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="widget contact-widget">
+                            <h4 class="widget_title">Contact</h4>
+                            <div class="wrapper-box">
+                                <div class="icon-box">
+                                    <div class="icon"><span class="flaticon-pin"></span></div>
+                                    <div class="text">88 broklyn golden street, New
+                                        York. USA</div>
+                                </div>
+                                <div class="icon-box">
+                                    <div class="icon"><span class="flaticon-email-1"></span></div>
+                                    <div class="text"><a href="mailto:needhelp@company.com">needhelp@company.com</a></div>
+                                </div>                                
+                                <div class="icon-box">
+                                    <div class="icon"><span class="flaticon-telephone"></span></div>
+                                    <div class="text"><a href="tel:926668880000">92 666 888 0000</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>               
+    </footer>
+    <!--End Main Footer-->
+
+    <div class="footer-bottom">
+        <div class="auto-container">
+            <div class="content">
+                <ul class="social-icon">
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                </ul>
+                <div class="copyright-text">© Copyright 2022 by Company.com</div>
+            </div>            
+        </div>
+    </div>
+	
+</div>
+<!--End pagewrapper-->
+
+<!--Scroll to top-->
+<div class="scroll-to-top scroll-to-target" data-target="html"><span class="flaticon-right-arrow-4"></span></div>
+
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/bootstrap-select.min.js"></script>
+<script src="assets/js/jquery.fancybox.js"></script>
+<script src="assets/js/isotope.js"></script>
+<script src="assets/js/owl.js"></script>
+<script src="assets/js/appear.js"></script>
+<script src="assets/js/wow.js"></script>
+<script src="assets/js/lazyload.js"></script>
+<script src="assets/js/scrollbar.js"></script>
+<script src="assets/js/TweenMax.min.js"></script>
+<script src="assets/js/swiper.min.js"></script>
+<script src="assets/js/jquery.polyglot.language.switcher.js"></script>
+<script src="assets/js/jquery.ajaxchimp.min.js"></script>
+<script src="assets/js/parallax-scroll.js"></script>
+
+<script src="assets/js/script.js"></script>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+

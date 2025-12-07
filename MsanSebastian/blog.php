@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -57,7 +57,7 @@
                 <div class="inner-container">
                     <!--Logo-->
                     <div class="logo-box">
-                        <div class="logo"><a href="index.html"><img src="assets/images/logo ss.png" alt=""></a></div>
+                        <div class="logo"><a href="index.php"><img src="assets/images/logo ss.png" alt=""></a></div>
                     </div>
                     <div class="right-column">
                         <!--Nav Box-->
@@ -69,33 +69,28 @@
                             <nav class="main-menu navbar-expand-md navbar-light">
                                 <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                     <ul class="navigation">
-                                        <li class="dropdown"><a href="index.html">inicio</a>
+                                        <li class="dropdown"><a href="index.php">inicio</a>
                                             <ul>
-                                                <li><a href="index.html">Inicio</a></li>                                                
+                                                <li><a href="index.php">Inicio</a></li>                                                
                                             </ul>
                                         </li>
-                                        <li><a href="about.html">Sobre Nosotros</a></li>
-                                        <li class="dropdown"><a href="services.html">Servicios</a>
+                                        <li><a href="about.php">Sobre Nosotros</a></li>
+                                        <li class="dropdown"><a href="services.php">Servicios</a>
                                             <ul>
-                                                <li><a href="services.html">Obras Mayores</a></li>
-                                                <li><a href="steel-welding.html">Obras Menore</a></li>                                                
-                                                <li><a href="pipe-welding.html">Carrocería</a></li>                                                
+                                                <li><a href="services.php">Obras Mayores</a></li>
+                                                <li><a href="steel-welding.php">Obras Menore</a></li>                                                
+                                                <li><a href="pipe-welding.php">Carrocería</a></li>                                                
                                             </ul>
                                         </li>
                                         <!-- no recuerdo si lo quiero poner
-                                        <li class="dropdown"><a href="projects.html">Projectos</a>
+                                        <li class="dropdown"><a href="projects.php">Projectos</a>
                                             <ul>
-                                                <li><a href="projects.html">Projects </a></li>
-                                                <li><a href="project-details.html">Project Details</a></li>
+                                                <li><a href="projects.php">Projectos </a></li>
+                                                <li><a href="project-details.php">Detalles del Proyecto</a></li>
                                             </ul>
-                                        </li>
-                                        <li class="dropdown"><a href="#">Blog</a>
-                                            <ul>
-                                                <li><a href="blog.html">Blog </a></li>
-                                                <li><a href="blog-details.html">Blog Details</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="contact.html">Contact</a></li>
+                                        </li>-->
+                                       
+                                        <li><a href="contact.php">Contacto</a></li>
                                     </ul>
                                 </div>
                             </nav>
@@ -113,7 +108,7 @@
                     <div class="inner-container">
                         <!--Logo-->
                         <div class="logo-box">
-                            <div class="logo"><a href="index.html"><img src="assets/images/logo.png" alt=""></a></div>
+                            <div class="logo"><a href="index.php"><img src="assets/images/logo ss.png" alt=""></a></div>
                         </div>
                         <div class="right-column">
                             <!--Nav Box-->
@@ -137,16 +132,14 @@
             <div class="close-btn"><span class="icon flaticon-remove"></span></div>
             
             <nav class="menu-box">
-                <div class="nav-logo"><a href="index.html"><img src="assets/images/logo.png" alt="" title=""></a></div>
+                <div class="nav-logo"><a href="index.php"><img src="assets/images/logo ss.png" alt="" title=""></a></div>
                 <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
 				<!--Social Links-->
 				<div class="social-links">
-					<ul class="clearfix">
-						<li><a href="#"><span class="fab fa-twitter"></span></a></li>
-						<li><a href="#"><span class="fab fa-facebook-square"></span></a></li>
-						<li><a href="#"><span class="fab fa-pinterest-p"></span></a></li>
-						<li><a href="#"><span class="fab fa-instagram"></span></a></li>
-						<li><a href="#"><span class="fab fa-youtube"></span></a></li>
+					<ul class="clearfix">						
+						<li><a href="https://www.facebook.com/profile.php?id=100039711175826"><span class="fab fa-facebook-square">facebook</span></a></li>						
+						<li><a href="https://www.instagram.com/maestranzasansebastian/?hl=de"><span class="fab fa-instagram"></span></a>instagram</li>
+					
 					</ul>
                 </div>
             </nav>
@@ -165,7 +158,7 @@
         <div class="popup-inner">
             <div class="overlay-layer"></div>
             <div class="search-form">
-                <form method="post" action="index.html">
+                <form method="post" action="index.php">
                     <div class="form-group">
                         <fieldset>
                             <input type="search" class="form-control" name="search-input" value="" placeholder="Search Here" required >
@@ -183,108 +176,89 @@
             <div class="content-box">
                 <div class="content-wrapper">
                     <div class="title">
-                        <h1>Blog Single Post</h1>
+                        <h1>Blog Post</h1>
                     </div>
                     <ul class="bread-crumb">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="blog.html"> Blog</a></li>
-                        <li>Blog Single Post</li>
+                        <li><a href="index.php">Home</a></li>
+                        <li>Blog</li>
                     </ul>
                 </div>                    
             </div>
         </div>
     </section>
 
+
     <!-- Sidebar Page Container -->
     <div class="sidebar-page-container">
         <div class="auto-container">            
             <div class="row">
                 <div class="col-lg-8">
-                    <div class="news-block-three blog-single-post">
+                    <div class="news-block-three">
                         <div class="inner-box">
                             <div class="image">
-                                <a href="blog-details.html"><img src="assets/images/resource/news-9.jpg" alt=""></a>
+                                <a href="blog-details.php"><img src="assets/images/resource/news-9.jpg" alt=""></a>
                                 <div class="date">20 Aug, 2020</div>
                             </div>
                             <div class="content">
                                 <div class="post-meta"> <a href="#"><i class="far fa-user-circle"></i> Admin</a> <a href="#"><i class="far fa-comments"></i> 2 Comments </a></div>
-                                <h4>It Joins two pieces of metal</h4>
-                                <div class="text">There are not many of passages of lorem ipsum available alteration in some form. Donec scelerisque dolor id nunc dictum, interdum gravida. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Donec scelerisque dolor id nunc dictum, interdum gravida mauris rhoncus. Aliquam at ultrices nunc. In sem leo, fermentum at lorem in, porta finibus mauris. Lorem ipsum dolor sit amet, conse ctetur adipisicing elit sed do eiusm od tempor ut labore. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctornisi elit consequat ipsum. Lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui dolorem ipsum quia quaed inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Aelltes port lacus quis enim var sed efficitur turpis gilla sed sit amet finibus eros. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the ndustry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries. Lorem Ipsum is simply dummy text of the new design printng and type setting Ipsum Take a look at our round up of the best shows coming soon to your telly box has been the is industrys. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has industr standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of.</div>
-                            </div>
-                            <div class="post-tag">
-                                <div>
-                                    <span class="tag-title">Tags</span>
-                                    <ul class="tag">
-                                        <li><a href="#">Metal</a></li>
-                                        <li><a href="#">Welding</a></li>
-                                    </ul>
-                                </div>
-                                <ul class="social-icon">
-                                    <li><a href="#"><span class="fab fa-twitter"></span></a></li>
-                                    <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
-                                    <li><a href="#"><span class="fab fa-instagram"></span></a></li>
-                                    <li><a href="#"><span class="fab fa-pinterest-p"></span></a></li>
-                                </ul>
-                            </div>
-                            <div class="author-box">
-                                <div class="image"><img src="assets/images/resource/author-4.jpg" alt=""></div>
-                                <h4>Christive Eve</h4>
-                                <div class="text">Lorem ipsum is simply free text used by copyt refreshing. Neque porro est qui dolorem ipsum quia quaed veritatis et quasi architecto.</div>
-                            </div>
-                            <div class="comments-area">
-                                <div class="group-title"><h3>2 Comments</h3></div>
-                                <!--Comment Box-->
-                                <div class="comment-box">
-                                    <div class="comment">
-                                        <div class="author-thumb"><img src="assets/images/resource/author-5.jpg" alt=""></div>
-                                        <div class="comment-inner">
-                                            <div class="comment-info">Kevin Martin <span class="date">22 Aug 2020</span></div>
-                                            <div class="text">Lorem ipsum is simply free text used by copytyping eque porro est qui dolorem ipsum quia quaed inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</div>
-                                            <a class="reply-comment-btn" href="#"> Reply</a>
-                                        </div>
-                                    </div>
-                                </div>
-        
-                                <!--Comment Box-->
-                                <div class="comment-box">
-                                    <div class="comment">
-                                        <div class="author-thumb"><img src="assets/images/resource/author-6.jpg" alt=""></div>
-                                        <div class="comment-inner">
-                                            <div class="comment-info">Jessica Brown <span class="date"> 22 Aug 2020</span></div>
-                                            <div class="text">Lorem ipsum is simply free text used by copytyping eque porro est qui dolorem ipsum quia quaed inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</div>
-                                            <a class="reply-comment-btn" href="#"> Reply</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="comment-form">  
-                                <div class="group-title"><h3>Leave a Comments</h3></div>
-                                <form method="post">
-                                    <div class="row row-10">
-                                        <div class="col-lg-6 col-md-6 col-sm-12 form-group">
-                                            <input type="text" name="username" placeholder="Name*" required="">
-                                        </div>
-                                        <div class="col-lg-6 col-md-6 col-sm-12 form-group">
-                                            <input type="email" name="email" placeholder="Email*" required="">
-                                        </div>
-                                        <div class="col-lg-12 col-md-12 col-sm-12 form-group">
-                                            <textarea name="message" placeholder="Write Message"></textarea>
-                                        </div>
-                                        <div class="col-lg-12 col-md-12 col-sm-12 form-group">
-                                            <button class="theme-btn btn-style-one" type="submit" name="submit-form"><span class="btn-title">Submit Comment</span></button>
-                                        </div>
-                                    </div>
-                                </form>
+                                <h4><a href="blog-details.php">It Joins two pieces of metal</a></h4>
+                                <div class="text">There are not many of passages of lorem ipsum available alteration in some form. Donec scelerisque dolor id nunc dictum, interdum gravida. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</div>
                             </div>
                         </div>
                     </div>
+                    <div class="news-block-three">
+                        <div class="inner-box">
+                            <div class="image">
+                                <a href="blog-details.php"><img src="assets/images/resource/news-10.jpg" alt=""></a>
+                                <div class="date">20 Aug, 2020</div>
+                            </div>
+                            <div class="content">
+                                <div class="post-meta"> <a href="#"><i class="far fa-user-circle"></i> Admin</a> <a href="#"><i class="far fa-comments"></i> 2 Comments </a></div>
+                                <h4><a href="blog-details.php">When the welding output is on</a></h4>
+                                <div class="text">There are not many of passages of lorem ipsum available alteration in some form. Donec scelerisque dolor id nunc dictum, interdum gravida. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news-block-three">
+                        <div class="inner-box">
+                            <div class="image">
+                                <a href="blog-details.php"><img src="assets/images/resource/news-11.jpg" alt=""></a>
+                                <div class="date">20 Aug, 2020</div>
+                            </div>
+                            <div class="content">
+                                <div class="post-meta"> <a href="#"><i class="far fa-user-circle"></i> Admin</a> <a href="#"><i class="far fa-comments"></i> 2 Comments </a></div>
+                                <h4><a href="blog-details.php">We’re creating a metal product</a></h4>
+                                <div class="text">There are not many of passages of lorem ipsum available alteration in some form. Donec scelerisque dolor id nunc dictum, interdum gravida. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news-block-three">
+                        <div class="inner-box">
+                            <div class="image">
+                                <a href="blog-details.php"><img src="assets/images/resource/news-12.jpg" alt=""></a>
+                                <div class="date">20 Aug, 2020</div>
+                            </div>
+                            <div class="content">
+                                <div class="post-meta"> <a href="#"><i class="far fa-user-circle"></i> Admin</a> <a href="#"><i class="far fa-comments"></i> 2 Comments </a></div>
+                                <h4><a href="blog-details.php">Manufacturing the steel door</a></h4>
+                                <div class="text">There are not many of passages of lorem ipsum available alteration in some form. Donec scelerisque dolor id nunc dictum, interdum gravida. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="styled-pagination">
+                        <li class="next"><a href="#"><span class="fa fa-angle-left"></span></a></li>
+                        <li><a href="#" class="active">01</a></li>
+                        <li><a href="#">02</a></li>
+                        <li><a href="#">03</a></li>
+                        <li class="prev"><a href="#"><span class="fa fa-angle-right"></span></a></li>
+                    </ul>
                 </div> 
                 <div class="col-lg-4">
                     <aside class="sidebar blog-sidebar">
                     
                         <!-- Search -->
                         <div class="widget search-box">
-                            <form method="post" action="contact.html">
+                            <form method="post" action="contact.php">
                                 <div class="form-group">
                                     <input type="search" name="search-field" value="" placeholder="Search" required="">
                                     <button type="submit"><span class="icon flaticon-magnifying-glass"></span></button>
@@ -297,23 +271,23 @@
                             <h4 class="widget_title">Recent Posts</h4>
 
                             <article class="post">
-                                <figure class="post-thumb"><a href="blog-detail.html"><img src="assets/images/resource/news-13.jpg" alt=""></a></figure>
+                                <figure class="post-thumb"><a href="blog-detail.php"><img src="assets/images/resource/news-13.jpg" alt=""></a></figure>
                                 <div class="comment">02 Comments</div>
-                                <div class="text"><a href="blog-detail.html">When the welding
+                                <div class="text"><a href="blog-detail.php">When the welding
                                     output is on </a></div>
                             </article>
 
                             <article class="post">
-                                <figure class="post-thumb"><a href="blog-detail.html"><img src="assets/images/resource/news-14.jpg" alt=""></a></figure>
+                                <figure class="post-thumb"><a href="blog-detail.php"><img src="assets/images/resource/news-14.jpg" alt=""></a></figure>
                                 <div class="comment">02 Comments</div>
-                                <div class="text"><a href="blog-detail.html">We’re creating a
+                                <div class="text"><a href="blog-detail.php">We’re creating a
                                     metal product </a></div>
                             </article>
                             
                             <article class="post">
-                                <figure class="post-thumb"><a href="blog-detail.html"><img src="assets/images/resource/news-15.jpg" alt=""></a></figure>
+                                <figure class="post-thumb"><a href="blog-detail.php"><img src="assets/images/resource/news-15.jpg" alt=""></a></figure>
                                 <div class="comment">02 Comments</div>
-                                <div class="text"><a href="blog-detail.html">manufacturing the
+                                <div class="text"><a href="blog-detail.php">manufacturing the
                                     metal door</a></div>
                             </article>
 
@@ -356,7 +330,7 @@
                 <div class="row">
                     <div class="col-lg-3 col-md-6">
                         <div class="widget about-widget">
-                            <div class="logo"><a href="index.html"><img src="assets/images/logo.png" alt=""></a></div>
+                            <div class="logo"><a href="index.php"><img src="assets/images/logo.png" alt=""></a></div>
                             <div class="text">Lorem ipsum dolor sit amet, consect etur adi pisicing elit sed do eiusmod tempor incididunt ut labore et.</div>
                             <div class="link-box">
                                 <a href="#" class="theme-btn btn-style-one"><span>Contact Us</span></a>
@@ -382,17 +356,17 @@
                             <h4 class="widget_title">Latest News</h4>
                             <div class="news-widget-wrapper">
                                 <div class="post">
-                                    <div class="image"><a href="blog-details.html"><img src="assets/images/resource/news-4.jpg" alt=""></a></div>
+                                    <div class="image"><a href="blog-details.php"><img src="assets/images/resource/news-4.jpg" alt=""></a></div>
                                     <div class="content">
                                         <div class="date">15 Aug, 2020</div>
-                                        <h4><a href="blog-details.html"> We’re creating a Metal <br>Product</a></h4>
+                                        <h4><a href="blog-details.php"> We’re creating a Metal <br>Product</a></h4>
                                     </div>
                                 </div>
                                 <div class="post">
-                                    <div class="image"><a href="blog-details.html"><img src="assets/images/resource/news-5.jpg" alt=""></a></div>
+                                    <div class="image"><a href="blog-details.php"><img src="assets/images/resource/news-5.jpg" alt=""></a></div>
                                     <div class="content">
                                         <div class="date">15 Aug, 2020</div>
-                                        <h4><a href="blog-details.html"> We’re creating a Metal <br>Product</a></h4>
+                                        <h4><a href="blog-details.php"> We’re creating a Metal <br>Product</a></h4>
                                     </div>
                                 </div>
                             </div>
