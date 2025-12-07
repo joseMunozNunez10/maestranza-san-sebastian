@@ -5,7 +5,7 @@
         <div class="swiper-container banner-slider">
             <div class="swiper-wrapper">
                 <!-- Slide Item -->
-                <div class="swiper-slide" style="background-image: url(assets/images/main-slider/image-7.jpg);">
+                <div class="swiper-slide" style="background-image: url(assets/images/main-slider/image-8.jpg);">
                     <div class="content-outer">
                         <div class="content-box">
                             <div class="inner text-center">
@@ -43,30 +43,30 @@
                     <div class="content-side">
                         <div class="sec-title">
                             <div class="sub-title">Maestranza San Sebastian</div>
-                            <h2>We're Committed <br> To quality</h2>
+                            <h2>Comprometidos con <br> la Calidad</h2>
                         </div>
-                        <div class="text wow fadeInUp" data-wow-duration="1500ms">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. quis nostrud exercitation.</div>
+                        <div class="text wow fadeInUp" data-wow-duration="1500ms">En Maestranza San Sebastián nos especializamos en trabajos metálicos de alta calidad. Con años de experiencia, ofrecemos soluciones profesionales para proyectos industriales, comerciales y particulares en toda la región.</div>
                         <div class="row">
                             <div class="col-md-6">
                                 <ul class="list wow fadeInUp" data-wow-duration="1500ms">
-                                    <li>We provide 24/7 service</li>
-                                    <li>We strick to deadline</li>
-                                    <li>We offer upfront pricing</li>
-                                    <li>We use latest technology</li>
+                                    <li>Atención personalizada</li>
+                                    <li>Cumplimiento de plazos</li>
+                                    <li>Presupuestos transparentes</li>
+                                    <li>Tecnología moderna</li>
                                 </ul>
                             </div>
                             <div class="col-md-6">
                                 <div class="icon-box wow fadeInUp" data-wow-duration="1500ms">
                                     <div class="icon"><span class="flaticon-welder"></span></div>
-                                    <h4>Welding joins <br>together </h4>
+                                    <h4>Soldadura <br>Profesional</h4>
                                 </div>
                                 <div class="icon-box wow fadeInUp" data-wow-duration="1500ms">
                                     <div class="icon"><span class="flaticon-welding-machine"></span></div>
-                                    <h4>Have all metal <br> works tools </h4>
+                                    <h4>Equipos <br>Modernos</h4>
                                 </div>
                             </div>
                         </div>
-                        <div class="note">WELDER PRO PROFESSIONAL WELDING <br>  COMPANY IN USA</div>
+                        <div class="note">MAESTRANZA SAN SEBASTIÁN <br> ESPECIALISTAS EN TRABAJOS METÁLICOS</div>
                     </div>
                 </div>
             </div>
@@ -77,9 +77,9 @@
     <section class="cta-section">
         <div class="auto-container">
             <div class="wrapper-box">
-                <h3>Looking for a quality and <br>affordable project?</h3>
+                <h3>¿Buscas calidad y <br>precios competitivos?</h3>
                 <div class="link wow fadeInUp" data-wow-duration="1500ms">
-                    <a href="#" class="theme-btn btn-style-one"><span>Contact With Us</span></a>
+                    <a href="contact.php" class="theme-btn btn-style-one"><span>Contáctanos</span></a>
                 </div>
             </div>
         </div>
@@ -90,18 +90,18 @@
         <div class="sec-bg" style="background-image: url(assets/images/background/bg-1.jpg);"></div>
         <div class="auto-container">
             <div class="sec-title text-center light">
-                <div class="sub-title">Our Services</div>
-                <h2>What we offer</h2>
+                <div class="sub-title">Nuestros Servicios</div>
+                <h2>Lo que ofrecemos</h2>
             </div>
             <div class="row">
                 <div class="col-lg-4 col-md-6 service-block">
                     <div class="inner-box wow fadeInUp" data-wow-duration="1500ms">
                         <div class="image"><img src="assets/images/resource/image-4.jpg" alt=""></div>
                         <div class="content">
-                            <h3><a href="steel-welding.php"> Steel Welding</a></h3>
-                            <div class="text">Lorem ipsum is simply free <br> text dolor sit am adipi we help you is in <br> the right jobs sicing elit.</div>
+                            <h3><a href="steel-welding.php">Obras Mayores</a></h3>
+                            <div class="text">Estructuras metálicas de gran <br> envergadura, fabricación industrial <br> y montaje de proyectos complejos.</div>
                             <div class="link">
-                                <a href="steel-welding.php" class="theme-btn btn-style-one"><span>Read More</span></a>
+                                <a href="steel-welding.php" class="theme-btn btn-style-one"><span>Ver Más</span></a>
                             </div>
                         </div>
                     </div>
@@ -110,10 +110,10 @@
                     <div class="inner-box wow fadeInDown" data-wow-duration="1500ms">
                         <div class="image"><img src="assets/images/resource/image-5.jpg" alt=""></div>
                         <div class="content">
-                            <h3><a href="metal-work.php"> Metal Works</a></h3>
-                            <div class="text">Lorem ipsum is simply free <br> text dolor sit am adipi we help you is in <br> the right jobs sicing elit.</div>
+                            <h3><a href="metal-work.php">Obras Menores</a></h3>
+                            <div class="text">Trabajos en acero, aluminio y <br> fierro. Rejas, portones, escaleras <br> y estructuras personalizadas.</div>
                             <div class="link">
-                                <a href="metal-work.php" class="theme-btn btn-style-one"><span>Read More</span></a>
+                                <a href="metal-work.php" class="theme-btn btn-style-one"><span>Ver Más</span></a>
                             </div>
                         </div>
                     </div>
@@ -122,10 +122,10 @@
                     <div class="inner-box wow fadeInUp" data-wow-duration="1500ms">
                         <div class="image"><img src="assets/images/resource/image-6.jpg" alt=""></div>
                         <div class="content">
-                            <h3><a href="pipe-welding.php">Pipe Welding</a></h3>
-                            <div class="text">Lorem ipsum is simply free <br> text dolor sit am adipi we help you is in <br> the right jobs sicing elit.</div>
+                            <h3><a href="pipe-welding.php">Carrocería</a></h3>
+                            <div class="text">Reparación y fabricación de <br> carrocerías para todo tipo de <br> vehículos comerciales e industriales.</div>
                             <div class="link">
-                                <a href="pipe-welding.php" class="theme-btn btn-style-one"><span>Read More</span></a>
+                                <a href="pipe-welding.php" class="theme-btn btn-style-one"><span>Ver Más</span></a>
                             </div>
                         </div>
                     </div>
@@ -140,8 +140,8 @@
             <div class="row">
                 <div class="col-lg-8">
                     <div class="sec-title">
-                        <div class="sub-title">Our Testimonials</div>
-                        <h2>What they say</h2>
+                        <div class="sub-title">Testimonios</div>
+                        <h2>Lo que dicen nuestros clientes</h2>
                     </div>
                     <div class="testimonial-block-area">
                         <div class="swiper-container testimonial-thumbs">
@@ -173,8 +173,8 @@
                                     <!-- Testimonial Block -->
                                     <div class="testimonial-block">
                                         <div class="inner-box">
-                                            <div class="text">I have just had two of the most productive work weeks I have had in years. Ben was perfectly matched to my temperament, and has been taking all the backlogged work off my plate and finishing it.</div>
-                                            <div class="author-title">Jessica Brown <span>/ Co-Founder</span></div>
+                                            <div class="text">Contraté a Maestranza San Sebastián para fabricar la estructura metálica de mi bodega. El trabajo fue impecable, cumplieron con los plazos y el precio fue muy competitivo. Totalmente recomendados.</div>
+                                            <div class="author-title">Carlos Ramírez <span>/ Empresario</span></div>
                                         </div>
                                     </div>
                                 </div>
@@ -182,8 +182,8 @@
                                     <!-- Testimonial Block -->
                                     <div class="testimonial-block">
                                         <div class="inner-box">
-                                            <div class="text">I have just had two of the most productive work weeks I have had in years. Ben was perfectly matched to my temperament, and has been taking all the backlogged work off my plate and finishing it.</div>
-                                            <div class="author-title">Jessica Brown <span>/ Co-Founder</span></div>
+                                            <div class="text">Excelente servicio de soldadura. Repararon la carrocería de mi camión y quedó como nueva. El equipo es muy profesional y la atención es personalizada. Sin duda volveré a trabajar con ellos.</div>
+                                            <div class="author-title">Patricia Fernández <span>/ Transportista</span></div>
                                         </div>
                                     </div>
                                 </div>
@@ -191,8 +191,8 @@
                                     <!-- Testimonial Block -->
                                     <div class="testimonial-block">
                                         <div class="inner-box">
-                                            <div class="text">I have just had two of the most productive work weeks I have had in years. Ben was perfectly matched to my temperament, and has been taking all the backlogged work off my plate and finishing it.</div>
-                                            <div class="author-title">Jessica Brown <span>/ Co-Founder</span></div>
+                                            <div class="text">Necesitaba rejas de seguridad para mi negocio y el resultado superó mis expectativas. Diseño moderno, instalación rápida y materiales de primera calidad. Muy satisfecho con el servicio.</div>
+                                            <div class="author-title">Jorge Muñoz <span>/ Comerciante</span></div>
                                         </div>
                                     </div>
                                 </div>
@@ -200,8 +200,8 @@
                                     <!-- Testimonial Block -->
                                     <div class="testimonial-block">
                                         <div class="inner-box">
-                                            <div class="text">I have just had two of the most productive work weeks I have had in years. Ben was perfectly matched to my temperament, and has been taking all the backlogged work off my plate and finishing it.</div>
-                                            <div class="author-title">Jessica Brown <span>/ Co-Founder</span></div>
+                                            <div class="text">Confié en Maestranza San Sebastián para un proyecto industrial complejo y cumplieron todas mis expectativas. Profesionalismo, calidad y compromiso en cada detalle del trabajo.</div>
+                                            <div class="author-title">Luis Torres <span>/ Ingeniero Industrial</span></div>
                                         </div>
                                     </div>
                                 </div>
@@ -209,8 +209,8 @@
                                     <!-- Testimonial Block -->
                                     <div class="testimonial-block">
                                         <div class="inner-box">
-                                            <div class="text">I have just had two of the most productive work weeks I have had in years. Ben was perfectly matched to my temperament, and has been taking all the backlogged work off my plate and finishing it.</div>
-                                            <div class="author-title">Jessica Brown <span>/ Co-Founder</span></div>
+                                            <div class="text">Fabricaron e instalaron un portón automático para mi casa. El trabajo fue rápido, limpio y el acabado es perfecto. Muy agradecido por la dedicación y el buen trato recibido.</div>
+                                            <div class="author-title">Andrea Vega <span>/ Cliente Particular</span></div>
                                         </div>
                                     </div>
                                 </div>
@@ -218,8 +218,8 @@
                                     <!-- Testimonial Block -->
                                     <div class="testimonial-block">
                                         <div class="inner-box">
-                                            <div class="text">I have just had two of the most productive work weeks I have had in years. Ben was perfectly matched to my temperament, and has been taking all the backlogged work off my plate and finishing it.</div>
-                                            <div class="author-title">Jessica Brown <span>/ Co-Founder</span></div>
+                                            <div class="text">Llevo años trabajando con Maestranza San Sebastián para todos mis proyectos de construcción. Son confiables, puntuales y entregan trabajos de excelente calidad. Los recomiendo ampliamente.</div>
+                                            <div class="author-title">Ricardo Silva <span>/ Contratista</span></div>
                                         </div>
                                     </div>
                                 </div>    
@@ -231,15 +231,15 @@
                 <div class="col-lg-4">
                     <div class="icon-box wow fadeInUp" data-wow-duration="1500ms">
                         <div class="icon"><span class="flaticon-welding"></span></div>
-                        <h4>We're Good in All <br>Metal Works</h4>
+                        <h4>Expertos en Todo Tipo <br>de Trabajos Metálicos</h4>
                     </div>
                     <div class="icon-box wow fadeInUp" data-wow-duration="1500ms">
                         <div class="icon"><span class="flaticon-welder-1"></span></div>
-                        <h4>Expert & Professional <br> Welder Workers</h4>
+                        <h4>Soldadores Expertos <br> y Profesionales</h4>
                     </div>
                     <div class="icon-box wow fadeInUp" data-wow-duration="1500ms">
                         <div class="icon"><span class="flaticon-welding-machine-1"></span></div>
-                        <h4>We're Using Quality <br> Welding Tools</h4>
+                        <h4>Equipos de Soldadura <br> de Última Generación</h4>
                     </div>
                 </div>
             </div>
@@ -250,16 +250,16 @@
     <section class="team-section">
         <div class="auto-container">
             <div class="sec-title text-center">
-                <div class="sub-title">Our Services</div>
-                <h2>What we offer</h2>
+                <div class="sub-title">Nuestro Equipo</div>
+                <h2>Profesionales Expertos</h2>
             </div>
             <div class="row">   
                 <div class="col-lg-4 col-md-6 team-block">
                     <div class="inner-box wow fadeInUp" data-wow-duration="1500ms">
                         <div class="image"><img src="assets/images/resource/team-1.jpg" alt=""></div>
                         <div class="content">
-                            <h4>Robert Smith</h4>
-                            <div class="designation">Co Founder</div>
+                            <h4>Roberto González</h4>
+                            <div class="designation">Maestro Soldador</div>
                             <ul class="social-icon">
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -272,8 +272,8 @@
                     <div class="inner-box wow fadeInDown" data-wow-duration="1500ms">
                         <div class="image"><img src="assets/images/resource/team-2.jpg" alt=""></div>
                         <div class="content">
-                            <h4>Christine eve</h4>
-                            <div class="designation">Welder</div>
+                            <h4>María Silva</h4>
+                            <div class="designation">Especialista en Estructuras</div>
                             <ul class="social-icon">
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -286,8 +286,8 @@
                     <div class="inner-box wow fadeInUp" data-wow-duration="1500ms">
                         <div class="image"><img src="assets/images/resource/team-3.jpg" alt=""></div>
                         <div class="content">
-                            <h4>Mike Hardson</h4>
-                            <div class="designation">Mechanic</div>
+                            <h4>Miguel Herrera</h4>
+                            <div class="designation">Jefe de Taller</div>
                             <ul class="social-icon">
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -307,10 +307,10 @@
                 <div class="col-xl-7 offset-xl-5">
                     <div class="wrapper-box">
                         <div class="sec-title light">
-                            <div class="sub-title">Our Fun Facts</div>
-                            <h2>Dream it, We can <br>Build it</h2>
+                            <div class="sub-title">Nuestros Números</div>
+                            <h2>Soñalo, Nosotros <br>Lo Construimos</h2>
                         </div>
-                        <div class="text">There are many variations of passages of Lorem Ipsum but the majority is have suffered alteration in some form, or randomised words which don't look even slightly believable.</div>
+                        <div class="text">Con años de experiencia en el rubro, hemos completado cientos de proyectos exitosos. Nuestro compromiso con la calidad y la satisfacción del cliente nos ha posicionado como referentes en trabajos metálicos en Santiago.</div>
                         <div class="facts-area">
                             <div class="row">
                                 <!--Column-->
@@ -320,7 +320,7 @@
                                             <div class="count-outer count-box">
                                                 <span class="count-text" data-speed="3000" data-stop="800">0</span>
                                             </div>
-                                            <div class="fact-text"> Projects <br> Completed</div>
+                                            <div class="fact-text">Proyectos <br> Completados</div>
                                         </div>
                                     </div>
                                 </div>
@@ -331,7 +331,7 @@
                                             <div class="count-outer count-box">
                                                 <span class="count-text" data-speed="3000" data-stop="681">0</span>
                                             </div>
-                                            <div class="fact-text"> Satisfied <br> Clients</div>
+                                            <div class="fact-text">Clientes <br> Satisfechos</div>
                                         </div>
                                     </div>
                                 </div>
@@ -342,7 +342,7 @@
                                             <div class="count-outer count-box">
                                                 <span class="count-text" data-speed="3000" data-stop="909">0</span>
                                             </div>
-                                            <div class="fact-text">Metal <br> Works</div>
+                                            <div class="fact-text">Trabajos <br> Metálicos</div>
                                         </div>
                                     </div>
                                 </div>
@@ -358,16 +358,16 @@
     <section class="news-section">
         <div class="auto-container">
             <div class="sec-title text-center">
-                <div class="sub-title">From The Blog</div>
-                <h2>News & artilces</h2>
+                <div class="sub-title">Desde el Blog</div>
+                <h2>Noticias y Artículos</h2>
             </div>
             <div class="row">
                 <div class="col-lg-6 news-block">
                     <div class="inner-box wow fadeInUp" data-wow-duration="1500ms">
                         <div class="image"><img src="assets/images/resource/news-1.jpg" alt=""></div>
                         <div class="content">
-                            <div class="post-meta">by Admin  .  20 Aug, 2020</div>
-                            <h4><a href="blog-details.php">It Joins two <br> pieces of metal</a></h4>
+                            <div class="post-meta">por Admin  .  Dic 2025</div>
+                            <h4><a href="blog-details.php">Técnicas de Soldadura <br> Profesional</a></h4>
                         </div>
                     </div>
                 </div>
@@ -375,15 +375,15 @@
                     <div class="inner-box wow fadeInUp" data-wow-duration="1500ms">
                         <div class="image"><img src="assets/images/resource/news-2.jpg" alt=""></div>
                         <div class="content">
-                            <div class="post-meta">by Admin  .  20 Aug, 2020</div>
-                            <h4><a href="blog-details.php">when the welding <br> Output is on</a></h4>
+                            <div class="post-meta">por Admin  .  Dic 2025</div>
+                            <h4><a href="blog-details.php">Mantenimiento de <br> Estructuras Metálicas</a></h4>
                         </div>
                     </div>
                     <div class="inner-box wow fadeInUp" data-wow-duration="1500ms">
                         <div class="image"><img src="assets/images/resource/news-3.jpg" alt=""></div>
                         <div class="content">
-                            <div class="post-meta">by Admin  .  20 Aug, 2020</div>
-                            <h4><a href="blog-details.php">We're creating a <br> metal product</a></h4>
+                            <div class="post-meta">por Admin  .  Dic 2025</div>
+                            <h4><a href="blog-details.php">Fabricación de <br> Productos Metálicos</a></h4>
                         </div>
                     </div>
                 </div>
@@ -411,18 +411,18 @@
             <div class="wrapper-box">
                 <div class="row">
                     <div class="col-lg-6">
-                        <h3>Subscribe to newsletter</h3>
+                        <h3>Suscríbete a nuestro boletín</h3>
                         <div class="icon-box wow fadeInUp" data-wow-duration="1500ms">
                             <div class="icon"><span class="flaticon-mail-1"></span></div>
-                            <div class="text">Aliq is notm hendr erit a lorem ipsum insum simply free text image pellen tesion available.</div>
+                            <div class="text">Recibe noticias, consejos y ofertas especiales directamente en tu correo electrónico.</div>
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="newsletter-form">
                             <form class="ajax-sub-form" method="post">
                                 <div class="form-group">
-                                    <input type="email" placeholder="Enter Your Email Address..." id="subscription-email">
-                                    <button type="submit" class="theme-btn btn-style-one"><span>Subscribe</span></button>
+                                    <input type="email" placeholder="Ingresa tu correo electrónico..." id="subscription-email">
+                                    <button type="submit" class="theme-btn btn-style-one"><span>Suscribirse</span></button>
                                     <label class="subscription-label" for="subscription-email"></label>
                                 </div>
                             </form>
