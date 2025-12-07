@@ -34,19 +34,6 @@ MsanSebastian/          # Sitio web principal
 
 Este proyecto utiliza GitHub Actions para validar el código automáticamente.
 
-### Despliegue a Hostgator (vía FTP)
-
-1. Conecta a tu hosting de Hostgator vía FTP (FileZilla, WinSCP, etc.)
-2. Sube todo el contenido de la carpeta `MsanSebastian/` a tu directorio público (`public_html/`)
-3. Asegúrate de que `index.html` esté en la raíz del directorio público
-
-### Credenciales FTP
-- **Host**: Tu dominio o servidor FTP de Hostgator
-- **Usuario**: Tu usuario FTP
-- **Puerto**: 21 (FTP) o 22 (SFTP)
-
-El sitio estará disponible en tu dominio de Hostgator.
-
 ## 👥 Contacto
 
 Maestranza San Sebastian - Servicios de fabricación y soldadura industrial
