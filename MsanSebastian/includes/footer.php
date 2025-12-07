@@ -18,9 +18,8 @@
                             <div class="widget-content">
                                 <ul class="list">
                                     <li><a href="about.php">Sobre Nosotros</a></li>
-                                    <li><a href="services.php">Nuestros Servicios</a></li>
-                                    <li><a href="projects.php">Proyectos</a></li>
-                                    <li><a href="blog.php">Noticias</a></li>
+                                    <li><a href="services.php">Servicios</a></li>
+                                    <li><a href="projects.php">Proyectos</a></li>                                    
                                     <li><a href="contact.php">Contacto</a></li>
                                 </ul>
                             </div>
