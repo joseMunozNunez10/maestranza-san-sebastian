@@ -7,12 +7,19 @@ $mail = new PHPMailer();
 
 //$mail->SMTPDebug = 3;                               // Enable verbose debug output
 $mail->isSMTP();                                      // Set mailer to use SMTP
-$mail->Host = 'server.ourhtmldemo.com';  // Specify main and backup SMTP servers
+$mail->Host = 'mail.maestranzasansebastian.cl';  // Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                                             // Enable SMTP authentication
-$mail->Username = 'cform@html.tonatheme.com';                 // SMTP username
-$mail->Password = 'AsDf12**';             // SMTP password
-$mail->SMTPSecure = true;                            // Enable TLS encryption, `ssl` also accepted
-$mail->Port = 465;                                    // TCP port to connect to
+$mail->Username = 'hsalgado@maestranzasansebastian.cl';                 // SMTP username
+$mail->Password = 'sebasofichanchu2021.';             // SMTP password
+$mail->SMTPSecure = 'tls';                            // Enable TLS encryption
+$mail->Port = 587;                                    // TCP port to connect to
+$mail->SMTPOptions = array(
+    'ssl' => array(
+        'verify_peer' => false,
+        'verify_peer_name' => false,
+        'allow_self_signed' => true
+    )
+);
 
 $message = "";
 $status = "false";
@@ -30,8 +37,8 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
 
         $botcheck = $_POST['form_botcheck'];
 
-        $toemail = 'templatecform@gmail.com'; // Your Email Address
-        $toname = 'template_path'; // Your Name
+        $toemail = 'hsalgado@maestranzasansebastian.cl'; // Your Email Address
+        $toname = 'Maestranza San Sebastian'; // Your Name
 
         if( $botcheck == '' ) {
 

@@ -1,287 +1,292 @@
 /* Default Color File  */
 
-
-
+/* Color Palette:
+   Primary: #ff8000 (Orange)
+   Secondary: #ff9933 (Light Orange)
+   Accent: #cc6600 (Dark Orange)
+   Dark: #1a1a1a (Almost Black)
+   Light: #f5f5f5 (Light Gray)
+*/
 
 /* Color */
 a:hover,
 a {
-    color: #ce9233;
+    color: #ff8000;
 }
 
 .scroll-to-top:hover,
 .preloader-close,
 .search-popup .search-form fieldset input[type="submit"] {
-    background-color: #ce9233;
+    background-color: #ff8000;
 }
 
 .scroll-to-top {
-    color: #ce9233;
-    border: 2px dashed #ce9233;
+    color: #ff8000;
+    border: 2px dashed #ff8000;
 }
 
 
 .btn-style-one.style-two i {
-    color: #ce9233;
+    color: #ff8000;
 }
 
 .btn-style-one.style-two:before {
-    background: #ce9233;
+    background: #ff8000;
 }
 
 .btn-style-one.style-two:hover {
-    border-color: #ce9233;
+    border-color: #ff8000;
 }
 
 .btn-style-one {
-    background-color: #ce9233;
+    background-color: #ff8000;
 }
 
 .header-top .social-icon li a:hover {
-    color: #ce9233;
+    color: #ff8000;
 }
 
 .main-menu .navigation>li>a:before {
-    border: 3px solid #ce9233;
+    border: 3px solid #ff8000;
 }
 
 .main-menu .navigation>li>ul>li>a:hover {
-    color: #ce9233;
+    color: #ff8000;
 }
 
 .main-menu .navigation>li>ul>li>ul>li>a:hover {
-    color: #ce9233;
+    color: #ff8000;
 }
 
 .banner-section .banner-slider-button-next:hover {
-    background-color: #ce9233;
+    background-color: #ff8000;
 }
 
 .banner-section .banner-slider-button-prev:hover {
-    background-color: #ce9233;
+    background-color: #ff8000;
 }
 
 .sec-title .sub-title {
-    color: #ce9233;
-    border: 3px solid #ce9233;
+    color: #ff8000;
+    border: 3px solid #ff8000;
 }
 
 .links-widget .list li a:hover {
-    color: #ce9233;
+    color: #ff8000;
 }
 
 .news-widget .date {
-    color: #ce9233;
+    color: #ff8000;
 }
 
 .contact-widget .icon {
-    color: #ce9233;
+    color: #ff8000;
 }
 
 .footer-bottom .social-icon li a:hover {
-    background: #ce9233;
+    background: #ff8000;
 }
 
 .welcome-section .image-one:before {
-    background-color: #ce9233;
+    background-color: #ff8000;
 }
 
 .welcome-section .list li:before {
-    color: #ce9233;
+    color: #ff8000;
 }
 
 .welcome-section .icon-box .icon {
-    color: #ce9233;
+    color: #ff8000;
 }
 .welcome-section .note {
-    border: 10px solid #ce9233;
+    border: 10px solid #ff8000;
 }
 
 /* CTA section */
 
 .cta-section {
-    background-color: #ce9233;
+    background-color: #ff8000;
 }
 
 .cta-section .link .theme-btn:hover {
-    color: #ce9233;
+    color: #ff8000;
 }
 
 .service-block .content h3 a:hover {
-    color: #ce9233;
+    color: #ff8000;
 }
 
 .service-block .content .btn-style-one:before {
-    background-color: #ce9233;
+    background-color: #ff8000;
 }
 
 .testimonials-section .swiper-slide-thumb-active .author-thumb:before {
-	border-color: #ce9233;
+	border-color: #ff8000;
 }
 
 .testimonial-block .author-title span {
-    color: #ce9233;
+    color: #ff8000;
 }
 
 .testimonials-section .icon-box .icon {
-    background-color: #ce9233;
+    background-color: #ff8000;
 }
 
 .team-block .content:before {
-    background-color: #ce9233;
+    background-color: #ff8000;
 }
 
 .team-block .social-icon li a:hover {
-    color: #ce9233;
+    color: #ff8000;
     background: #fff;
 }
 .facts-section .content {
-    border: 4px solid #ce9233;
+    border: 4px solid #ff8000;
 }
 
 .facts-section .content:before {
-    background-color: #ce9233;
+    background-color: #ff8000;
 }
 
 .news-block h4 a:hover {
-    color: #ce9233;
+    color: #ff8000;
 }
 
 .newsletter-section .icon {
-    color: #ce9233;
+    color: #ff8000;
 }
 
 .banner-section.style-two .content-box .inner:before {
-    background: #ce9233;
+    background: #ff8000;
 }
 
 .welcome-section-two .experience-years .icon {
-    color: #ce9233;
+    color: #ff8000;
 }
 
 .progress-levels .progress-box .bar .bar-fill {
-    background: #ce9233;
+    background: #ff8000;
 }
 
 .welcome-section-two .list li:before {
-    color: #ce9233;
+    color: #ff8000;
 }
 
 .services-section .service-block .image .border-shape:after {
-    background: #ce9233;
+    background: #ff8000;
 }
 
 .video-section .video-btn span {
-    background-color: #ce9233;
+    background-color: #ff8000;
 }
 
 .video-section .video-btn a {
-	background-color: #ce9233;
+	background-color: #ff8000;
 }
 
 .projects-section:before {
-    background-color: #ce9233;
+    background-color: #ff8000;
 }
 
 .project-block .inner-box:hover h4 a:hover {
-    color: #ce9233;
+    color: #ff8000;
 }
 
 .accordion-box .block .icon-outer {
-    color: #ce9233;
+    color: #ff8000;
 }
 
 .news-block-two .date {
-    background-color: #ce9233;
+    background-color: #ff8000;
 }
 
 .news-block-two .post-meta a i {
-    color: #ce9233;
+    color: #ff8000;
 }
 
 .news-block-two h4 a:hover {
-    color: #ce9233;
+    color: #ff8000;
 }
 
 .page-title .bread-crumb {
-    border: 3px solid #ce9233;
+    border: 3px solid #ff8000;
 }
 
 .welcome-section-three .experience-years {
-    background-color: #ce9233;
+    background-color: #ff8000;
 }
 
 .welcome-section-three .list li:before {
-    color: #ce9233;
+    color: #ff8000;
 }
 
 .contact-info .icon {
-    background: #ce9233;
+    background: #ff8000;
 }
 
 .news-block-three .date {
-    background-color: #ce9233;
+    background-color: #ff8000;
 }
 
 .news-block-three .post-meta a i {
-    color: #ce9233;
+    color: #ff8000;
 }
 
 .news-block-three h4 a:hover {
-    color: #ce9233;
+    color: #ff8000;
 }
 
 .styled-pagination li a:hover,
 .styled-pagination li a.active{
-    background-color: #ce9233;
+    background-color: #ff8000;
 }
 
 .news-widget .post:hover .image:before {
-    border-color: #ce9233;
+    border-color: #ff8000;
 }
 
 .header-top ul.contact-info li i {
-    color: #ce9233;
+    color: #ff8000;
 }
 
 .blog-sidebar .widget.search-box {
-    background: #ce9233;
+    background: #ff8000;
 }
 
 .sidebar .search-box .form-group button{
-    color: #ce9233;
+    color: #ff8000;
 }
 
 .category-widget .cat-list li a:hover {
-    color: #ce9233;
+    color: #ff8000;
 }
 
 .news-widget-two .post a:hover{
-    color: #ce9233;
+    color: #ff8000;
 }
 
 .news-widget-two .comment{
-    color: #ce9233;
+    color: #ff8000;
 }
 .tag-widget a:hover{
-    background-color: #ce9233;
+    background-color: #ff8000;
 }
 
 .blog-sidebar .widget .widget_title {
-    color: #ce9233;
-    border: 3px solid #ce9233;
+    color: #ff8000;
+    border: 3px solid #ff8000;
 }
 
 .comments-area .comment-box:hover {
-    border-color: #ce9233;
+    border-color: #ff8000;
 }
 
 .comments-area .date {
-    color: #ce9233;
+    color: #ff8000;
 }
 
 .comments-area .comment-box .reply-comment-btn {
-    background: #ce9233;
+    background: #ff8000;
 }
 
 .comment-form .form-group input[type="text"]:focus,
@@ -290,40 +295,40 @@ a {
 .comment-form .form-group input[type="email"]:focus,
 .comment-form .form-group select:focus,
 .comment-form .form-group textarea:focus {
-    border-color: #ce9233;
+    border-color: #ff8000;
 }
 
 .post-tag ul.tag li a:hover {
-    color: #ce9233;
+    color: #ff8000;
 }
 
 .post-tag .social-icon li a:hover {
-    background: #ce9233;
+    background: #ff8000;
 }
 
 .project-details .list li:before {
-    color: #ce9233;
+    color: #ff8000;
 }
 
 .service-details .service-benifit .icon-box .icon {
-    color: #ce9233;
+    color: #ff8000;
 }
 
 .category-widget-two li a:hover,
 .category-widget-two li.active a {
-    background: #ce9233;
+    background: #ff8000;
 }
 
 .consult-widget {
-    background: #ce9233;
+    background: #ff8000;
 }
 
 .consult-widget .icon {
-    color: #ce9233;
+    color: #ff8000;
 }
 
 .consult-widget .phone a:hover {
-    color: #ce9233;
+    color: #ff8000;
 }
 
 

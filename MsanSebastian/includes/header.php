@@ -57,7 +57,7 @@
                 <div class="inner-container">
                     <!--Logo-->
                     <div class="logo-box">
-                        <div class="logo"><a href="index.php"><img src="assets/images/logo ss.png" alt=""></a></div>
+                        <div class="logo"><a href="index.php"><img src="assets/images/logo-2 ss.png" alt=""></a></div>
                     </div>
                     <div class="right-column">
                         <!--Nav Box-->
@@ -69,17 +69,13 @@
                             <nav class="main-menu navbar-expand-md navbar-light">
                                 <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                     <ul class="navigation">
-                                        <li class="dropdown"><a href="index.php">inicio</a>
-                                            <ul>
-                                                <li><a href="index.php">Inicio</a></li>                                                
-                                            </ul>
-                                        </li>
+                                        <li><a href="index.php">Inicio</a></li>
                                         <li><a href="about.php">Sobre Nosotros</a></li>
                                         <li class="dropdown"><a href="services.php">Servicios</a>
                                             <ul>
-                                                <li><a href="services.php">Obras Mayores</a></li>
-                                                <li><a href="steel-welding.php">Obras Menore</a></li>                                                
-                                                <li><a href="pipe-welding.php">Carrocería</a></li>                                                
+                                                <li><a href="obras_mayores.php">Obras Mayores</a></li>
+                                                <li><a href="obras_menores.php">Obras Menores</a></li>                                                
+                                                <li><a href="carroceria.php">Carrocería</a></li>                                                
                                             </ul>
                                         </li>
                                         <!-- no recuerdo si lo quiero poner
@@ -108,7 +104,7 @@
                     <div class="inner-container">
                         <!--Logo-->
                         <div class="logo-box">
-                            <div class="logo"><a href="index.php"><img src="assets/images/logo ss.png" alt=""></a></div>
+                            <div class="logo"><a href="index.php"><img src="assets/images/logo-2 ss.png" alt=""></a></div>
                         </div>
                         <div class="right-column">
                             <!--Nav Box-->
@@ -132,7 +128,7 @@
             <div class="close-btn"><span class="icon flaticon-remove"></span></div>
             
             <nav class="menu-box">
-                <div class="nav-logo"><a href="index.php"><img src="assets/images/logo ss.png" alt="" title=""></a></div>
+                <div class="nav-logo"><a href="index.php"><img src="assets/images/logo-2 ss.png" alt="" title=""></a></div>
                 <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
 				<!--Social Links-->
 				<div class="social-links">

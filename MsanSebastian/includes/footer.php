@@ -24,28 +24,7 @@
                                 </ul>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="widget news-widget">
-                            <h4 class="widget_title">Últimas Noticias</h4>
-                            <div class="news-widget-wrapper">
-                                <div class="post">
-                                    <div class="image"><a href="blog-details.php"><img src="assets/images/resource/news-4.jpg" alt=""></a></div>
-                                    <div class="content">
-                                        <div class="date">15 Ago, 2020</div>
-                                        <h4><a href="blog-details.php">Creando productos <br>metálicos</a></h4>
-                                    </div>
-                                </div>
-                                <div class="post">
-                                    <div class="image"><a href="blog-details.php"><img src="assets/images/resource/news-5.jpg" alt=""></a></div>
-                                    <div class="content">
-                                        <div class="date">15 Ago, 2020</div>
-                                        <h4><a href="blog-details.php">Proyectos de <br>soldadura</a></h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    </div>                    
                     <div class="col-lg-3 col-md-6">
                         <div class="widget contact-widget">
                             <h4 class="widget_title">Contacto</h4>
