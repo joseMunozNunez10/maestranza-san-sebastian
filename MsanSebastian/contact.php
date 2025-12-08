@@ -18,46 +18,53 @@
     </section>
 
     <!-- Contact section -->
-    <section class="contact-section">
+    <section class="contact-section" style="padding: 100px 0 60px 0; background: #f5f5f5;">
         <div class="auto-container">
-            <div class="row">
-                <div class="col-lg-8">
-                    <div class="contact-map mb-30">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d425311.48810647964!2d-70.84872379316214!3d-33.61189425409555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1skaufmann%20santiago!5e0!3m2!1ses!2scl!4v1765123322011!5m2!1ses!2scl" width="600" height="750" frameborder="0" style="border:0; border-radius: 50%; max-width: 750px; width: 100%" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" aria-hidden="false" tabindex="0"></iframe>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="contact-details mb-30">
-                        <div class="sec-title mb-40">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="contact-details mb-30" style="background: #fff; padding: 50px 40px; border-radius: 20px; box-shadow: 0 15px 50px rgba(0,0,0,0.1);">
+                        <div class="sec-title text-center mb-50">
                             <div class="sub-title">Contáctanos</div>
-                            <h2>Comunícate <br> con Nosotros</h2>
-                        </div>
-                        <div class="text mb-40">Estamos disponibles para atender tus consultas sobre proyectos de maestranza, fabricación metálica y carrocería industrial.</div> 
-                        <div class="contact-info">
-                            <div class="icon-box">
-                                <div class="icon"><span class="flaticon-mail"></span></div>
-                                <div class="content">
-                                    <h5>Llama en Cualquier Momento</h5>
-                                    <div class="text"><a href="tel:+56990219851">+569 9021 9851</a></div>
+                            <h2>Comunícate con Nosotros</h2>
+                            <div class="text" style="color: #666; line-height: 1.8; max-width: 700px; margin: 20px auto 0;">Estamos disponibles para atender tus consultas sobre proyectos de maestranza, fabricación metálica y carrocería industrial.</div>
+                        </div> 
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="icon-box" style="text-align: center; padding: 30px 20px; background: linear-gradient(135deg, rgba(255,128,0,0.1) 0%, rgba(255,153,51,0.1) 100%); border-radius: 12px; transition: all 0.3s; height: 100%;">
+                                    <div class="icon" style="width: 60px; height: 60px; background: linear-gradient(135deg, #ff8000 0%, #ff9933 100%); border-radius: 12px; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px;"><span class="fas fa-phone-alt" style="color: #fff; font-size: 24px;"></span></div>
+                                    <h5 style="color: #ff8000; margin-bottom: 12px; font-size: 18px; font-weight: 600;">Llama en Cualquier Momento</h5>
+                                    <div class="text" style="color: #333; font-weight: 500; font-size: 16px;"><a href="tel:+56990219851" style="color: #333;">+569 9021 9851</a></div>
                                 </div>
                             </div>
-                            <div class="icon-box">
-                                <div class="icon"><span class="flaticon-mail"></span></div>
-                                <div class="content">
-                                    <h5>Escríbenos</h5>
-                                    <div class="text"><a href="mailto:hsalgado@maestranzasansebastian.cl">hsalgado@maestranzasansebastian.cl</a></div>
+                            <div class="col-md-4">
+                                <div class="icon-box" style="text-align: center; padding: 30px 20px; background: linear-gradient(135deg, rgba(255,128,0,0.1) 0%, rgba(255,153,51,0.1) 100%); border-radius: 12px; transition: all 0.3s; height: 100%;">
+                                    <div class="icon" style="width: 60px; height: 60px; background: linear-gradient(135deg, #ff8000 0%, #ff9933 100%); border-radius: 12px; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px;"><span class="fas fa-envelope" style="color: #fff; font-size: 24px;"></span></div>
+                                    <h5 style="color: #ff8000; margin-bottom: 12px; font-size: 18px; font-weight: 600;">Escríbenos</h5>
+                                    <div class="text" style="color: #333; font-weight: 500; font-size: 14px; word-break: break-word;"><a href="mailto:hsalgado@maestranzasansebastian.cl" style="color: #333;">hsalgado@maestranzasansebastian.cl</a></div>
                                 </div>
                             </div>                                
-                            <div class="icon-box">
-                                <div class="icon"><span class="flaticon-calling"></span></div>
-                                <div class="content">
-                                    <h5>Visítanos</h5>
-                                    <div class="text">San Sebastián, Chile</div>
+                            <div class="col-md-4">
+                                <div class="icon-box" style="text-align: center; padding: 30px 20px; background: linear-gradient(135deg, rgba(255,128,0,0.1) 0%, rgba(255,153,51,0.1) 100%); border-radius: 12px; transition: all 0.3s; height: 100%;">
+                                    <div class="icon" style="width: 60px; height: 60px; background: linear-gradient(135deg, #ff8000 0%, #ff9933 100%); border-radius: 12px; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px;"><span class="fas fa-map-marker-alt" style="color: #fff; font-size: 24px;"></span></div>
+                                    <h5 style="color: #ff8000; margin-bottom: 12px; font-size: 18px; font-weight: 600;">Visítanos</h5>
+                                    <div class="text" style="color: #333; font-weight: 500; font-size: 16px;">Santiago de Chile</div>
                                 </div>
                             </div>
-                        </div>                       
+                        </div>
                     </div>                    
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section" style="padding: 0 0 100px 0; background: #f5f5f5;">
+        <div class="auto-container">
+            <div class="contact-map" style="position: relative; border-radius: 20px; overflow: hidden; box-shadow: 0 15px 50px rgba(0,0,0,0.15);">
+                <div style="position: absolute; top: 20px; left: 20px; z-index: 10; background: linear-gradient(135deg, #ff8000 0%, #ff9933 100%); padding: 12px 20px; border-radius: 10px; box-shadow: 0 5px 20px rgba(255,128,0,0.3);">
+                    <h4 style="color: #fff; margin: 0; font-size: 16px; font-weight: 600;"><i class="fas fa-map-marker-alt" style="margin-right: 8px;"></i>Nuestra Ubicación</h4>
+                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d425311.48810647964!2d-70.84872379316214!3d-33.61189425409555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1skaufmann%20santiago!5e0!3m2!1ses!2scl!4v1765123322011!5m2!1ses!2scl" width="600" height="450" frameborder="0" style="border:0; width: 100%; filter: grayscale(20%) contrast(1.1);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" aria-hidden="false" tabindex="0"></iframe>
             </div>
         </div>
     </section>
