@@ -3706,6 +3706,12 @@ img {
     display: inline-block;
 }
 
+.welcome-section-three .image-one img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 .welcome-section-three .bottom-content {
     position: relative;
 }
