@@ -31,7 +31,7 @@
                         <div class="row">
                             <div class="col-md-4">
                                 <div class="icon-box" style="text-align: center; padding: 30px 20px; background: linear-gradient(135deg, rgba(255,128,0,0.1) 0%, rgba(255,153,51,0.1) 100%); border-radius: 12px; transition: all 0.3s; height: 100%;">
-                                    <div class="icon" style="width: 60px; height: 60px; background: linear-gradient(135deg, #ff8000 0%, #ff9933 100%); border-radius: 12px; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px;"><span class="fas fa-phone-alt" style="color: #fff; font-size: 24px;"></span></div>
+                                    <div class="icon" style="width: 60px; height: 60px; background: linear-gradient(135deg, #ff8000 0%, #ff9933 100%); border-radius: 12px; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px;"><span class="fas fa-phone" style="color: #fff; font-size: 24px;"></span></div>
                                     <h5 style="color: #ff8000; margin-bottom: 12px; font-size: 18px; font-weight: 600;">Llama en Cualquier Momento</h5>
                                     <div class="text" style="color: #333; font-weight: 500; font-size: 16px;"><a href="tel:+56990219851" style="color: #333;">+569 9021 9851</a></div>
                                 </div>
@@ -58,12 +58,12 @@
     </section>
 
     <!-- Map Section -->
-    <section class="map-section" style="padding: 0 0 100px 0; background: #f5f5f5;">
+    <section id="mapa-ubicacion" class="map-section" style="padding: 0 0 100px 0; background: #f5f5f5;">
         <div class="auto-container">
             <div class="contact-map" style="position: relative; border-radius: 20px; overflow: hidden; box-shadow: 0 15px 50px rgba(0,0,0,0.15);">
-                <div style="position: absolute; top: 20px; left: 20px; z-index: 10; background: linear-gradient(135deg, #ff8000 0%, #ff9933 100%); padding: 12px 20px; border-radius: 10px; box-shadow: 0 5px 20px rgba(255,128,0,0.3);">
+                <a href="#mapa-ubicacion" style="position: absolute; top: 20px; left: 20px; z-index: 10; background: linear-gradient(135deg, #ff8000 0%, #ff9933 100%); padding: 12px 20px; border-radius: 10px; box-shadow: 0 5px 20px rgba(255,128,0,0.3); text-decoration: none; cursor: pointer; transition: all 0.3s;">
                     <h4 style="color: #fff; margin: 0; font-size: 16px; font-weight: 600;"><i class="fas fa-map-marker-alt" style="margin-right: 8px;"></i>Nuestra Ubicación</h4>
-                </div>
+                </a>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d425311.48810647964!2d-70.84872379316214!3d-33.61189425409555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1skaufmann%20santiago!5e0!3m2!1ses!2scl!4v1765123322011!5m2!1ses!2scl" width="600" height="450" frameborder="0" style="border:0; width: 100%; filter: grayscale(20%) contrast(1.1);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" aria-hidden="false" tabindex="0"></iframe>
             </div>
         </div>
@@ -106,7 +106,20 @@
         </div>
     </section>
 
-    
-
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Smooth scroll para el badge de ubicación
+    const badges = document.querySelectorAll('a[href="#mapa-ubicacion"]');
+    badges.forEach(badge => {
+        badge.addEventListener('click', function(e) {
+            e.preventDefault();
+            document.getElementById('mapa-ubicacion').scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
+            });
+        });
+    });
+});
+</script>
 
 <?php include 'includes/footer.php'; ?>
