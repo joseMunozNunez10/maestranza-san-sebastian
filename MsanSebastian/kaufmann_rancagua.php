@@ -38,9 +38,10 @@
                             </div>
                             <div class="column">
                                 <h5>Servicio</h5>
-                                <p>Remodelacion de edificio<br>
-                                para sala de ventas<br>
-                                (showroom)</p>
+                                <p>.- Estructura metalica para casino y camarines <br>  
+                                .- Ampliacion taller para vehiculos <br>
+                                .- Fabricion de estructura para sala <br>
+                                de ventas Showroom</p>
                             </div>
                         </div>
                     </div>
