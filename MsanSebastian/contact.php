@@ -108,6 +108,7 @@
 
 <style>
 #form-result {
+    display: block !important;
     margin: 30px auto 0;
     padding: 25px 30px;
     border-radius: 12px;
@@ -116,6 +117,7 @@
     text-align: center;
     max-width: 600px;
     box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    min-height: 60px;
 }
 
 #form-result.alert-success {

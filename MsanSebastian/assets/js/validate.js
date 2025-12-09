@@ -34,6 +34,7 @@ if($("#contact-form").length){
 	        url: 'assets/inc/sendmail.php',
 	        dataType:  'json',
 	        success: function(data) {
+	          console.log('Response:', data); // Debug
 	          if( data.status == 'true' ) {
 	            $(form).find('.form-control').val('');
 	            $(form_result_div).removeClass('alert-danger').addClass('alert-success');
@@ -41,12 +42,18 @@ if($("#contact-form").length){
 	            $(form_result_div).removeClass('alert-success').addClass('alert-danger');
 	          }
 	          form_btn.prop('disabled', false).html(form_btn_old_msg);
-	          $(form_result_div).html(data.message).fadeIn('slow');
+	          $(form_result_div).html(data.message).show();
 	          setTimeout(function(){ 
 	            $('html, body').animate({
 	              scrollTop: $(form_result_div).offset().top - 100
 	            }, 500);
 	          }, 500);
+	        },
+	        error: function(xhr, status, error) {
+	          console.error('Error:', error); // Debug
+	          form_btn.prop('disabled', false).html(form_btn_old_msg);
+	          $(form_result_div).removeClass('alert-success').addClass('alert-danger');
+	          $(form_result_div).html('Ocurrió un error al enviar el formulario. Por favor intenta nuevamente.').show();
 	        }
 	      });
 	    }
