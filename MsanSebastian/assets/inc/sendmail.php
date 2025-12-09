@@ -10,7 +10,7 @@ $mail->isSMTP();                                      // Set mailer to use SMTP
 $mail->Host = 'localhost';                            // Hostgator uses localhost for SMTP
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
 $mail->Username = 'hsalgado@maestranzasansebastian.cl'; // SMTP username
-$mail->Password = 'sebasofichanchu2021.';             // SMTP password
+$mail->Password = 'Sebasofichanchu2021.';             // SMTP password
 $mail->SMTPSecure = false;                            // No encryption for localhost
 $mail->SMTPAutoTLS = false;                           // Disable TLS auto-detection
 $mail->Port = 587;                                    // Standard SMTP port
