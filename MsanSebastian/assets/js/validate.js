@@ -24,14 +24,20 @@
 if($("#contact-form").length){
 	$("#contact-form").validate({
 	    submitHandler: function(form) {
+	      console.log('Form submit handler called'); // Debug
 	      var form_btn = $(form).find('button[type="submit"]');
 	      var form_result_div = '#form-result';
 	      $(form_result_div).remove();
 	      form_btn.before('<div id="form-result" class="alert" role="alert" style="display: none;"></div>');
 	      var form_btn_old_msg = form_btn.html();
 	      form_btn.html(form_btn.prop('disabled', true).data("loading-text"));
+	      
+	      var ajaxUrl = $(form).attr('data-action') || 'assets/inc/sendmail.php';
+	      console.log('Sending to URL:', ajaxUrl); // Debug
+	      
 	      $(form).ajaxSubmit({
-	        url: 'assets/inc/sendmail.php',
+	        url: ajaxUrl,
+	        type: 'POST',
 	        dataType:  'json',
 	        success: function(data) {
 	          console.log('Response:', data); // Debug
