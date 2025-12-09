@@ -84,6 +84,7 @@
 <script src="assets/js/jquery.polyglot.language.switcher.js"></script>
 <script src="assets/js/jquery.ajaxchimp.min.js"></script>
 <script src="assets/js/parallax-scroll.js"></script>
+<script src="assets/js/validate.js"></script>
 
 <script src="assets/js/script.js"></script>
 
