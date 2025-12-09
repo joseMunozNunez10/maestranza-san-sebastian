@@ -243,7 +243,7 @@
                     <div class="wrapper-box">
                         <div class="sec-title light">
                             <div class="sub-title">Nuestros Números</div>
-                            <h2>Soñalo, Nosotros <br>Lo Construimos</h2>
+                            <h2>Sueñalo, Nosotros <br>Lo Construimos</h2>
                         </div>
                         <div class="text">Con mas de 13 años de experiencia en el rubro, hemos completado cientos de proyectos exitosos. Nuestro compromiso con la calidad y la satisfacción del cliente nos ha posicionado como referentes en trabajos metálicos en Santiago.</div>
                         <div class="facts-area">
