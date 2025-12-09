@@ -1,8 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
 <meta charset="utf-8">
-<title>Maestranza San Sebastian</title>
+<title>Maestranza San Sebastián | Trabajos Metálicos y Soldadura en Santiago</title>
+
+<!-- SEO Meta Tags -->
+<meta name="description" content="Maestranza San Sebastián en Estación Central, Santiago. Especialistas en trabajos metálicos, soldadura, estructuras de acero, carrocería industrial y fabricación metálica. +25 años de experiencia.">
+<meta name="keywords" content="maestranza santiago, trabajos metálicos, soldadura, estructuras de acero, carrocería industrial, fabricación metálica, estación central, maestranza san sebastián, obras metálicas, soldadura industrial">
+<meta name="author" content="Maestranza San Sebastián">
+<meta name="robots" content="index, follow">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://maestranzasansebastian.cl/">
+<meta property="og:title" content="Maestranza San Sebastián | Trabajos Metálicos y Soldadura en Santiago">
+<meta property="og:description" content="Especialistas en trabajos metálicos, soldadura, estructuras de acero y carrocería industrial. Av. Las Parcelas 5048, Estación Central. +569 9021 9851">
+<meta property="og:image" content="https://maestranzasansebastian.cl/assets/images/logo.png">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://maestranzasansebastian.cl/">
+<meta property="twitter:title" content="Maestranza San Sebastián | Trabajos Metálicos y Soldadura en Santiago">
+<meta property="twitter:description" content="Especialistas en trabajos metálicos, soldadura, estructuras de acero y carrocería industrial. Av. Las Parcelas 5048, Estación Central.">
+<meta property="twitter:image" content="https://maestranzasansebastian.cl/assets/images/logo.png">
+
 <!-- Stylesheets -->
 <link href="assets/css/bootstrap.css" rel="stylesheet">
 <link href="assets/css/style.css" rel="stylesheet">
@@ -19,6 +40,51 @@
 <!-- Responsive -->
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+<!-- Schema.org LocalBusiness Markup -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Maestranza San Sebastián",
+  "image": "https://maestranzasansebastian.cl/assets/images/logo.png",
+  "description": "Maestranza especializada en trabajos metálicos, soldadura industrial, estructuras de acero y carrocería. Más de 25 años de experiencia en Santiago.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Av. Las Parcelas 5048",
+    "addressLocality": "Estación Central",
+    "addressRegion": "Región Metropolitana",
+    "postalCode": "9160000",
+    "addressCountry": "CL"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": -33.4569,
+    "longitude": -70.7080
+  },
+  "telephone": "+56990219851",
+  "email": "hsalgado@maestranzasansebastian.cl",
+  "url": "https://maestranzasansebastian.cl",
+  "priceRange": "$$",
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+    ],
+    "opens": "08:00",
+    "closes": "18:00"
+  },
+  "sameAs": [
+    "https://www.facebook.com/profile.php?id=100039711175826",
+    "https://www.instagram.com/maestranzasansebastian/"
+  ]
+}
+</script>
+
 <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
 <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
 </head>
@@ -38,7 +104,7 @@
                         <ul class="contact-info">
                             <li><a href="mailto:hsalgado@maestranzasansebastian.cl"><i class="flaticon-email-1"></i>hsalgado@maestranzasansebastian.cl</a></li>
                             <li><a href="tel:+56990219851"><i class="flaticon-telephone"></i>+569 9021 9851</a></li>
-                            <li><i class="flaticon-pin"></i>Santiago, Chile</li>
+                            <li><i class="flaticon-pin"></i>Av. Las Parcelas 5048, Estación Central</li>
                         </ul>
                     </div>
                     <div class="right-column">

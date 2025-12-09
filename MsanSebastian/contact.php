@@ -47,7 +47,7 @@
                                 <div class="icon-box" style="text-align: center; padding: 30px 20px; background: linear-gradient(135deg, rgba(255,128,0,0.1) 0%, rgba(255,153,51,0.1) 100%); border-radius: 12px; transition: all 0.3s; height: 100%;">
                                     <div class="icon" style="width: 60px; height: 60px; background: linear-gradient(135deg, #ff8000 0%, #ff9933 100%); border-radius: 12px; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px;"><span class="fas fa-map-marker-alt" style="color: #fff; font-size: 24px;"></span></div>
                                     <h5 style="color: #ff8000; margin-bottom: 12px; font-size: 18px; font-weight: 600;">Visítanos</h5>
-                                    <div class="text" style="color: #333; font-weight: 500; font-size: 16px;">Santiago de Chile</div>
+                                    <div class="text" style="color: #333; font-weight: 500; font-size: 16px;">Av. Las Parcelas 5048, Estación Central</div>
                                 </div>
                             </div>
                         </div>

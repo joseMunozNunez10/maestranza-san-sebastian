@@ -31,7 +31,7 @@
                             <div class="wrapper-box">
                                 <div class="icon-box">
                                     <div class="icon"><span class="flaticon-pin"></span></div>
-                                    <div class="text">Santiago, Chile</div>
+                                    <div class="text">Av. Las Parcelas 5048, Estación Central</div>
                                 </div>
                                 <div class="icon-box">
                                     <div class="icon"><span class="flaticon-email-1"></span></div>
