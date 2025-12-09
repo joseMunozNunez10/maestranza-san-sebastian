@@ -106,4 +106,33 @@
         </div>
     </section>
 
+<style>
+#form-result {
+    margin: 30px auto 0;
+    padding: 25px 30px;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    max-width: 600px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+#form-result.alert-success {
+    background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+    color: #fff;
+    border: none;
+}
+
+#form-result.alert-danger {
+    background: linear-gradient(135deg, #dc3545 0%, #c82333 100%);
+    color: #fff;
+    border: none;
+}
+
+#form-result strong {
+    font-weight: 700;
+}
+</style>
+
 <?php include 'includes/footer.php'; ?>
