@@ -6,7 +6,7 @@
             <div class="content-box">
                 <div class="content-wrapper">
                     <div class="title">
-                        <h1>Kaufmann - San Bernardo <br> 2018</h1>
+                        <h1>Kaufmann - Rancagua <br> 2019</h1>
                     </div>
                     <ul class="bread-crumb">
                         <li><a href="index.php">Inicio</a></li>
@@ -26,11 +26,11 @@
                         <div class="content">
                             <div class="column">
                                 <h5>Cliente</h5>
-                                <p>Kaufmann San Bernardo</p>
+                                <p>Kaufmann Rancagua</p>
                             </div>
                             <div class="column">
                                 <h5>Año</h5>
-                                <p>2018</p>
+                                <p>2019</p>
                             </div>
                             <div class="column">
                                 <h5>Categoría</h5>
@@ -52,40 +52,59 @@
         <!-- Fotos visibles (5 primeras) -->
         <div class="gallery-grid">
 
-            <a href="assets/images/proyec-omay/kaufmann-sanbernardo-2018/kaufmann_rancagua-1.jpg" class="glightbox" data-gallery="project">
-                <img src="assets/images/proyec-omay/kaufmann-sanbernardo-2018/kaufmann_rancagua-1.jpg" alt="">
+            <a href="assets/images/proyec-omay/kaufmann-rancagua-2019/image-1.jpg" class="glightbox" data-gallery="project">
+                <img src="assets/images/proyec-omay/kaufmann-rancagua-2019/image-1.jpg" alt="">
             </a>
 
-            <a href="assets/images/proyec-omay/kaufmann-sanbernardo-2018/kaufmann_rancagua-2.jpg" class="glightbox" data-gallery="project">
-                <img src="assets/images/proyec-omay/kaufmann-sanbernardo-2018/kaufmann_rancagua-2.jpg" alt="">
+            <a href="assets/images/proyec-omay/kaufmann-rancagua-2019/image-2.jpg" class="glightbox" data-gallery="project">
+                <img src="assets/images/proyec-omay/kaufmann-rancagua-2019/image-2.jpg" alt="">
             </a>
 
-            <a href="assets/images/proyec-omay/kaufmann-sanbernardo-2018/kaufmann_rancagua-3.jpg" class="glightbox" data-gallery="project">
-                <img src="assets/images/proyec-omay/kaufmann-sanbernardo-2018/kaufmann_rancagua-3.jpg" alt="">
+            <a href="assets/images/proyec-omay/kaufmann-rancagua-2019/image-3.jpg" class="glightbox" data-gallery="project">
+                <img src="assets/images/proyec-omay/kaufmann-rancagua-2019/image-3.jpg" alt="">
             </a>
 
-            <a href="assets/images/proyec-omay/kaufmann-sanbernardo-2018/kaufmann_rancagua-4.jpg" class="glightbox" data-gallery="project">
-                <img src="assets/images/proyec-omay/kaufmann-sanbernardo-2018/kaufmann_rancagua-4.jpg" alt="">
+            <a href="assets/images/proyec-omay/kaufmann-rancagua-2019/image-4.jpg" class="glightbox" data-gallery="project">
+                <img src="assets/images/proyec-omay/kaufmann-rancagua-2019/image-4.jpg" alt="">
             </a>
 
-            <a href="assets/images/proyec-omay/kaufmann-sanbernardo-2018/kaufmann_rancagua-5.jpg" class="glightbox" data-gallery="project">
-                <img src="assets/images/proyec-omay/kaufmann-sanbernardo-2018/kaufmann_rancagua-5.jpg" alt="">
+            <a href="assets/images/proyec-omay/kaufmann-rancagua-2019/image-5.jpg" class="glightbox" data-gallery="project">
+                <img src="assets/images/proyec-omay/kaufmann-rancagua-2019/image-5.jpg" alt="">
             </a>
-            
+
+            <a href="assets/images/proyec-omay/kaufmann-rancagua-2019/image-6.jpg" class="glightbox" data-gallery="project">
+                <img src="assets/images/proyec-omay/kaufmann-rancagua-2019/image-6.jpg" alt="">
+            </a>
+
+            <a href="assets/images/proyec-omay/kaufmann-rancagua-2019/image-7.jpg" class="glightbox" data-gallery="project">
+                <img src="assets/images/proyec-omay/kaufmann-rancagua-2019/image-7.jpg" alt="">
+            </a>
+
+            <a href="assets/images/proyec-omay/kaufmann-rancagua-2019/image-21.jpg" class="glightbox" data-gallery="project">
+                <img src="assets/images/proyec-omay/kaufmann-rancagua-2019/image-21.jpg" alt="">
+            </a>
         </div>
 
 
 
-        <!-- Fotos adicionales (solo en lightbox, no visibles) 
+        <!-- Fotos adicionales (solo en lightbox, no visibles) -->
         <div style="display:none;">
-            <a href="assets/images/proyec-omay/kaufmann-sanbernardo-2018/kaufmann_rancagua-1.jpg" class="glightbox" data-gallery="project"></a>
-            <a href="assets/images/proyec-omay/kaufmann-sanbernardo-2018/kaufmann_rancagua-2.jpg" class="glightbox" data-gallery="project"></a>
-            <a href="assets/images/proyec-omay/kaufmann-sanbernardo-2018/kaufmann_rancagua-3.jpg" class="glightbox" data-gallery="project"></a>
-            <a href="assets/images/proyec-omay/kaufmann-sanbernardo-2018/kaufmann_rancagua-4.jpg" class="glightbox" data-gallery="project"></a>
-            <a href="assets/images/proyec-omay/kaufmann-sanbernardo-2018/kaufmann_rancagua-5.jpg" class="glightbox" data-gallery="project"></a>
+            <a href="assets/images/proyec-omay/kaufmann-rancagua-2019/image-9.jpg" class="glightbox" data-gallery="project"></a>
+            <a href="assets/images/proyec-omay/kaufmann-rancagua-2019/image-10.jpg" class="glightbox" data-gallery="project"></a>
+            <a href="assets/images/proyec-omay/kaufmann-rancagua-2019/image-11.jpg" class="glightbox" data-gallery="project"></a>
+            <a href="assets/images/proyec-omay/kaufmann-rancagua-2019/image-12.jpg" class="glightbox" data-gallery="project"></a>
+            <a href="assets/images/proyec-omay/kaufmann-rancagua-2019/image-13.jpg" class="glightbox" data-gallery="project"></a>
+            <a href="assets/images/proyec-omay/kaufmann-rancagua-2019/image-14.jpg" class="glightbox" data-gallery="project"></a>
+            <a href="assets/images/proyec-omay/kaufmann-rancagua-2019/image-15.jpg" class="glightbox" data-gallery="project"></a>
+            <a href="assets/images/proyec-omay/kaufmann-rancagua-2019/image-16.jpg" class="glightbox" data-gallery="project"></a>
+            <a href="assets/images/proyec-omay/kaufmann-rancagua-2019/image-17.jpg" class="glightbox" data-gallery="project"></a>
+            <a href="assets/images/proyec-omay/kaufmann-rancagua-2019/image-18.jpg" class="glightbox" data-gallery="project"></a> 
+            <a href="assets/images/proyec-omay/kaufmann-rancagua-2019/image-19.jpg" class="glightbox" data-gallery="project"></a>
+            <a href="assets/images/proyec-omay/kaufmann-rancagua-2019/image-20.jpg" class="glightbox" data-gallery="project"></a>
+            <a href="assets/images/proyec-omay/kaufmann-rancagua-2019/image-21.jpg" class="glightbox" data-gallery="project"></a>
         </div>
 
-        -->        
+                
 
          <!--Botón Mostrar más --> 
         <div class="text-center mt-20">
@@ -125,8 +144,8 @@
                 </div>
                 <div class="col-lg-4 col-md-6 project-block">
                     <div class="inner-box">
-                        <div class="image"><img src="assets/images/proyec-omay/kaufmann-rancagua-2019/port.jpg" alt=""></div>
-                        <h4><a href="kaufmann_rancagua.php">Kaufmann - Rancagua</a></h4>
+                        <div class="image"><img src="assets/images/proyec-omay/kaufmann-iquique-2017/port.jpg" alt=""></div>
+                        <h4><a href="kaufmann_iquique.php">Kaufmann - Iquique </a></h4>
                     </div>
                 </div>
             </div>

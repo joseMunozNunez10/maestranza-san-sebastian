@@ -23,38 +23,38 @@
             <div class="row">
                 <div class="col-lg-4 col-md-6 project-block">
                     <div class="inner-box">
-                        <div class="image"><img src="assets/images/resource/project-1.jpg" alt=""></div>
-                        <h4><a href="project-details.php">Estructura Industrial</a></h4>
+                        <div class="image"><img src="assets/images/proyec-omay/kaufmann-sanbernardo-2018/kaufmann_rancagua-port.jpg" alt=""></div>
+                        <h4 class="small-text"><a href="project-details.php">Kaufmann - San Bernardo</a></h4>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 project-block">
                     <div class="inner-box">
-                        <div class="image"><img src="assets/images/resource/project-2.jpg" alt=""></div>
-                        <h4><a href="project-details.php">Galpón Metálico</a></h4>
+                        <div class="image"><img src="assets/images/proyec-omay/kaufmann-chillan-2025/port.jpg" alt=""></div>
+                        <h4><a href="kaufmann_chillan.php">Kaufmann - Chillán</a></h4>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 project-block">
                     <div class="inner-box">
-                        <div class="image"><img src="assets/images/resource/project-3.jpg" alt=""></div>
-                        <h4><a href="project-details.php">Estructura Comercial</a></h4>
+                        <div class="image"><img src="assets/images/proyec-omay/kaufmann-calama-2024/port-servi.jpg" alt=""></div>
+                        <h4><a href="kaufmann_calama.php">Kaufmann - Calama</a></h4>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 project-block">
                     <div class="inner-box">
-                        <div class="image"><img src="assets/images/resource/project-4.jpg" alt=""></div>
-                        <h4><a href="project-details.php">Montaje Industrial</a></h4>
+                        <div class="image"><img src="assets/images/proyec-omay/kaufmann-bilbao-2019/port.jpg" alt=""></div>
+                        <h4><a href="kaufmann_bilbao.php">Kaufmann - Bilbao</a></h4>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 project-block">
                     <div class="inner-box">
-                        <div class="image"><img src="assets/images/resource/project-5.jpg" alt=""></div>
-                        <h4><a href="project-details.php">Fabricación a Medida</a></h4>
+                        <div class="image"><img src="assets/images/proyec-omay/kaufmann-iquique-2017/port.jpg" alt=""></div>
+                        <h4><a href="kaufmann_iquique.php">kaufmann - Iquique</a></h4>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 project-block">
                     <div class="inner-box">
-                        <div class="image"><img src="assets/images/resource/project-6.jpg" alt=""></div>
-                        <h4><a href="project-details.php">Proyecto Complejo</a></h4>
+                        <div class="image"><img src="assets/images/proyec-omay/kaufmann-rancagua-2019/port.jpg" alt=""></div>
+                        <h4><a href="kaufmann_rancagua.php">kaufmann - Rancagua</a></h4>
                     </div>
                 </div>
             </div>
