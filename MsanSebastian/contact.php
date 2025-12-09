@@ -58,11 +58,11 @@
     </section>
 
     <!-- Map Section -->
-    <section id="mapa-ubicacion" class="map-section" style="padding: 0 0 100px 0; background: #f5f5f5;">
+    <section class="map-section" style="padding: 0 0 100px 0; background: #f5f5f5;">
         <div class="auto-container">
             <div class="contact-map" style="position: relative; border-radius: 20px; overflow: hidden; box-shadow: 0 15px 50px rgba(0,0,0,0.15);">
-                <a href="#mapa-ubicacion" style="position: absolute; top: 20px; left: 20px; z-index: 10; background: linear-gradient(135deg, #ff8000 0%, #ff9933 100%); padding: 12px 20px; border-radius: 10px; box-shadow: 0 5px 20px rgba(255,128,0,0.3); text-decoration: none; cursor: pointer; transition: all 0.3s;">
-                    <h4 style="color: #fff; margin: 0; font-size: 16px; font-weight: 600;"><i class="fas fa-map-marker-alt" style="margin-right: 8px;"></i>Nuestra Ubicación</h4>
+                <a href="https://maps.google.com/?q=Av.+Las+Parcelas+5048,+Estación+Central,+Santiago,+Chile" target="_blank" style="position: absolute; top: 20px; left: 20px; z-index: 10; background: linear-gradient(135deg, #ff8000 0%, #ff9933 100%); padding: 12px 20px; border-radius: 10px; box-shadow: 0 5px 20px rgba(255,128,0,0.3); text-decoration: none; cursor: pointer; transition: all 0.3s;">
+                    <h4 style="color: #fff; margin: 0; font-size: 16px; font-weight: 600;"><i class="fas fa-map-marker-alt" style="margin-right: 8px;"></i>Cómo Llegar</h4>
                 </a>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d425311.48810647964!2d-70.84872379316214!3d-33.61189425409555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1skaufmann%20santiago!5e0!3m2!1ses!2scl!4v1765123322011!5m2!1ses!2scl" width="600" height="450" frameborder="0" style="border:0; width: 100%; filter: grayscale(20%) contrast(1.1);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" aria-hidden="false" tabindex="0"></iframe>
             </div>
@@ -105,21 +105,5 @@
             <!--End Contact Form-->
         </div>
     </section>
-
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-    // Smooth scroll para el badge de ubicación
-    const badges = document.querySelectorAll('a[href="#mapa-ubicacion"]');
-    badges.forEach(badge => {
-        badge.addEventListener('click', function(e) {
-            e.preventDefault();
-            document.getElementById('mapa-ubicacion').scrollIntoView({
-                behavior: 'smooth',
-                block: 'start'
-            });
-        });
-    });
-});
-</script>
 
 <?php include 'includes/footer.php'; ?>
