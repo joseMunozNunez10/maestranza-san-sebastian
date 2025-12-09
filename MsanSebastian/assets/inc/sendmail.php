@@ -5,14 +5,14 @@ require_once('phpmailer/class.smtp.php');
 
 $mail = new PHPMailer();
 
-//$mail->SMTPDebug = 3;                               // Enable verbose debug output
+//$mail->SMTPDebug = 0;                               // Disable debug output in production
 $mail->isSMTP();                                      // Set mailer to use SMTP
-$mail->Host = 'mail.maestranzasansebastian.cl';  // Specify main and backup SMTP servers
-$mail->SMTPAuth = true;                                             // Enable SMTP authentication
-$mail->Username = 'hsalgado@maestranzasansebastian.cl';                 // SMTP username
+$mail->Host = 'maestranzasansebastian.cl';           // Specify SMTP server
+$mail->SMTPAuth = true;                               // Enable SMTP authentication
+$mail->Username = 'hsalgado@maestranzasansebastian.cl'; // SMTP username
 $mail->Password = 'sebasofichanchu2021.';             // SMTP password
-$mail->SMTPSecure = 'tls';                            // Enable TLS encryption
-$mail->Port = 587;                                    // TCP port to connect to
+$mail->SMTPSecure = 'ssl';                            // Enable SSL encryption
+$mail->Port = 465;                                    // SSL port
 $mail->SMTPOptions = array(
     'ssl' => array(
         'verify_peer' => false,
@@ -20,6 +20,7 @@ $mail->SMTPOptions = array(
         'allow_self_signed' => true
     )
 );
+$mail->CharSet = 'UTF-8';
 
 $message = "";
 $status = "false";
@@ -60,10 +61,10 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
             $sendEmail = $mail->Send();
 
             if( $sendEmail == true ):
-                $message = 'We have <strong>successfully</strong> received your Message and will get Back to you as soon as possible.';
+                $message = '¡Mensaje enviado <strong>exitosamente</strong>! Nos pondremos en contacto contigo lo antes posible.';
                 $status = "true";
             else:
-                $message = 'Email <strong>could not</strong> be sent due to some Unexpected Error. Please Try Again later.<br /><br /><strong>Reason:</strong><br />' . $mail->ErrorInfo . '';
+                $message = 'No se pudo enviar el mensaje. Por favor intenta nuevamente o contáctanos directamente al +569 9021 9851.';
                 $status = "false";
             endif;
         } else {
