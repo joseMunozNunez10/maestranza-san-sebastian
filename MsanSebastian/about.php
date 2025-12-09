@@ -24,7 +24,7 @@
                 <div class="col-lg-6">
                     <div class="image-wrapper">
                         <div class="image-one wow fadeInUp" data-wow-duration="1500ms">
-                            <img src="assets/images/resource/image-8.jpg" alt="">
+                            <img src="assets/images/resource/image-8.jpg" alt="Sobre Maestranza San Sebastián - Experiencia en trabajos metálicos">
                             <div class="experience-years">
                                 <div class="icon"><span class="fab fa-twitter"></span></div>
                                 <h4>Años de <br> Experiencia</h4>
@@ -193,11 +193,11 @@
             </div>
             <!--Sponsors Carousel-->
             <div class="theme_carousel owl-theme owl-carousel" data-options='{"loop": true, "margin": 40, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true, "autoplayTimeout": 6000, "smartSpeed": 300, "responsive":{ "0" :{ "items": "1" }, "600" :{ "items" : "2" }, "768" :{ "items" : "3" } , "992":{ "items" : "4" }, "1200":{ "items" : "5" }}}'>
-                <div class="slide-item"><div class="image"><img src="assets/images/resource/author-1.jpg" alt="Kaufmann"></div></div>
-                <div class="slide-item"><div class="image"><img src="assets/images/resource/author-2.jpg" alt="Bomberos de Chile"></div></div>
-                <div class="slide-item"><div class="image"><img src="assets/images/resource/author-3.jpg" alt="Andes Motor"></div></div>
-                <div class="slide-item"><div class="image"><img src="assets/images/resource/author-4.jpg" alt="PDI"></div></div>
-                <div class="slide-item"><div class="image"><img src="assets/images/resource/author-5.jpg" alt="Canal 13"></div></div>
+                <div class="slide-item"><div class="image"><img src="assets/images/resource/author-1.jpg" alt="Cliente Kaufmann - Maestranza San Sebastián"></div></div>
+                <div class="slide-item"><div class="image"><img src="assets/images/resource/author-2.jpg" alt="Cliente Bomberos de Chile - Maestranza San Sebastián"></div></div>
+                <div class="slide-item"><div class="image"><img src="assets/images/resource/author-3.jpg" alt="Cliente Andes Motor - Maestranza San Sebastián"></div></div>
+                <div class="slide-item"><div class="image"><img src="assets/images/resource/author-4.jpg" alt="Cliente PDI - Maestranza San Sebastián"></div></div>
+                <div class="slide-item"><div class="image"><img src="assets/images/resource/author-5.jpg" alt="Cliente Canal 13 - Maestranza San Sebastián"></div></div>
             </div>
         </div>
     </section>

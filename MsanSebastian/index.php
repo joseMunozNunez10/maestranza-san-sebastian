@@ -35,7 +35,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="image-wrapper">
-                        <div class="image-one wow fadeInUp" data-wow-duration="1500ms"><img src="assets/images/resource/image-1.jpg" alt=""></div>
+                        <div class="image-one wow fadeInUp" data-wow-duration="1500ms"><img src="assets/images/resource/image-1.jpg" alt="Maestranza San Sebastián - Taller de trabajos metálicos y soldadura en Santiago"></div>
                         <div class="image-two" data-parallax='{"y": 100}'><img src="assets/images/resource/image-2.jpg" alt=""></div>
                     </div>
                 </div>
@@ -96,7 +96,7 @@
             <div class="row">
                 <div class="col-lg-4 col-md-6 service-block">
                     <div class="inner-box wow fadeInUp" data-wow-duration="1500ms">
-                        <div class="image"><img src="assets/images/resource/image-4.jpg" alt=""></div>
+                        <div class="image"><img src="assets/images/resource/image-4.jpg" alt="Obras Mayores - Estructuras metálicas de gran envergadura"></div>
                         <div class="content">
                             <h3><a href="steel-welding.php">Obras Mayores</a></h3>
                             <div class="text">Estructuras metálicas de gran <br> envergadura, fabricación industrial <br> y montaje de proyectos complejos.</div>
@@ -108,7 +108,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 service-block">
                     <div class="inner-box wow fadeInDown" data-wow-duration="1500ms">
-                        <div class="image"><img src="assets/images/resource/image-5.jpg" alt=""></div>
+                        <div class="image"><img src="assets/images/resource/image-5.jpg" alt="Obras Menores - Trabajos en acero, aluminio y fierro"></div>
                         <div class="content">
                             <h3><a href="metal-work.php">Obras Menores</a></h3>
                             <div class="text">Trabajos en acero, aluminio y <br> fierro. Rejas, portones, escaleras <br> y estructuras personalizadas.</div>
@@ -120,7 +120,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 service-block">
                     <div class="inner-box wow fadeInUp" data-wow-duration="1500ms">
-                        <div class="image"><img src="assets/images/resource/image-6.jpg" alt=""></div>
+                        <div class="image"><img src="assets/images/resource/image-6.jpg" alt="Carrocería - Reparación y fabricación de carrocerías industriales"></div>
                         <div class="content">
                             <h3><a href="pipe-welding.php">Carrocería</a></h3>
                             <div class="text">Reparación y fabricación de <br> carrocerías para todo tipo de <br> vehículos comerciales e industriales.</div>
@@ -296,11 +296,11 @@
         <div class="auto-container">
             <!--Sponsors Carousel-->
             <div class="theme_carousel owl-theme owl-carousel" data-options='{"loop": true, "margin": 40, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true, "autoplayTimeout": 3000, "smartSpeed": 300, "responsive":{ "0" :{ "items": "1" }, "600" :{ "items" : "2" }, "768" :{ "items" : "3" } , "992":{ "items" : "4" }, "1200":{ "items" : "5" }}}'>
-                <div class="slide-item"><div class="image"><img src="assets/images/resource/author-1.jpg" alt="Kaufmann"></div></div>
-                <div class="slide-item"><div class="image"><img src="assets/images/resource/author-2.jpg" alt="Bomberos de Chile"></div></div>
-                <div class="slide-item"><div class="image"><img src="assets/images/resource/author-3.jpg" alt="Andes Motor"></div></div>
-                <div class="slide-item"><div class="image"><img src="assets/images/resource/author-4.jpg" alt="PDI"></div></div>
-                <div class="slide-item"><div class="image"><img src="assets/images/resource/author-5.jpg" alt="Canal 13"></div></div>
+                <div class="slide-item"><div class="image"><img src="assets/images/resource/author-1.jpg" alt="Cliente Kaufmann - Maestranza San Sebastián"></div></div>
+                <div class="slide-item"><div class="image"><img src="assets/images/resource/author-2.jpg" alt="Cliente Bomberos de Chile - Maestranza San Sebastián"></div></div>
+                <div class="slide-item"><div class="image"><img src="assets/images/resource/author-3.jpg" alt="Cliente Andes Motor - Maestranza San Sebastián"></div></div>
+                <div class="slide-item"><div class="image"><img src="assets/images/resource/author-4.jpg" alt="Cliente PDI - Maestranza San Sebastián"></div></div>
+                <div class="slide-item"><div class="image"><img src="assets/images/resource/author-5.jpg" alt="Cliente Canal 13 - Maestranza San Sebastián"></div></div>
             </div>
         </div>
     </section>
