@@ -2,6 +2,8 @@
 
 Sitio web corporativo para Maestranza San Sebastian, especializado en fabricación metálica, soldadura y sistemas de aluminio.
 
+**✅ Despliegue automático a Hostgator configurado**
+
 ## 🚀 Características
 
 - Sitio web estático HTML/CSS/JavaScript
