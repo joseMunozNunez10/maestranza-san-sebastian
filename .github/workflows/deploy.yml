@@ -1,45 +1,49 @@
-name: Validate Website
+name: Deploy to Hostgator
 
 on:
   push:
-    branches: [ main, master ]
-  pull_request:
-    branches: [ main, master ]
+    branches: [ main ]
   workflow_dispatch:
 
 jobs:
-  validate:
+  deploy:
     runs-on: ubuntu-latest
     
     steps:
     - name: Checkout repository
       uses: actions/checkout@v3
       
-    - name: Validate HTML files
-      run: |
-        echo "✅ Validating HTML structure..."
-        find MsanSebastian -name "*.html" -type f | wc -l
-        echo "HTML files found and ready for deployment"
+    - name: Setup SSH
+      uses: webfactory/ssh-agent@v0.8.0
+      with:
+        ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
         
-    - name: Check CSS files
+    - name: Add server to known hosts
       run: |
-        echo "✅ Checking CSS files..."
-        find MsanSebastian/assets/css -name "*.css" -type f | wc -l
-        echo "CSS files validated"
+        mkdir -p ~/.ssh
+        ssh-keyscan -H maestranzasansebastian.cl >> ~/.ssh/known_hosts
         
-    - name: Check JavaScript files
+    - name: Deploy to Hostgator via rsync
       run: |
-        echo "✅ Checking JavaScript files..."
-        find MsanSebastian/assets/js -name "*.js" -type f | wc -l
-        echo "JavaScript files validated"
+        rsync -avz --delete \
+          --exclude='.git' \
+          --exclude='.github' \
+          --exclude='node_modules' \
+          --exclude='.gitignore' \
+          --exclude='README.md' \
+          --exclude='*.ps1' \
+          --exclude='*.md' \
+          --exclude='MODULARIZACION*.md' \
+          MsanSebastian/ \
+          maestr67@maestranzasansebastian.cl:~/public_html/
+          
+    - name: Set permissions
+      run: |
+        ssh maestr67@maestranzasansebastian.cl "cd ~/public_html && find . -type d -exec chmod 755 {} \; && find . -type f -exec chmod 644 {} \;"
         
-    - name: Validation Summary
+    - name: Deployment Summary
       run: |
         echo "================================================"
-        echo "✅ All files validated successfully!"
-        echo "📦 Ready to deploy to Hostgator"
-        echo "================================================"
-        echo ""
-        echo "📋 Deploy via FTP to your Hostgator hosting"
-        echo "Upload the 'MsanSebastian' folder contents"
+        echo "✅ Deployment completed successfully!"
+        echo "🌐 Site: https://maestranzasansebastian.cl"
         echo "================================================"

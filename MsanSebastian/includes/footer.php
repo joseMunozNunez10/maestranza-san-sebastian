@@ -5,7 +5,7 @@
                 <div class="row">
                     <div class="col-lg-3 col-md-6">
                         <div class="widget about-widget">
-                            <div class="logo"><a href="index.php"><img src="assets/images/logo.png" alt=""></a></div>
+                            <div class="logo"><a href="index.php"><img src="assets/images/logo-2 ss.png" alt=""></a></div>
                             <div class="text">Maestranza San Sebastian, especialistas en trabajos de metal, soldadura y fabricación industrial en Santiago, Chile.</div>
                             <div class="link-box">
                                 <a href="contact.php" class="theme-btn btn-style-one"><span>Contáctanos</span></a>
