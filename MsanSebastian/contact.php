@@ -78,7 +78,7 @@
             </div>
             <!--Contact Form-->
             <div class="contact-form">
-                <form method="post" action="assets/inc/sendmail.php" id="contact-form">
+                <form method="post" action="" id="contact-form">
                     <div class="row row-20">
                         <div class="form-group col-md-6">
                             <input type="text" name="form_name" value="" placeholder="Nombre Completo" required>

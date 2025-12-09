@@ -31,6 +31,7 @@ if($("#contact-form").length){
 	      var form_btn_old_msg = form_btn.html();
 	      form_btn.html(form_btn.prop('disabled', true).data("loading-text"));
 	      $(form).ajaxSubmit({
+	        url: 'assets/inc/sendmail.php',
 	        dataType:  'json',
 	        success: function(data) {
 	          if( data.status == 'true' ) {
