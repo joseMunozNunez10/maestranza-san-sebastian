@@ -7,19 +7,13 @@ $mail = new PHPMailer();
 
 //$mail->SMTPDebug = 0;                               // Disable debug output in production
 $mail->isSMTP();                                      // Set mailer to use SMTP
-$mail->Host = 'maestranzasansebastian.cl';           // Specify SMTP server
+$mail->Host = 'localhost';                            // Hostgator uses localhost for SMTP
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
 $mail->Username = 'hsalgado@maestranzasansebastian.cl'; // SMTP username
 $mail->Password = 'sebasofichanchu2021.';             // SMTP password
-$mail->SMTPSecure = 'ssl';                            // Enable SSL encryption
-$mail->Port = 465;                                    // SSL port
-$mail->SMTPOptions = array(
-    'ssl' => array(
-        'verify_peer' => false,
-        'verify_peer_name' => false,
-        'allow_self_signed' => true
-    )
-);
+$mail->SMTPSecure = false;                            // No encryption for localhost
+$mail->SMTPAutoTLS = false;                           // Disable TLS auto-detection
+$mail->Port = 587;                                    // Standard SMTP port
 $mail->CharSet = 'UTF-8';
 
 $message = "";
