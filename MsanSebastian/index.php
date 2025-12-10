@@ -160,7 +160,11 @@
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="author-thumb"><img src="assets/images/resource/author-5.jpg" alt=""></div>
-                                </div>                                
+                                </div> 
+                                
+                                <div class="swiper-slide">
+                                    <div class="author-thumb"><img src="assets/images/resource/author-6.jpg" alt=""></div>
+                                </div>
                             </div>
                         </div>
                         <!-- Swiper -->
@@ -202,6 +206,15 @@
                                         </div>
                                     </div>
                                 </div>
+                                 <div class="swiper-slide">
+                                    <!-- Testimonial Block -->
+                                    <div class="testimonial-block">
+                                        <div class="inner-box">
+                                            <div class="text">Como proveedores de equipamiento policial y de seguridad, trabajamos con estándares internacionales muy exigentes. Maestranza San Sebastián ha sido clave en la fabricación de estructuras metálicas y trabajos especializados para nuestros proyectos, demostrando capacidad técnica excepcional y compromiso con la excelencia.</div>
+                                            <div class="author-title">Iturri Chile <span>/ Equipamiento Policial y Seguridad</span></div>
+                                        </div>
+                                    </div>
+                                </div>                                
                                 <div class="swiper-slide">
                                     <!-- Testimonial Block -->
                                     <div class="testimonial-block">
@@ -210,6 +223,7 @@
                                             <div class="author-title">Canal 13 <span>/ Departamento de Infraestructura</span></div>
                                         </div>
                                     </div>
+
                                 </div>
                             </div>                   
 
