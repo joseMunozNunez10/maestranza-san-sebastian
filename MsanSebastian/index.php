@@ -101,7 +101,7 @@
                             <h3><a href="steel-welding.php">Obras Mayores</a></h3>
                             <div class="text">Estructuras metálicas de gran <br> envergadura, fabricación industrial <br> y montaje de proyectos complejos.</div>
                             <div class="link">
-                                <a href="steel-welding.php" class="theme-btn btn-style-one"><span>Ver Más</span></a>
+                                <a href="obras_mayores.php" class="theme-btn btn-style-one"><span>Ver Más</span></a>
                             </div>
                         </div>
                     </div>
@@ -113,7 +113,7 @@
                             <h3><a href="metal-work.php">Obras Menores</a></h3>
                             <div class="text">Trabajos en acero, aluminio y <br> fierro. Rejas, portones, escaleras <br> y estructuras personalizadas.</div>
                             <div class="link">
-                                <a href="metal-work.php" class="theme-btn btn-style-one"><span>Ver Más</span></a>
+                                <a href="obras_menores.php" class="theme-btn btn-style-one"><span>Ver Más</span></a>
                             </div>
                         </div>
                     </div>
@@ -125,7 +125,7 @@
                             <h3><a href="pipe-welding.php">Carrocería</a></h3>
                             <div class="text">Reparación y fabricación de <br> carrocerías para todo tipo de <br> vehículos comerciales e industriales.</div>
                             <div class="link">
-                                <a href="pipe-welding.php" class="theme-btn btn-style-one"><span>Ver Más</span></a>
+                                <a href="carroceria.php" class="theme-btn btn-style-one"><span>Ver Más</span></a>
                             </div>
                         </div>
                     </div>
