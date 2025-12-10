@@ -1,49 +1,30 @@
-name: Deploy to Hostgator
+# ===================================================================
+# DEPLOYMENT via cPanel Git Version Control
+# ===================================================================
+# 
+# Este workflow está deshabilitado porque usamos cPanel Git para 
+# deployment automático.
+#
+# El deployment se realiza automáticamente cuando se hace push 
+# a la rama 'main' mediante cPanel Git Version Control.
+#
+# Configuración actual:
+# - Repository: /home1/maestr67/repositories/maestranza-san-sebastian
+# - Deploy path: ~/public_html/
+# - Archivo de config: .cpanel.yml
+#
+# ===================================================================
+
+name: Disabled - Using cPanel Git
 
 on:
-  push:
-    branches: [ main ]
   workflow_dispatch:
 
 jobs:
-  deploy:
+  info:
     runs-on: ubuntu-latest
-    
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
-      
-    - name: Setup SSH
-      uses: webfactory/ssh-agent@v0.8.0
-      with:
-        ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
-        
-    - name: Add server to known hosts
-      run: |
-        mkdir -p ~/.ssh
-        ssh-keyscan -H maestranzasansebastian.cl >> ~/.ssh/known_hosts
-        
-    - name: Deploy to Hostgator via rsync
-      run: |
-        rsync -avz --delete \
-          --exclude='.git' \
-          --exclude='.github' \
-          --exclude='node_modules' \
-          --exclude='.gitignore' \
-          --exclude='README.md' \
-          --exclude='*.ps1' \
-          --exclude='*.md' \
-          --exclude='MODULARIZACION*.md' \
-          MsanSebastian/ \
-          maestr67@maestranzasansebastian.cl:~/public_html/
-          
-    - name: Set permissions
-      run: |
-        ssh maestr67@maestranzasansebastian.cl "cd ~/public_html && find . -type d -exec chmod 755 {} \; && find . -type f -exec chmod 644 {} \;"
-        
-    - name: Deployment Summary
-      run: |
-        echo "================================================"
-        echo "✅ Deployment completed successfully!"
-        echo "🌐 Site: https://maestranzasansebastian.cl"
-        echo "================================================"
+      - name: Information
+        run: |
+          echo "Este workflow está desactivado."
+          echo "Usamos cPanel Git para deployment automático."
