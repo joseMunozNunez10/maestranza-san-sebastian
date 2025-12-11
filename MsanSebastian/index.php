@@ -160,8 +160,7 @@
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="author-thumb"><img src="assets/images/resource/author-5.jpg" alt=""></div>
-                                </div> 
-                                
+                                </div>                                 
                                 <div class="swiper-slide">
                                     <div class="author-thumb"><img src="assets/images/resource/author-6.jpg" alt=""></div>
                                 </div>

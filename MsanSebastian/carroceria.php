@@ -1,7 +1,7 @@
 ﻿<?php include 'includes/header.php'; ?>
 
     <!-- Page Title -->
-    <section class="page-title" style="background-image: url(assets/images/background/bg-9.jpg);">
+    <section class="page-title" style="background-image: url(assets/images/background/bg-10.jpg);">
         <div class="auto-container">
             <div class="content-box">
                 <div class="content-wrapper">
@@ -23,45 +23,66 @@
             <div class="row">
                 <div class="col-lg-4 col-md-6 project-block">
                     <div class="inner-box">
-                        <div class="image"><img src="assets/images/resource/project-1.jpg" alt=""></div>
-                        <h4><a href="project-details.php">Carrocería de Camión</a></h4>
+                        <div class="image"><img src="assets/images/carroceria/bombero-2/port.jpg" alt=""></div>
+                        <h4><a href="bombero-1.php">Compañia de Bomberos</a></h4>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 project-block">
                     <div class="inner-box">
-                        <div class="image"><img src="assets/images/resource/project-2.jpg" alt=""></div>
-                        <h4><a href="project-details.php">Furgones Industriales</a></h4>
+                        <div class="image"><img src="assets/images/carroceria/camion_azul/port.jpg" alt=""></div>
+                        <h4><a href="camion_pluma.php">Camion <br> Pluma</a></h4>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 project-block">
                     <div class="inner-box">
-                        <div class="image"><img src="assets/images/resource/project-3.jpg" alt=""></div>
-                        <h4><a href="project-details.php">Reparación de Carrocería</a></h4>
+                        <div class="image"><img src="assets/images/carroceria/camion34/port.jpg" alt=""></div>
+                        <h4><a href="carroceria_doble_piso.php">Carroceria doble piso</a></h4>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 project-block">
                     <div class="inner-box">
-                        <div class="image"><img src="assets/images/resource/project-4.jpg" alt=""></div>
-                        <h4><a href="project-details.php">Casetas de Vehículos</a></h4>
+                        <div class="image"><img src="assets/images/carroceria/camion-franjas/port.jpg" alt=""></div>
+                        <h4><a href="barra_ciclista.php">Barrera <br> Anticiclista</a></h4>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 project-block">
                     <div class="inner-box">
-                        <div class="image"><img src="assets/images/resource/project-5.jpg" alt=""></div>
-                        <h4><a href="project-details.php">Tolvas y Contenedores</a></h4>
+                        <div class="image"><img src="assets/images/carroceria/camion-gris/port.jpg" alt=""></div>
+                        <h4><a href="camion_algibe.php">Camion <br> Aljibe </a></h4>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 project-block">
                     <div class="inner-box">
-                        <div class="image"><img src="assets/images/resource/project-6.jpg" alt=""></div>
-                        <h4><a href="project-details.php">Equipamiento Especial</a></h4>
+                        <div class="image"><img src="assets/images/carroceria/camion-naranja/port.jpg" alt=""></div>
+                        <h4><a href="refuerzo_interior_batea.php">Refuerzo interior batea</a></h4>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 project-block">
+                    <div class="inner-box">
+                        <div class="image"><img src="assets/images/carroceria/carro-bombero/port.jpg" alt=""></div>
+                        <h4><a href="bombero_2.php">Mantencion Carro Bomba</a></h4>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 project-block">
+                    <div class="inner-box">
+                        <div class="image"><img src="assets/images/carroceria/espejo-mall/port.jpg" alt=""></div>
+                        <h4><a href="camion_minero.php">Camion <br> Minero</a></h4>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 project-block">
+                    <div class="inner-box">
+                        <div class="image"><img src="assets/images/carroceria/estanke-camion-algibe/port.jpg" alt=""></div>
+                        <h4><a href="estanque_camion.php">Estanque camión aljibe</a></h4>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 project-block">
+                    <div class="inner-box">
+                        <div class="image"><img src="assets/images/carroceria/maipu-2023/port.jpg" alt=""></div>
+                        <h4><a href="camion_mop.php">Camion MOP</a></h4>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
-    
-
 
 <?php include 'includes/footer.php'; ?>
