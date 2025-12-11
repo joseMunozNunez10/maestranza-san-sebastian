@@ -100,47 +100,13 @@
                 <div class="sub-title">Más Proyectos de Carrocería</div>
                 <h2>Otros Trabajos Realizados</h2>
             </div>
-            <div class="row">
-                <?php
-                // Listado de todos los proyectos de carrocería
-                $proyectos = [
-                    ['url' => 'camion_mop.php', 'img' => 'assets/images/carroceria/maipu-2023/image-1.jpg', 'titulo' => 'Camión MOP'],
-                    ['url' => 'camion_naranja.php', 'img' => 'assets/images/carroceria/NARANJA/image-1.jpg', 'titulo' => 'Camión Naranja'],
-                    ['url' => 'camion_minero.php', 'img' => 'assets/images/carroceria/minero-2023/image-1.jpg', 'titulo' => 'Camión Minero'],
-                    ['url' => 'camion_algibe.php', 'img' => 'assets/images/carroceria/algibe-2022/image-1.jpg', 'titulo' => 'Camión Aljibe'],
-                    ['url' => 'carroceria_doble_piso.php', 'img' => 'assets/images/carroceria/doblePiso/image-1.jpg', 'titulo' => 'Carrocería Doble Piso'],
-                    ['url' => 'estanque_camion.php', 'img' => 'assets/images/carroceria/estanque-2024/image-1.jpg', 'titulo' => 'Estanque de Camión'],
-                    ['url' => 'barra_ciclista.php', 'img' => 'assets/images/carroceria/barra/image-1.jpg', 'titulo' => 'Barra Anti-Ciclista'],
-                    ['url' => 'refuerzo_interior_batea.php', 'img' => 'assets/images/carroceria/refuerzo/image-1.jpg', 'titulo' => 'Refuerzo Interior Batea'],
-                    ['url' => 'carroceria.php', 'img' => 'assets/images/carroceria/carr/image-1.jpg', 'titulo' => 'Carrocería Industrial']
-                ];
-                
-                // Obtener el archivo actual
-                $archivoActual = basename($_SERVER['PHP_SELF']);
-                
-                // Filtrar proyectos (excluir el actual)
-                $proyectosFiltrados = array_filter($proyectos, function($p) use ($archivoActual) {
-                    return $p['url'] !== $archivoActual;
-                });
-                
-                // Mezclar y tomar 3 aleatorios
-                shuffle($proyectosFiltrados);
-                $proyectosAleatorios = array_slice($proyectosFiltrados, 0, 3);
-                
-                // Mostrar proyectos
-                foreach($proyectosAleatorios as $proyecto):
-                ?>
-                <div class="col-lg-4 col-md-6 project-block">
-                    <div class="inner-box">
-                        <div class="image"><img src="<?php echo $proyecto['img']; ?>" alt="<?php echo $proyecto['titulo']; ?>"></div>
-                        <h4><a href="<?php echo $proyecto['url']; ?>"><?php echo $proyecto['titulo']; ?></a></h4>
-                    </div>
-                </div>
-                <?php endforeach; ?>
+            <div class="row" id="related-projects-container">
+                <!-- Los proyectos se cargarán aquí dinámicamente -->
             </div>
         </div>
     </section>
 
+<script src="assets/js/related-projects-carroceria.js"></script>
 <script>
 document.addEventListener('DOMContentLoaded', function () {
     const lightbox = GLightbox({

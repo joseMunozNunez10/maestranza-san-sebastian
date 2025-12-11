@@ -6,7 +6,7 @@
             <div class="content-box">
                 <div class="content-wrapper">
                     <div class="title">
-                        <h1>Kaufmann - Chillán <br> 2025</h1>
+                        <h1>Gruas <br> Da'costa</h1>
                     </div>
                     <ul class="bread-crumb">
                         <li><a href="index.php">Inicio</a></li>
@@ -26,11 +26,11 @@
                         <div class="content">
                             <div class="column">
                                 <h5>Cliente</h5>
-                                <p>Kaufmann Chillán</p>
+                                <p>Gruas Da'costa</p>
                             </div>
                             <div class="column">
                                 <h5>Año</h5>
-                                <p>2025</p>
+                                <p>2022</p>
                             </div>
                             <div class="column">
                                 <h5>Categoría</h5>
@@ -38,9 +38,8 @@
                             </div>
                             <div class="column">
                                 <h5>Servicio</h5>
-                                <p>Estructura metalica <br>
-                                 para zona de <br>
-                                 lavado vehiculos</p>
+                                <p>Ampliación de taller <br>
+                                Grúas Da'costa</p>
                             </div>
                         </div>
                     </div>
@@ -52,34 +51,34 @@
         <!-- Fotos visibles (5 primeras) -->
         <div class="gallery-grid">
 
-            <a href="assets/images/proyec-omay/kaufmann-chillan-2025/image-1.jpg" class="glightbox" data-gallery="project">
-                <img src="assets/images/proyec-omay/kaufmann-chillan-2025/image-1.jpg" alt="">
+            <a href="assets/images/proyec-omay/gruas-dacosta-2022/image-1.jpg" class="glightbox" data-gallery="project">
+                <img src="assets/images/proyec-omay/gruas-dacosta-2022/image-1.jpg" alt="">
             </a>
 
-            <a href="assets/images/proyec-omay/kaufmann-chillan-2025/image-2.jpg" class="glightbox" data-gallery="project">
-                <img src="assets/images/proyec-omay/kaufmann-chillan-2025/image-2.jpg" alt="">
+            <a href="assets/images/proyec-omay/gruas-dacosta-2022/image-2.jpg" class="glightbox" data-gallery="project">
+                <img src="assets/images/proyec-omay/gruas-dacosta-2022/image-2.jpg" alt="">
             </a>
 
-            <a href="assets/images/proyec-omay/kaufmann-chillan-2025/image-3.jpg" class="glightbox" data-gallery="project">
-                <img src="assets/images/proyec-omay/kaufmann-chillan-2025/image-3.jpg" alt="">
+            <a href="assets/images/proyec-omay/gruas-dacosta-2022/image-3.jpg" class="glightbox" data-gallery="project">
+                <img src="assets/images/proyec-omay/gruas-dacosta-2022/image-3.jpg" alt="">
             </a>
 
-            <a href="assets/images/proyec-omay/kaufmann-chillan-2025/image-4.jpg" class="glightbox" data-gallery="project">
-                <img src="assets/images/proyec-omay/kaufmann-chillan-2025/image-4.jpg" alt="">
+            <a href="assets/images/proyec-omay/gruas-dacosta-2022/image-4.jpg" class="glightbox" data-gallery="project">
+                <img src="assets/images/proyec-omay/gruas-dacosta-2022/image-4.jpg" alt="">
             </a>
 
-            <a href="assets/images/proyec-omay/kaufmann-chillan-2025/image-5.jpg" class="glightbox" data-gallery="project">
-                <img src="assets/images/proyec-omay/kaufmann-chillan-2025/image-5.jpg" alt="">
+            <a href="assets/images/proyec-omay/gruas-dacosta-2022/image-5.jpg" class="glightbox" data-gallery="project">
+                <img src="assets/images/proyec-omay/gruas-dacosta-2022/image-5.jpg" alt="">
             </a>
             
-            <a href="assets/images/proyec-omay/kaufmann-chillan-2025/image-6.jpg" class="glightbox" data-gallery="project">
-                <img src="assets/images/proyec-omay/kaufmann-chillan-2025/image-6.jpg" alt="">
+            <a href="assets/images/proyec-omay/gruas-dacosta-2022/image-6.jpg" class="glightbox" data-gallery="project">
+                <img src="assets/images/proyec-omay/gruas-dacosta-2022/image-6.jpg" alt="">
             </a>
-            <a href="assets/images/proyec-omay/kaufmann-chillan-2025/image-7.jpg" class="glightbox" data-gallery="project">
-                <img src="assets/images/proyec-omay/kaufmann-chillan-2025/image-7.jpg" alt="">
+            <a href="assets/images/proyec-omay/gruas-dacosta-2022/image-7.jpg" class="glightbox" data-gallery="project">
+                <img src="assets/images/proyec-omay/gruas-dacosta-2022/image-7.jpg" alt="">
             </a>
-            <a href="assets/images/proyec-omay/kaufmann-chillan-2025/image-8.jpg" class="glightbox" data-gallery="project">
-                <img src="assets/images/proyec-omay/kaufmann-chillan-2025/image-8.jpg" alt="">
+            <a href="assets/images/proyec-omay/gruas-dacosta-2022/image-8.jpg" class="glightbox" data-gallery="project">
+                <img src="assets/images/proyec-omay/gruas-dacosta-2022/image-8.jpg" alt="">
             </a>
             
         </div>
