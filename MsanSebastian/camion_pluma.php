@@ -100,13 +100,29 @@
                 <div class="sub-title">Más Proyectos de Carrocería</div>
                 <h2>Otros Trabajos Realizados</h2>
             </div>
-            <div class="row" id="related-projects-container">
-                <!-- Los proyectos se cargarán aquí dinámicamente -->
+            <div class="row">
+                <div class="col-lg-4 col-md-6 project-block">
+                    <div class="inner-box">
+                        <div class="image"><img src="assets/images/carroceria/maipu-2023/port.jpg" alt=""></div>
+                        <h4><a href="camion_mop.php">Camión MOP</a></h4>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 project-block">
+                    <div class="inner-box">
+                        <div class="image"><img src="assets/images/carroceria/camion-naranja/port.jpg" alt=""></div>
+                        <h4><a href="camion_naranja.php">Camión Naranja</a></h4>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 project-block">
+                    <div class="inner-box">
+                        <div class="image"><img src="assets/images/carroceria/camion34/port.jpg" alt=""></div>
+                        <h4><a href="carroceria_doble_piso.php">Carrocería Doble Piso</a></h4>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-<script src="assets/js/related-projects-carroceria.js"></script>
 <script>
 document.addEventListener('DOMContentLoaded', function () {
     const lightbox = GLightbox({

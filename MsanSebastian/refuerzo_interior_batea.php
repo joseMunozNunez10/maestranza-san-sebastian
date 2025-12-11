@@ -103,43 +103,24 @@
                 <h2>Otros Trabajos Realizados</h2>
             </div>
             <div class="row">
-                <?php
-                // Listado de todos los proyectos de carrocería
-                $proyectos = [
-                    ['url' => 'camion_mop.php', 'img' => 'assets/images/carroceria/maipu-2023/image-1.jpg', 'titulo' => 'Camión MOP'],
-                    ['url' => 'camion_pluma.php', 'img' => 'assets/images/carroceria/pluma/image-1.jpg', 'titulo' => 'Camión Pluma'],
-                    ['url' => 'camion_naranja.php', 'img' => 'assets/images/carroceria/NARANJA/image-1.jpg', 'titulo' => 'Camión Naranja'],
-                    ['url' => 'camion_minero.php', 'img' => 'assets/images/carroceria/minero-2023/image-1.jpg', 'titulo' => 'Camión Minero'],
-                    ['url' => 'camion_algibe.php', 'img' => 'assets/images/carroceria/algibe-2022/image-1.jpg', 'titulo' => 'Camión Aljibe'],
-                    ['url' => 'carroceria_doble_piso.php', 'img' => 'assets/images/carroceria/doblePiso/image-1.jpg', 'titulo' => 'Carrocería Doble Piso'],
-                    ['url' => 'estanque_camion.php', 'img' => 'assets/images/carroceria/estanque-2024/image-1.jpg', 'titulo' => 'Estanque de Camión'],
-                    ['url' => 'barra_ciclista.php', 'img' => 'assets/images/carroceria/barra/image-1.jpg', 'titulo' => 'Barra Anti-Ciclista'],
-                    ['url' => 'refuerzo_interior_batea.php', 'img' => 'assets/images/carroceria/refuerzo/image-1.jpg', 'titulo' => 'Refuerzo Interior Batea'],
-                    ['url' => 'carroceria.php', 'img' => 'assets/images/carroceria/carr/image-1.jpg', 'titulo' => 'Carrocería Industrial']
-                ];
-                
-                // Obtener el archivo actual
-                $archivoActual = basename($_SERVER['PHP_SELF']);
-                
-                // Filtrar proyectos (excluir el actual)
-                $proyectosFiltrados = array_filter($proyectos, function($p) use ($archivoActual) {
-                    return $p['url'] !== $archivoActual;
-                });
-                
-                // Mezclar y tomar 3 aleatorios
-                shuffle($proyectosFiltrados);
-                $proyectosAleatorios = array_slice($proyectosFiltrados, 0, 3);
-                
-                // Mostrar proyectos
-                foreach($proyectosAleatorios as $proyecto):
-                ?>
                 <div class="col-lg-4 col-md-6 project-block">
                     <div class="inner-box">
-                        <div class="image"><img src="<?php echo $proyecto['img']; ?>" alt="<?php echo $proyecto['titulo']; ?>"></div>
-                        <h4><a href="<?php echo $proyecto['url']; ?>"><?php echo $proyecto['titulo']; ?></a></h4>
+                        <div class="image"><img src="assets/images/carroceria/camion34/port.jpg" alt=""></div>
+                        <h4><a href="carroceria_doble_piso.php">Carrocería Doble Piso</a></h4>
                     </div>
                 </div>
-                <?php endforeach; ?>
+                <div class="col-lg-4 col-md-6 project-block">
+                    <div class="inner-box">
+                        <div class="image"><img src="assets/images/carroceria/estanke-camion-algibe/port.jpg" alt=""></div>
+                        <h4><a href="estanque_camion.php">Estanque de Camión</a></h4>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 project-block">
+                    <div class="inner-box">
+                        <div class="image"><img src="assets/images/carroceria/camion-franjas/port.jpg" alt=""></div>
+                        <h4><a href="barra_ciclista.php">Barra Anti-Ciclista</a></h4>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
