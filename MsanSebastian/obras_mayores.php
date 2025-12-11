@@ -57,6 +57,12 @@
                         <h4><a href="kaufmann_rancagua.php">kaufmann - Rancagua</a></h4>
                     </div>
                 </div>
+                <div class="col-lg-4 col-md-6 project-block">
+                    <div class="inner-box">
+                        <div class="image"><img src="assets/images/proyec-omay/gruas-dacosta-2022/port.jpg" alt=""></div>
+                        <h4><a href="gruas_dacosta.php">Gruas <br> Da'costa</a></h4>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
