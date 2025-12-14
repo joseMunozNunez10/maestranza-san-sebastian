@@ -1,4 +1,11 @@
-﻿<?php include 'includes/header.php'; ?>
+﻿<?php 
+$pageTitle = "Carro de Bomberos 2018 | Trabajos Metálicos Especializados - Santiago";
+$pageDescription = "Proyecto: Trabajos metálicos para carro de bomberos 2018. Reparaciones estructurales, reforzamiento y modificaciones para vehículos de emergencia.";
+$pageKeywords = "carro bomberos 2018, trabajos metálicos bomberos, reparación vehículo emergencia, reforzamiento carro bomberos, maestranza bomberos santiago";
+$pageUrl = "https://maestranzasansebastian.cl/bombero_2.php";
+$canonical = "https://maestranzasansebastian.cl/bombero_2.php";
+include 'includes/header.php'; 
+?>
 
     <!-- Page Title -->
     <section class="page-title" style="background-image: url(assets/images/background/bg-10.jpg);">

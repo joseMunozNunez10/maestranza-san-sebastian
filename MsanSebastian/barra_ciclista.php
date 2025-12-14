@@ -1,4 +1,11 @@
-﻿<?php include 'includes/header.php'; ?>
+﻿<?php 
+$pageTitle = "Barra Anti-Ciclista para Camiones | Protección Metálica - Santiago";
+$pageDescription = "Proyecto: Barra anti-ciclista. Fabricación e instalación de barras de seguridad laterales para camiones, cumplimiento de normativas de tránsito y seguridad vial.";
+$pageKeywords = "barra anti ciclista, protección lateral camión, barra seguridad camión, normativa tránsito camiones, fabricación barra protección santiago";
+$pageUrl = "https://maestranzasansebastian.cl/barra_ciclista.php";
+$canonical = "https://maestranzasansebastian.cl/barra_ciclista.php";
+include 'includes/header.php'; 
+?>
 
     <!-- Page Title -->
     <section class="page-title" style="background-image: url(assets/images/background/bg-10.jpg);">

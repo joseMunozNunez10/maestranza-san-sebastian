@@ -1,4 +1,11 @@
-﻿<?php include 'includes/header.php'; ?>
+﻿<?php 
+$pageTitle = "Servicios de Maestranza y Soldadura Industrial en Santiago | Maestranza San Sebastián";
+$pageDescription = "Servicios profesionales de maestranza: soldadura industrial MIG/TIG, carrocería de camiones, estructuras metálicas, obras mayores y menores. Atención en Santiago y regiones. Presupuestos sin costo.";
+$pageKeywords = "servicios maestranza, soldadura MIG TIG, carrocería industrial, estructuras metálicas, obras metálicas, fabricación metálica, reparación camiones, portones metálicos, rejas seguridad";
+$pageUrl = "https://maestranzasansebastian.cl/services.php";
+$canonical = "https://maestranzasansebastian.cl/services.php";
+include 'includes/header.php'; 
+?>
 
     <!-- Page Title -->
     <section class="page-title" style="background-image: url(assets/images/background/bg-9.jpg);">

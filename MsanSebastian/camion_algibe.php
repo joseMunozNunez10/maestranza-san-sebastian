@@ -1,4 +1,11 @@
-﻿<?php include 'includes/header.php'; ?>
+﻿<?php 
+$pageTitle = "Carrocería Camión Aljibe | Fabricación de Estanques de Agua - Santiago";
+$pageDescription = "Proyecto: Carrocería para camión aljibe. Fabricación de estanques de agua, cisternas y carrocerías especializadas para transporte de líquidos.";
+$pageKeywords = "carrocería camión aljibe, estanque agua camión, cisterna industrial, fabricación estanque, camión aljibe santiago, carrocería transporte agua";
+$pageUrl = "https://maestranzasansebastian.cl/camion_algibe.php";
+$canonical = "https://maestranzasansebastian.cl/camion_algibe.php";
+include 'includes/header.php'; 
+?>
 
     <!-- Page Title -->
     <section class="page-title" style="background-image: url(assets/images/background/bg-10.jpg);">

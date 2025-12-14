@@ -1,4 +1,11 @@
-﻿<?php include 'includes/header.php'; ?>
+﻿<?php 
+$pageTitle = "Contacto - Maestranza San Sebastián | Presupuestos Gratis en Santiago";
+$pageDescription = "Contacta a Maestranza San Sebastián para presupuestos sin costo. Av. Las Parcelas 5048, Estación Central, Santiago. ☎ +569 9021 9851. Atención de lunes a viernes. Respuesta rápida garantizada.";
+$pageKeywords = "contacto maestranza santiago, presupuesto soldadura, cotización trabajos metálicos, maestranza estación central, teléfono maestranza, correo maestranza, solicitar presupuesto";
+$pageUrl = "https://maestranzasansebastian.cl/contact.php";
+$canonical = "https://maestranzasansebastian.cl/contact.php";
+include 'includes/header.php'; 
+?>
 
     <!-- Page Title -->
     <section class="page-title" style="background-image: url(assets/images/background/bg-9.jpg);">

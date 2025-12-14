@@ -1,4 +1,11 @@
-﻿<?php include 'includes/header.php'; ?>
+﻿<?php 
+$pageTitle = "Proyecto Carro de Bomberos | Reparación y Fabricación de Carrocerías - Santiago";
+$pageDescription = "Proyecto: Reparación y fabricación para carro de bomberos. Trabajos especializados en vehículos de emergencia, reforzamiento estructural y adaptaciones.";
+$pageKeywords = "reparación carro bomberos, fabricación carrocería bomberos, vehículo emergencia, modificación carro bomberos santiago, trabajos especializados";
+$pageUrl = "https://maestranzasansebastian.cl/bombero-1.php";
+$canonical = "https://maestranzasansebastian.cl/bombero-1.php";
+include 'includes/header.php'; 
+?>
 
     <!-- Page Title -->
     <section class="page-title" style="background-image: url(assets/images/background/bg-10.jpg);">

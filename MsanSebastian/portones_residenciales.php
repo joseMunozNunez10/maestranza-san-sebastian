@@ -1,4 +1,11 @@
-﻿<?php include 'includes/header.php'; ?>
+﻿<?php 
+$pageTitle = "Portones Metálicos Residenciales | Fabricación e Instalación - Santiago";
+$pageDescription = "Proyecto: Portones metálicos residenciales. Fabricación e instalación de portones corredizos, batientes y automáticos para casas y condominios en Santiago.";
+$pageKeywords = "portones metálicos residenciales, portones para casas, portón corredizo, portón automático, fabricación portones santiago, instalación portones";
+$pageUrl = "https://maestranzasansebastian.cl/portones_residenciales.php";
+$canonical = "https://maestranzasansebastian.cl/portones_residenciales.php";
+include 'includes/header.php'; 
+?>
 
     <!-- Page Title -->
     <section class="page-title" style="background-image: url(assets/images/background/bg-11.jpg);">

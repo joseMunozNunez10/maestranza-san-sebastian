@@ -1,4 +1,11 @@
-﻿<?php include 'includes/header.php'; ?>
+﻿<?php 
+$pageTitle = "Estanque Camión Aljibe | Fabricación de Estanques Metálicos - Santiago";
+$pageDescription = "Proyecto: Estanque para camión aljibe. Fabricación de estanques metálicos para transporte de agua, combustible y líquidos. Certificación y pruebas de hermeticidad.";
+$pageKeywords = "estanque camión aljibe, fabricación estanque metálico, cisterna camión, estanque agua, estanque combustible, tanque industrial santiago";
+$pageUrl = "https://maestranzasansebastian.cl/estanque_camion.php";
+$canonical = "https://maestranzasansebastian.cl/estanque_camion.php";
+include 'includes/header.php'; 
+?>
 
     <!-- Page Title -->
     <section class="page-title" style="background-image: url(assets/images/background/bg-10.jpg);">

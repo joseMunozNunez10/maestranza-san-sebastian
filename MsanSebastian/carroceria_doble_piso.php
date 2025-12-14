@@ -1,4 +1,11 @@
-﻿<?php include 'includes/header.php'; ?>
+﻿<?php 
+$pageTitle = "Carrocería Doble Piso | Fabricación de Carrocería de Dos Niveles - Santiago";
+$pageDescription = "Proyecto: Carrocería doble piso. Fabricación de carrocerías de dos niveles para máxima capacidad de carga, diseño y construcción especializada.";
+$pageKeywords = "carrocería doble piso, carrocería dos niveles, fabricación carrocería multinivel, camión doble piso, carrocería alta capacidad santiago";
+$pageUrl = "https://maestranzasansebastian.cl/carroceria_doble_piso.php";
+$canonical = "https://maestranzasansebastian.cl/carroceria_doble_piso.php";
+include 'includes/header.php'; 
+?>
 
     <!-- Page Title -->
     <section class="page-title" style="background-image: url(assets/images/background/bg-10.jpg);">

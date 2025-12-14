@@ -1,4 +1,11 @@
-﻿<?php include 'includes/header.php'; ?>
+﻿<?php 
+$pageTitle = "Proyecto Kaufmann Calama | Obras Metálicas Industriales - Maestranza San Sebastián";
+$pageDescription = "Proyecto: Obras metálicas para Kaufmann Calama. Estructuras metálicas, cierres perimetrales y trabajos especializados para comercio automotriz en el norte de Chile.";
+$pageKeywords = "kaufmann calama, obras metálicas calama, estructura metálica norte chile, proyecto industrial calama, fabricación metálica región";
+$pageUrl = "https://maestranzasansebastian.cl/kaufmann_calama.php";
+$canonical = "https://maestranzasansebastian.cl/kaufmann_calama.php";
+include 'includes/header.php'; 
+?>
 
     <!-- Page Title -->
     <section class="page-title" style="background-image: url(assets/images/background/bg-9.jpg);">

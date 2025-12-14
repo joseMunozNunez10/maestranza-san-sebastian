@@ -1,4 +1,11 @@
-<?php include 'includes/header.php'; ?>
+<?php 
+$pageTitle = "Maestranza San Sebastián | Trabajos Metálicos y Soldadura Industrial en Santiago Chile";
+$pageDescription = "Maestranza San Sebastián - Expertos en soldadura industrial, fabricación metálica, carrocería de camiones y estructuras de acero en Santiago. +13 años de experiencia. ✓ Presupuestos gratis ✓ Calidad garantizada";
+$pageKeywords = "maestranza santiago, soldadura industrial santiago, trabajos metálicos santiago, carrocería de camiones, estructuras metálicas, fabricación metálica, maestranza estación central, soldadura MIG TIG, obras metálicas santiago";
+$pageUrl = "https://maestranzasansebastian.cl/";
+$canonical = "https://maestranzasansebastian.cl/";
+include 'includes/header.php'; 
+?>
 
     <!-- Bnner Section -->
     <section class="banner-section">

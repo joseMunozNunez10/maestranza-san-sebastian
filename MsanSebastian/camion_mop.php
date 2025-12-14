@@ -1,4 +1,11 @@
-﻿<?php include 'includes/header.php'; ?>
+﻿<?php 
+$pageTitle = "Carrocería Camión MOP | Fabricación de Carrocería Municipal - Maestranza San Sebastián";
+$pageDescription = "Proyecto: Carrocería especializada para camión MOP. Fabricación de carrocería industrial a medida para trabajos municipales y gubernamentales en Santiago.";
+$pageKeywords = "carrocería camión MOP, carrocería municipal, camión servicios públicos, fabricación carrocería gobierno, carrocería especializada santiago";
+$pageUrl = "https://maestranzasansebastian.cl/camion_mop.php";
+$canonical = "https://maestranzasansebastian.cl/camion_mop.php";
+include 'includes/header.php'; 
+?>
 
     <!-- Page Title -->
     <section class="page-title" style="background-image: url(assets/images/background/bg-10.jpg);">

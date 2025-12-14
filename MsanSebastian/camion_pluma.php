@@ -1,4 +1,11 @@
-﻿<?php include 'includes/header.php'; ?>
+﻿<?php 
+$pageTitle = "Carrocería Camión Pluma | Fabricación de Grúas e Izaje - Maestranza San Sebastián";
+$pageDescription = "Proyecto: Carrocería para camión pluma. Fabricación de estructuras para grúas, sistemas de izaje y carrocerías especializadas para trabajos en altura.";
+$pageKeywords = "carrocería camión pluma, camión grúa, fabricación pluma hidráulica, carrocería izaje, camión grúa santiago, modificación camión pluma";
+$pageUrl = "https://maestranzasansebastian.cl/camion_pluma.php";
+$canonical = "https://maestranzasansebastian.cl/camion_pluma.php";
+include 'includes/header.php'; 
+?>
 
     <!-- Page Title -->
     <section class="page-title" style="background-image: url(assets/images/background/bg-10.jpg);">

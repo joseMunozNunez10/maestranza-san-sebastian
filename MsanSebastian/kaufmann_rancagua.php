@@ -1,4 +1,11 @@
-﻿<?php include 'includes/header.php'; ?>
+﻿<?php 
+$pageTitle = "Proyecto Kaufmann Rancagua | Estructuras Metálicas O'Higgins - Chile";
+$pageDescription = "Proyecto: Obras metálicas para Kaufmann Rancagua. Fabricación de estructuras de acero, cierres perimetrales y trabajos especializados en región de O'Higgins.";
+$pageKeywords = "kaufmann rancagua, obras metálicas rancagua, estructura metálica o'higgins, proyecto rancagua, fabricación metálica región";
+$pageUrl = "https://maestranzasansebastian.cl/kaufmann_rancagua.php";
+$canonical = "https://maestranzasansebastian.cl/kaufmann_rancagua.php";
+include 'includes/header.php'; 
+?>
 
     <!-- Page Title -->
     <section class="page-title" style="background-image: url(assets/images/background/bg-9.jpg);">

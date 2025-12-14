@@ -1,4 +1,11 @@
-﻿<?php include 'includes/header.php'; ?>
+﻿<?php 
+$pageTitle = "Cierre Perimetral Metálico | Fabricación de Rejas y Cierres - Santiago";
+$pageDescription = "Proyecto: Cierre perimetral industrial. Fabricación e instalación de cierres metálicos, rejas perimetrales y sistemas de seguridad para empresas e industrias.";
+$pageKeywords = "cierre perimetral metálico, rejas perimetrales, cerco industrial, fabricación rejas, cierre seguridad santiago, instalación cierres";
+$pageUrl = "https://maestranzasansebastian.cl/cierre_perimetral.php";
+$canonical = "https://maestranzasansebastian.cl/cierre_perimetral.php";
+include 'includes/header.php'; 
+?>
 
     <!-- Page Title -->
     <section class="page-title" style="background-image: url(assets/images/background/bg-11.jpg);">

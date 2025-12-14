@@ -1,4 +1,11 @@
-﻿<?php include 'includes/header.php'; ?>
+﻿<?php 
+$pageTitle = "Refuerzo Interior Batea | Reforzamiento de Carrocerías - Maestranza San Sebastián";
+$pageDescription = "Proyecto: Refuerzo interior de batea. Reforzamiento estructural de carrocerías, batea y cajas de carga para mayor resistencia y durabilidad.";
+$pageKeywords = "refuerzo interior batea, reforzamiento carrocería, reparación batea camión, refuerzo estructural, fortalecimiento carrocería santiago";
+$pageUrl = "https://maestranzasansebastian.cl/refuerzo_interior_batea.php";
+$canonical = "https://maestranzasansebastian.cl/refuerzo_interior_batea.php";
+include 'includes/header.php'; 
+?>
 
     <!-- Page Title -->
     <section class="page-title" style="background-image: url(assets/images/background/bg-10.jpg);">

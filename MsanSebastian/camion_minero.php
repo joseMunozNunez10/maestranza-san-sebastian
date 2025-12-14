@@ -1,4 +1,11 @@
-﻿<?php include 'includes/header.php'; ?>
+﻿<?php 
+$pageTitle = "Carrocería Camión Minero | Fabricación para Industria Minera - Maestranza San Sebastián";
+$pageDescription = "Proyecto: Carrocería reforzada para camión minero. Fabricación de carrocerías de alta resistencia para industria minera, tolvas y estructuras especiales.";
+$pageKeywords = "carrocería camión minero, carrocería industria minera, tolva minera, carrocería reforzada, camión minero santiago, fabricación carrocería minería";
+$pageUrl = "https://maestranzasansebastian.cl/camion_minero.php";
+$canonical = "https://maestranzasansebastian.cl/camion_minero.php";
+include 'includes/header.php'; 
+?>
 
     <!-- Page Title -->
     <section class="page-title" style="background-image: url(assets/images/background/bg-10.jpg);">

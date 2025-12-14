@@ -1,4 +1,11 @@
-﻿<?php include 'includes/header.php'; ?>
+﻿<?php 
+$pageTitle = "Obras Mayores Metálicas | Estructuras de Acero y Construcción Industrial - Santiago";
+$pageDescription = "Obras mayores metálicas: estructuras de acero, galpones industriales, bodegas metálicas, cierres perimetrales y construcciones de gran envergadura. Proyectos industriales y comerciales en Santiago.";
+$pageKeywords = "obras mayores metálicas, estructuras de acero, galpones industriales, bodegas metálicas, construcción metálica, estructuras metálicas pesadas, proyectos industriales santiago";
+$pageUrl = "https://maestranzasansebastian.cl/obras_mayores.php";
+$canonical = "https://maestranzasansebastian.cl/obras_mayores.php";
+include 'includes/header.php'; 
+?>
 
     <!-- Page Title -->
     <section class="page-title" style="background-image: url(assets/images/background/bg-9.jpg);">

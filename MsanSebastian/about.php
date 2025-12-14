@@ -1,4 +1,11 @@
-﻿<?php include 'includes/header.php'; ?>
+﻿<?php 
+$pageTitle = "Sobre Nosotros - Maestranza San Sebastián | +13 Años de Experiencia en Santiago";
+$pageDescription = "Conoce Maestranza San Sebastián: empresa especializada en trabajos metálicos, soldadura industrial y fabricación metálica en Santiago. Misión, visión y valores de nuestro equipo profesional con más de 13 años de trayectoria.";
+$pageKeywords = "sobre maestranza san sebastián, empresa trabajos metálicos santiago, historia maestranza, soldadura profesional chile, equipo soldadores certificados, misión visión valores";
+$pageUrl = "https://maestranzasansebastian.cl/about.php";
+$canonical = "https://maestranzasansebastian.cl/about.php";
+include 'includes/header.php'; 
+?>
 
     <!-- Page Title -->
     <section class="page-title" style="background-image: url(assets/images/background/bg-9.jpg);">

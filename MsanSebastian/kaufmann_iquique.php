@@ -1,4 +1,11 @@
-﻿<?php include 'includes/header.php'; ?>
+﻿<?php 
+$pageTitle = "Proyecto Kaufmann Iquique | Obras Metálicas Industriales Norte - Chile";
+$pageDescription = "Proyecto: Estructuras metálicas para Kaufmann Iquique. Fabricación e instalación de estructuras de acero, techumbres y cierres para comercio automotriz.";
+$pageKeywords = "kaufmann iquique, obras metálicas iquique, estructura metálica norte, proyecto industrial iquique, fabricación metálica tarapacá";
+$pageUrl = "https://maestranzasansebastian.cl/kaufmann_iquique.php";
+$canonical = "https://maestranzasansebastian.cl/kaufmann_iquique.php";
+include 'includes/header.php'; 
+?>
 
     <!-- Page Title -->
     <section class="page-title" style="background-image: url(assets/images/background/bg-9.jpg);">

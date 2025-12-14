@@ -1,4 +1,11 @@
-﻿<?php include 'includes/header.php'; ?>
+﻿<?php 
+$pageTitle = "Carrocería Camión Industrial | Fabricación de Carrocería Personalizada - Santiago";
+$pageDescription = "Proyecto: Carrocería industrial personalizada. Fabricación de carrocerías a medida para camiones de trabajo, diseño y construcción de estructuras metálicas especializadas.";
+$pageKeywords = "carrocería camión industrial, carrocería personalizada, fabricación carrocería a medida, camión trabajo santiago, modificación carrocería";
+$pageUrl = "https://maestranzasansebastian.cl/camion_naranja.php";
+$canonical = "https://maestranzasansebastian.cl/camion_naranja.php";
+include 'includes/header.php'; 
+?>
 
     <!-- Page Title -->
     <section class="page-title" style="background-image: url(assets/images/background/bg-10.jpg);">

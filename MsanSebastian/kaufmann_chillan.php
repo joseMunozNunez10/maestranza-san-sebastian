@@ -1,4 +1,11 @@
-﻿<?php include 'includes/header.php'; ?>
+﻿<?php 
+$pageTitle = "Proyecto Kaufmann Chillán | Estructuras Metálicas Comerciales - Santiago";
+$pageDescription = "Proyecto: Obras metálicas para Kaufmann Chillán. Fabricación de estructuras metálicas, techumbre y trabajos especializados para comercio automotriz.";
+$pageKeywords = "kaufmann chillán, obras metálicas chillán, estructura metálica comercial, proyecto kaufmann, fabricación metálica región";
+$pageUrl = "https://maestranzasansebastian.cl/kaufmann_chillan.php";
+$canonical = "https://maestranzasansebastian.cl/kaufmann_chillan.php";
+include 'includes/header.php'; 
+?>
 
     <!-- Page Title -->
     <section class="page-title" style="background-image: url(assets/images/background/bg-9.jpg);">

@@ -1,4 +1,11 @@
-﻿<?php include 'includes/header.php'; ?>
+﻿<?php 
+$pageTitle = "Proyecto Grúas Dacosta | Fabricación y Reparación de Grúas - Santiago";
+$pageDescription = "Proyecto: Fabricación y reparación para Grúas Dacosta. Mantenimiento de grúas industriales, reforzamiento estructural y modificaciones especializadas.";
+$pageKeywords = "reparación grúas, fabricación grúa industrial, mantenimiento grúas, estructura grúa, grúas dacosta santiago, modificación grúa";
+$pageUrl = "https://maestranzasansebastian.cl/gruas_dacosta.php";
+$canonical = "https://maestranzasansebastian.cl/gruas_dacosta.php";
+include 'includes/header.php'; 
+?>
 
     <!-- Page Title -->
     <section class="page-title" style="background-image: url(assets/images/background/bg-9.jpg);">

@@ -1,4 +1,11 @@
-﻿<?php include 'includes/header.php'; ?>
+﻿<?php 
+$pageTitle = "Lomotoro de Seguridad | Fabricación de Reductores de Velocidad - Santiago";
+$pageDescription = "Proyecto: Fabricación de lomotoro de seguridad. Reductores de velocidad metálicos para control de tránsito vehicular en estacionamientos e industrias.";
+$pageKeywords = "lomotoro seguridad, reductor velocidad, lomo toro metálico, control tránsito, fabricación lomotoro santiago, seguridad vial industrial";
+$pageUrl = "https://maestranzasansebastian.cl/lomotoro_seguridad.php";
+$canonical = "https://maestranzasansebastian.cl/lomotoro_seguridad.php";
+include 'includes/header.php'; 
+?>
 
     <!-- Page Title -->
     <section class="page-title" style="background-image: url(assets/images/background/bg-11.jpg);">

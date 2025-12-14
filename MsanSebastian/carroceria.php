@@ -1,4 +1,11 @@
-﻿<?php include 'includes/header.php'; ?>
+﻿<?php 
+$pageTitle = "Carrocería de Camiones Industrial | Fabricación y Reparación - Maestranza San Sebastián";
+$pageDescription = "Carrocería industrial para camiones: fabricación, reparación y modificación de carrocerías, cajas de carga, estanques, plumas y estructuras especiales. Trabajos certificados en Santiago.";
+$pageKeywords = "carrocería de camiones, carrocería industrial, fabricación carrocería, reparación camiones, caja de carga, estanque camión, carrocería a medida santiago, modificación camiones";
+$pageUrl = "https://maestranzasansebastian.cl/carroceria.php";
+$canonical = "https://maestranzasansebastian.cl/carroceria.php";
+include 'includes/header.php'; 
+?>
 
     <!-- Page Title -->
     <section class="page-title" style="background-image: url(assets/images/background/bg-10.jpg);">

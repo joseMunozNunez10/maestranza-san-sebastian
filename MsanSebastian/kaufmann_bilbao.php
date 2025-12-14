@@ -1,4 +1,11 @@
-﻿<?php include 'includes/header.php'; ?>
+﻿<?php 
+$pageTitle = "Proyecto Kaufmann Bilbao | Estructura Metálica Industrial - Maestranza San Sebastián";
+$pageDescription = "Proyecto: Estructuras metálicas para Kaufmann Bilbao. Fabricación e instalación de estructuras de acero para industria automotriz y comercial de gran envergadura.";
+$pageKeywords = "proyecto kaufmann, estructura metálica industrial, obras metálicas kaufmann, fabricación estructuras acero, proyecto industrial santiago";
+$pageUrl = "https://maestranzasansebastian.cl/kaufmann_bilbao.php";
+$canonical = "https://maestranzasansebastian.cl/kaufmann_bilbao.php";
+include 'includes/header.php'; 
+?>
 
     <!-- Page Title -->
     <section class="page-title" style="background-image: url(assets/images/background/bg-9.jpg);">

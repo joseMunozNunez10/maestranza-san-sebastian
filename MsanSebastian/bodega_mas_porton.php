@@ -1,4 +1,11 @@
-﻿<?php include 'includes/header.php'; ?>
+﻿<?php 
+$pageTitle = "Bodega y Portón Metálico | Fabricación de Estructuras - Santiago";
+$pageDescription = "Proyecto: Fabricación de bodega metálica con portón. Construcción de bodegas industriales, galpones y portones de acceso a medida en Santiago.";
+$pageKeywords = "bodega metálica, portón industrial, galpón metálico, fabricación bodega, construcción metálica santiago, estructura almacenamiento";
+$pageUrl = "https://maestranzasansebastian.cl/bodega_mas_porton.php";
+$canonical = "https://maestranzasansebastian.cl/bodega_mas_porton.php";
+include 'includes/header.php'; 
+?>
 
     <!-- Page Title -->
     <section class="page-title" style="background-image: url(assets/images/background/bg-11.jpg);">

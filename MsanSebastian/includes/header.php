@@ -3,20 +3,21 @@
 <head>
 <meta charset="utf-8">
 <meta name="google-site-verification" content="Hq9vOePpQTv0yUHC03BLpOZCzr_SQTOWYfhU55hR85U" />
-<title>Maestranza San Sebastián | Trabajos Metálicos y Soldadura en Santiago</title>
+<title><?php echo isset($pageTitle) ? $pageTitle : 'Maestranza San Sebastián | Trabajos Metálicos y Soldadura Industrial en Santiago'; ?></title>
 
 <!-- SEO Meta Tags -->
-<meta name="description" content="Maestranza San Sebastián en Estación Central, Santiago. Especialistas en trabajos metálicos, soldadura, estructuras de acero, carrocería industrial y fabricación metálica. +25 años de experiencia.">
-<meta name="keywords" content="maestranza santiago, trabajos metálicos, soldadura, estructuras de acero, carrocería industrial, fabricación metálica, estación central, maestranza san sebastián, obras metálicas, soldadura industrial">
+<meta name="description" content="<?php echo isset($pageDescription) ? $pageDescription : 'Maestranza San Sebastián en Estación Central, Santiago. Especialistas en trabajos metálicos, soldadura, estructuras de acero, carrocería industrial y fabricación metálica. +13 años de experiencia.'; ?>">
+<meta name="keywords" content="<?php echo isset($pageKeywords) ? $pageKeywords : 'maestranza santiago, trabajos metálicos, soldadura industrial, estructuras de acero, carrocería industrial, fabricación metálica, estación central, maestranza san sebastián, obras metálicas, soldadura MIG TIG'; ?>">
 <meta name="author" content="Maestranza San Sebastián">
 <meta name="robots" content="index, follow">
+<?php if(isset($canonical)) { echo '<link rel="canonical" href="'.$canonical.'" />'; } ?>
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://maestranzasansebastian.cl/">
-<meta property="og:title" content="Maestranza San Sebastián | Trabajos Metálicos y Soldadura en Santiago">
-<meta property="og:description" content="Especialistas en trabajos metálicos, soldadura, estructuras de acero y carrocería industrial. Av. Las Parcelas 5048, Estación Central. +569 9021 9851">
-<meta property="og:image" content="https://maestranzasansebastian.cl/assets/images/logo.png">
+<meta property="og:url" content="<?php echo isset($pageUrl) ? $pageUrl : 'https://maestranzasansebastian.cl/'; ?>">
+<meta property="og:title" content="<?php echo isset($pageTitle) ? $pageTitle : 'Maestranza San Sebastián | Trabajos Metálicos y Soldadura en Santiago'; ?>">
+<meta property="og:description" content="<?php echo isset($pageDescription) ? $pageDescription : 'Especialistas en trabajos metálicos, soldadura, estructuras de acero y carrocería industrial. Av. Las Parcelas 5048, Estación Central. +569 9021 9851'; ?>">
+<meta property="og:image" content="<?php echo isset($pageImage) ? $pageImage : 'https://maestranzasansebastian.cl/assets/images/logo.png'; ?>">
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image">

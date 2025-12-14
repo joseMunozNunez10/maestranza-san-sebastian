@@ -1,4 +1,11 @@
-﻿<?php include 'includes/header.php'; ?>
+﻿<?php 
+$pageTitle = "Obras Menores Metálicas | Portones, Rejas y Trabajos a Medida - Santiago";
+$pageDescription = "Obras menores metálicas: portones residenciales e industriales, rejas de seguridad, escaleras metálicas, barandas y trabajos personalizados. Fabricación e instalación en Santiago y alrededores.";
+$pageKeywords = "obras menores metálicas, portones metálicos, rejas de seguridad, escaleras metálicas, barandas metálicas, cerrajería metálica, trabajos metálicos a medida santiago";
+$pageUrl = "https://maestranzasansebastian.cl/obras_menores.php";
+$canonical = "https://maestranzasansebastian.cl/obras_menores.php";
+include 'includes/header.php'; 
+?>
 
     <!-- Page Title -->
     <section class="page-title" style="background-image: url(assets/images/background/bg-11.jpg);">
