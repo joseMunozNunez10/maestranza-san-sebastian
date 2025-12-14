@@ -1,9 +1,42 @@
+# Robots.txt para Maestranza San Sebastián
+# Actualizado: 14/12/2025
+
+# Permitir acceso a todos los bots de búsqueda
 User-agent: *
 Allow: /
+
+# Bloquear acceso a carpetas administrativas y privadas
+Disallow: /assets/inc/
+Disallow: /assets/inc/phpmailer/
+Disallow: /includes/
+Disallow: /*.log$
+Disallow: /*.sql$
+Disallow: /cgi-bin/
+
+# Permitir acceso específico a recursos importantes
+Allow: /assets/css/
+Allow: /assets/js/
+Allow: /assets/images/
+Allow: /assets/fonts/
 
 # Sitemap
 Sitemap: https://maestranzasansebastian.cl/sitemap.xml
 
-# Disallow admin or private directories
-Disallow: /assets/inc/
-Disallow: /includes/
+# Configuración específica para Googlebot
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Configuración para bots de imágenes
+User-agent: Googlebot-Image
+Allow: /assets/images/
+
+# Bloquear bots malintencionados o innecesarios
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
