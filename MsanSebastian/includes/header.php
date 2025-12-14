@@ -2,6 +2,7 @@
 <html lang="es">
 <head>
 <meta charset="utf-8">
+<meta name="google-site-verification" content="Hq9vOePpQTv0yUHC03BLpOZCzr_SQTOWYfhU55hR85U" />
 <title>Maestranza San Sebastián | Trabajos Metálicos y Soldadura en Santiago</title>
 
 <!-- SEO Meta Tags -->
