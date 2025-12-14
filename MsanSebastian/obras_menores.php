@@ -1,7 +1,7 @@
 ﻿<?php include 'includes/header.php'; ?>
 
     <!-- Page Title -->
-    <section class="page-title" style="background-image: url(assets/images/background/bg-9.jpg);">
+    <section class="page-title" style="background-image: url(assets/images/background/bg-11.jpg);">
         <div class="auto-container">
             <div class="content-box">
                 <div class="content-wrapper">
@@ -23,40 +23,29 @@
             <div class="row">
                 <div class="col-lg-4 col-md-6 project-block">
                     <div class="inner-box">
-                        <div class="image"><img src="assets/images/resource/project-1.jpg" alt=""></div>
-                        <h4><a href="project-details.php">Rejas de Seguridad</a></h4>
+                        <div class="image"><img src="assets/images/proyec-omen/porton-residencial/port.jpg" alt=""></div>
+                        <h4><a href="portones_residenciales.php">Portones Residenciales</a></h4>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 project-block">
                     <div class="inner-box">
-                        <div class="image"><img src="assets/images/resource/project-2.jpg" alt=""></div>
-                        <h4><a href="project-details.php">Portones Residenciales</a></h4>
+                        <div class="image"><img src="assets/images/proyec-omen/lomotoro-seguridad/port.jpg" alt=""></div>
+                        <h4><a href="lomotoro_seguridad.php">Lomotoro <br> seguridad</a></h4>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 project-block">
                     <div class="inner-box">
-                        <div class="image"><img src="assets/images/resource/project-3.jpg" alt=""></div>
-                        <h4><a href="project-details.php">Escaleras Metálicas</a></h4>
+                        <div class="image"><img src="assets/images/proyec-omen/cierre-perimetral/port.jpg" alt=""></div>
+                        <h4><a href="cierre_perimetral.php">Cierre Perimetral</a></h4>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 project-block">
                     <div class="inner-box">
-                        <div class="image"><img src="assets/images/resource/project-4.jpg" alt=""></div>
-                        <h4><a href="project-details.php">Barandas de Protección</a></h4>
+                        <div class="image"><img src="assets/images/proyec-omen/bodega-mas-porton/port.jpg" alt=""></div>
+                        <h4><a href="bodega_mas_porton.php">Bodega mas porton</a></h4>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 project-block">
-                    <div class="inner-box">
-                        <div class="image"><img src="assets/images/resource/project-5.jpg" alt=""></div>
-                        <h4><a href="project-details.php">Puertas Comerciales</a></h4>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 project-block">
-                    <div class="inner-box">
-                        <div class="image"><img src="assets/images/resource/project-6.jpg" alt=""></div>
-                        <h4><a href="project-details.php">Estructuras Personalizadas</a></h4>
-                    </div>
-                </div>
+               
             </div>
         </div>
     </section>
